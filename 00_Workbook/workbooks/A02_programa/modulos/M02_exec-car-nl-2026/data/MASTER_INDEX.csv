@@ -1187,3 +1187,469 @@ DEC-016,DEC,Assume no functional Dutch until proven,DECISION_LOG,PROPOSED,MA.PRG
 DEC-017,DEC,Active jobs are archetypes,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
 DEC-018,DEC,Authorship narrative for AI-assisted work,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
 DEC-019,DEC,TOGAF EA Foundation DEFERRED,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+WK-01,PERIOD,Week 1 (2026-10-19–2026-10-25),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-02,PERIOD,Week 2 (2026-10-26–2026-11-01),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-03,PERIOD,Week 3 (2026-11-02–2026-11-08),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-04,PERIOD,Week 4 (2026-11-09–2026-11-15),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-05,PERIOD,Week 5 (2026-11-16–2026-11-22),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-06,PERIOD,Week 6 (2026-11-23–2026-11-29),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-07,PERIOD,Week 7 (2026-11-30–2026-12-06),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-08,PERIOD,Week 8 (2026-12-07–2026-12-13),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-09,PERIOD,Week 9 (2026-12-14–2026-12-20),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-10,PERIOD,Week 10 (2026-12-21–2026-12-27),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-11,PERIOD,Week 11 (2026-12-28–2027-01-03),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-12,PERIOD,Week 12 (2027-01-04–2027-01-10),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-13,PERIOD,Week 13 (2027-01-11–2027-01-17),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-14,PERIOD,Week 14 (2027-01-18–2027-01-24),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-15,PERIOD,Week 15 (2027-01-25–2027-01-31),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-16,PERIOD,Week 16 (2027-02-01–2027-02-07),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-17,PERIOD,Week 17 (2027-02-08–2027-02-14),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-18,PERIOD,Week 18 (2027-02-15–2027-02-21),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-19,PERIOD,Week 19 (2027-02-22–2027-02-28),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-20,PERIOD,Week 20 (2027-03-01–2027-03-07),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-21,PERIOD,Week 21 (2027-03-08–2027-03-14),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-22,PERIOD,Week 22 (2027-03-15–2027-03-21),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-23,PERIOD,Week 23 (2027-03-22–2027-03-28),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-24,PERIOD,Week 24 (2027-03-29–2027-04-04),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-25,PERIOD,Week 25 (2027-04-05–2027-04-11),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-26,PERIOD,Week 26 (2027-04-12–2027-04-18),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-27,PERIOD,Week 27 (2027-04-19–2027-04-25),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+WK-28,PERIOD,Week 28 (2027-04-26–2027-05-02),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-05,PERIOD,Month 05/2027 (2027-05-03–2027-05-31),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-06,PERIOD,Month 06/2027 (2027-06-01–2027-06-30),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-07,PERIOD,Month 07/2027 (2027-07-01–2027-07-31),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-08,PERIOD,Month 08/2027 (2027-08-01–2027-08-31),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-09,PERIOD,Month 09/2027 (2027-09-01–2027-09-30),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+MON-2027-10,PERIOD,Month 10/2027 (2027-10-01–2027-10-18),ROADMAP_WEEKLY,PLANNED,MA.PRG,2026-10-17
+EXEC-CAR-NL-2026,PROGRAM,Career program EXEC-CAR-NL-2026,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-00,AREA,Govern program data and baseline (00_GOVERNANCE),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-01,AREA,Plan and control the 40 h program (01_PROGRAM),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-02,AREA,Map business market and fit (02_BUSINESS_MARKET),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-03,AREA,Prepare certifications by capability (03_CERTIFICATION_WORKBOOKS),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-04,AREA,Build ecosystem portfolio evidence (04_ECOSYSTEM_PORTFOLIO),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-05,AREA,Run employment and relocation (05_EMPLOYMENT_RELOCATION),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-06,AREA,Build editorial brand (06_EDITORIAL_BRAND),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+AREA-07,AREA,Report executive results (07_REPORTS),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-00,EPIC,Diagnose baseline and govern evidence (EPIC 00),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-01,EPIC,Run headhunter wide search of NL opportunities (EPIC 01),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-02,EPIC,Study competence-oriented courses (EPIC 02),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-03,EPIC,Schedule weekly capacity and granular plan (EPIC 03),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-04,EPIC,Pass certification gates with mocks (EPIC 04),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-05,EPIC,Build portfolio/showroom and audit risks (EPIC 05),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-06,EPIC,Build professional brand and communication (EPIC 06),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-07,EPIC,Secure employment and relocate (EPIC 07),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-08,EPIC,Maintain dynamic fit matrix (EPIC 08),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+EPIC-09,EPIC,Review executive results and optimise return (EPIC 09),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-001,ISSUE,Capture verified candidate baseline (user-provided),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0001,TASK,"Capture baseline: CV, LinkedIn, work history with years per role, degree + HBO/WO equivalence, Dutch level, existing certs, budget, city preferences",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0001,SUBTASK,"Collect CV, LinkedIn export and work history with dates (user-provided)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0002,SUBTASK,"Record degree, Dutch level, existing certs, budget and city preferences with labels",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-002,ISSUE,Remediate security and redaction before any public URL,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0004,TASK,Recommend fixing hardcoded fallback login on live Worker and run gitleaks history scan on both repos,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0003,SUBTASK,Verify whether Worker secrets are set (read-only) and draft fallback-removal change,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0004,SUBTASK,Run gitleaks/trufflehog over full git history and record findings,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0022,TASK,Apply authorised security fix or document decision; confirm API token requirement for workflow API,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0023,TASK,"Prepare redaction & attribution list (personal name as gate owner, third-party screenshots, AlsoAsked CSVs, vendored plugins)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0036,TASK,"List CI evidence gaps and documentation discrepancies (missing workflow file, ADR, apps/blog)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-003,ISSUE,Frame years of experience honestly per role family,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0025,TASK,"Build experience map per role family (FACT vs USER_CLAIM, dated)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-004,ISSUE,Re-verify USER_CLAIM drafts and pending official fields,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0012,TASK,"Re-verify draft USER_CLAIM jobs/certs (SLTN, Boels, IVO Rechtspraak, Capgemini Prosci/PO/IPA, KPMG Sr Mgr, EUR PO AI Tooling; Scrum.org, pmi.org)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-005,ISSUE,Build job pipeline tracking from verified jobs,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0006,TASK,"Set up job pipeline with the 52 verified jobs, deadlines (DICTU 2026-12-31, Alliander 2026-11-30) and alert channels",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-006,ISSUE,Study AIGP BoK v2.1 domains I–IV (self-study),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0007,TASK,Study AIGP BoK v2.1 and Candidate Handbook; request free study guide,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0014,TASK,Study AIGP domain I (foundations of AI governance) and build responsible-AI principles map for 6 agents,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0015,TASK,Start AIGP domain II: EU AI Act structure and Digital Omnibus dates,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0029,TASK,"Study AIGP domain II: EU AI Act + Omnibus, ISO/IEC 42001, NIST AI RMF",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0040,TASK,Study AIGP domain III (governing AI development),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0052,TASK,Study AIGP domain IV (governing deployment and use),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0066,TASK,Revisit AIGP weak domains from G1 map,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0078,TASK,Consolidate AIGP domains I–II,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0079,TASK,Write EU AI Act + Digital Omnibus timeline note (dates with sources),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0093,TASK,Consolidate AIGP domains III–IV,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0105,TASK,"Deep-dive AIGP domain II: Annex III high-risk, Art. 50 transparency, NL supervision model",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0119,TASK,Review AIGP domains with spaced repetition,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0127,TASK,Run full AIGP BoK review,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0138,TASK,Study AIGP weak domains from mock #1,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-007,ISSUE,Complete UiPath AAA free training as diagnostic,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0009,TASK,Start UiPath 'Agentic Automation Training' free learning plan (no purchase),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0017,TASK,"Complete UiPath AAA modules: agentic concepts and discovery (MOD-005, MOD-006)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0031,TASK,"Complete UiPath AAA modules: agent blueprint and context grounding (MOD-007, MOD-008)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0042,TASK,"Complete UiPath AAA modules: escalations and agentic evaluations (MOD-009, MOD-010)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0054,TASK,"Complete UiPath AAA modules: prompt engineering and platform components (MOD-011, MOD-012)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0068,TASK,"Complete UiPath AAA modules: Maestro orchestration and Autopilot (MOD-013, MOD-014)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0081,TASK,Review full UiPath AAA learning plan and introduction course (CRS-004),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0095,TASK,Final UiPath AAA review of weak topics,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0107,TASK,Final UiPath AAA recap before exam window,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-008,ISSUE,Establish Dutch CEFR level and weekly study,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0008,TASK,Check Dutch level with a CEFR placement test and select a course (options NOT_VERIFIED),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0005,SUBTASK,Take CEFR placement test,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+SUB-0006,SUBTASK,Research and shortlist course providers (NOT_VERIFIED),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0016,TASK,Study Dutch (course week 1),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0030,TASK,Study Dutch (course week 2),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0041,TASK,Study Dutch (course week 3),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0053,TASK,Study Dutch (course week 4),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0067,TASK,Study Dutch (course week 5),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0080,TASK,Study Dutch (course week 6),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0094,TASK,Study Dutch (course week 7),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0106,TASK,Study Dutch (course week 8),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0120,TASK,Study Dutch (course week 9),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0128,TASK,Study Dutch (course week 10),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0139,TASK,Study Dutch (course week 11),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-009,ISSUE,Re-optimise weekly time allocation after baseline,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0027,TASK,Re-optimise phase percentages after baseline intake,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-010,ISSUE,Run AIGP diagnostics and timed mocks (G1/G3),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0010,TASK,Run AIGP domain diagnostic (I–IV) and map P0 gaps,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0018,TASK,Practise AIGP domain I with AI-generated conceptual questions (not official),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0019,TASK,Review AIGP diagnostic errors and update P0 gap map,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0032,TASK,"Practise AIGP domain II questions (conceptual, AI-generated)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0034,TASK,Run AIGP mini-mock for domains I–II (timed),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0043,TASK,Practise AIGP domain III questions,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0044,TASK,Run AIGP timed mock for domains I–III,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0055,TASK,Practise AIGP domain IV questions,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0056,TASK,Review AIGP readiness per domain (G1 check),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0070,TASK,Practise mixed AIGP domains,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0084,TASK,Practise AIGP domain questions,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0097,TASK,Run AIGP timed mock (domains I–IV),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0110,TASK,Practise AIGP domain II scenarios,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0121,TASK,Run AIGP timed practice block,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0129,TASK,Take AIGP official practice exam as timed mock #1 (USD 60 purchase requires authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0130,TASK,Review AIGP mock #1 errors by domain,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0141,TASK,Run AIGP timed mock #2 with independent legitimate bank,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0142,TASK,Review AIGP mock #2 errors and set readiness recommendation,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-011,ISSUE,Run UiPath AAA practice tests and READY_TO_BOOK dossier,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0011,TASK,Take UiPath AAA free official practice test as diagnostic,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0033,TASK,Answer UiPath module quizzes and log weak topics,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0045,TASK,Answer UiPath module quizzes,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0057,TASK,Answer UiPath module quizzes,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0069,TASK,Run UiPath timed mock #1 with legitimate question bank,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0082,TASK,Run UiPath timed mock #2 (independent),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0083,TASK,"Prepare UiPath AAA READY_TO_BOOK dossier (G4 budget, G5 authorisation request)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0096,TASK,Review UiPath mock errors by domain,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0108,TASK,Confirm UiPath AAA G3 readiness (two mocks ≥85%) or reschedule,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0109,TASK,Sit UiPath AAA exam only if G0–G5 passed and booked by the user; otherwise reallocate to AIGP practice,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-012,ISSUE,Close G0 official verification gaps,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0020,TASK,"Verify AIGP pending G0 fields (question count, duration, retake fee, CPE) on official source",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-013,ISSUE,Build governance kit v0→v1 on the agent registry,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0005,TASK,"Build governance kit v0 over agent registry EVD-W-003: inventory of 6 agents, AI Act applicability (assessed, not presumed), 42001 control skeleton (part 1)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0021,TASK,Finish governance kit v0 (part 2): applicability rationale and control skeleton,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0035,TASK,Build AI risk & impact assessment template for apps/workflow (MOD-003 lab),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0046,TASK,Draft ISO/IEC 42001 control mapping skeleton for EXECUTAR agents,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0047,TASK,Draft data & PII policy for EXECUTAR agents + DPIA screening (start),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0059,TASK,Finish PII policy and DPIA screening,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0060,TASK,"Document governance kit v1 (index, sources, GAPs)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0099,TASK,Build incident/issue/risk log for apps/workflow (MOD-003 lab),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0112,TASK,Package governance kit v1 with deployment-control note (MOD-004 lab),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-014,ISSUE,Deliver live demo and re-run evals for apps/workflow,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0024,TASK,Draft deploy plan for apps/workflow live demo (no deploy yet),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0037,TASK,"Re-run plugin eval locally with logged results, cost and success rate per agent",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0048,TASK,Deploy apps/workflow live demo (only with authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0058,TASK,"Record live-demo evidence: logs, cost and success rate per agent",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-015,ISSUE,Produce ADKAR change plan and business case for anchor case,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0071,TASK,Build ADKAR change plan with indicators for the anchor case,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0072,TASK,Build business case for the anchor case (estimated vs real costs separated),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0085,TASK,Finish ADKAR change plan,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0086,TASK,Finish business case and roadmap,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-016,ISSUE,Reproduce one EXECUTAR flow in Copilot Studio/Power Automate,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0098,TASK,"Set up Copilot Studio/Power Automate lab (free learning, resource NOT_VERIFIED)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0111,TASK,Reproduce one EXECUTAR flow in Copilot Studio/Power Automate (part 1),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0131,TASK,Reproduce EXECUTAR flow in Copilot lab (part 2),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0143,TASK,Finish and document Copilot lab (by 2027-01-15),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-017,ISSUE,Design and run an authorised L4 pilot with a real user,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0122,TASK,"Design L4 pilot protocol (real user, consent, adoption metrics) — running requires authorisation",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0132,TASK,Prepare L4 pilot kickoff materials (only with authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0144,TASK,Run L4 pilot week 1 with a real user (authorised) and log adoption metrics,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-018,ISSUE,Write English anchor-case one-pager and READMEs,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0003,TASK,Draft English one-pager for anchor case EVD-D-001 (Problem → Decision → Delivery → Evidence) with AI-assisted authorship narrative,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0026,TASK,Revise EN one-pager after self-review,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0050,TASK,Draft English README for apps/workflow,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0134,TASK,Draft English README for workbook repository,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-019,ISSUE,Draft ATS CV variants and LinkedIn profile (not published),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0038,TASK,Draft ATS CV base in English from verified baseline,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0049,TASK,Draft LinkedIn headline and About (not published),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0061,TASK,Draft CV variants: Transformation and AI Governance,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0073,TASK,Draft CV variants: Automation and Product-Process,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0101,TASK,Draft LinkedIn Featured section items (not published),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0145,TASK,Refresh CV/LinkedIn drafts with new evidence (no publication),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-020,ISSUE,Draft Frankswaching editorial pieces (not published),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0062,TASK,Draft OUT-001 (pillar: risco cognitivo) for slot 2026-11-26,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0087,TASK,Draft OUT-002 (pillar: design da informação) for slot 2026-12-10,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0113,TASK,Draft OUT-003 (pillar: carga cognitiva) for slot 2026-12-24,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0133,TASK,Draft OUT-004 (pillar: decisão) for slot 2027-01-07,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-021,ISSUE,Specify landing page/showroom and run privacy QA,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0074,TASK,Specify landing page/showroom structure (EN),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0088,TASK,Specify showroom case page template,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0100,TASK,Draft anchor-case showroom page (EN),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0114,TASK,Draft second case page (governance kit),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0123,TASK,Run portfolio privacy QA (PUBLIC/REDACT/PRIVATE/NEEDS_PERMISSION),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0146,TASK,Draft third case page (change plan + business case),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-022,ISSUE,Map networking targets and prepare respectful outreach,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0064,TASK,"Build networking target map v0 (categories only, no personal data)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0076,TASK,Draft informational-conversation request templates in English (human review; not sent),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0089,TASK,Shortlist recruiter agencies specialised in AI/automation,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0102,TASK,"Map communities and events to join (NL AIC, meetups, UiPath Community NL)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0117,TASK,"Prepare community joining plan (attend/observe, no outreach without authorisation)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0135,TASK,"Re-check 2027 event calendars (NL AIC, meetups, Mind the Product, UiPath Community NL)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0149,TASK,Prepare follow-up plan for informational conversations (authorised only),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-023,ISSUE,Refresh market scan and replace expiring ads,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0002,TASK,Record recommendation not to apply to Avans AI Compliance Officer (closes 2026-10-20),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0075,TASK,Refresh market scan and replace expiring ads (Alliander closes 2026-11-30),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0090,TASK,Refresh pipeline and verify new ads,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0116,TASK,Refresh pipeline and verify new ads,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0124,TASK,Decide DICTU application (deadline 2026-12-31) and refresh pipeline,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0136,TASK,Replace expired ads in pipeline with re-verified ones,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-024,ISSUE,Prepare application materials per segment (not sent),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0103,TASK,Draft application package template per segment (HIGH_FIT/BRIDGE/STRETCH),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0125,TASK,Draft cover-letter templates in English per segment,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0147,TASK,Build February shortlist segmented HIGH_FIT/BRIDGE/STRETCH,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-025,ISSUE,Decide pre-move start-date and freelance feasibility policy,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0091,TASK,Research freelance feasibility pre-move (KvK needs BSN/address; DBA),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0148,TASK,"Decide pre-move start-date policy (remote start needs A1/SVB, local payroll or EOR — EOR NOT_VERIFIED)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-026,ISSUE,Recalculate FIT at 30/60/90-day marks,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0063,TASK,Recalculate FIT at the 30-day mark (2026-11-18) for active jobs,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0115,TASK,Recalculate FIT at the 60-day mark (2026-12-18),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-027,ISSUE,Run weekly review ritual and KPI update,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0013,TASK,"Run weekly review ritual: 40 h planned vs actual, tasks done, evidence, readiness, new jobs, blockers",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0028,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0039,TASK,Run weekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0051,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0065,TASK,Run weekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0077,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0092,TASK,Run weekly review ritual (monthly report),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0104,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0118,TASK,Run weekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0126,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0137,TASK,Run weekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0150,TASK,Run weekly + biweekly review ritual,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-028,ISSUE,Start PSPO I self-study (CRS-005),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+TASK-0140,TASK,Read Scrum Guide for PSPO I (CRS-005) — early start,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-029,ISSUE,Consolidate AIGP domains I–IV for exam readiness,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-030,ISSUE,Study Dutch (course weeks 12–14),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-031,ISSUE,Study PSPO I: Scrum Guide and Product Owner Open (CRS-005),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-032,ISSUE,Run AIGP final mocks and readiness review; sit exam 2027-01-29 only if G0–G5 passed and booked,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-033,ISSUE,Run authorised L4 pilot weeks 2–4 and report adoption metrics,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-034,ISSUE,"Release governance kit v1 (AI inventory, AI Act applicability, 42001 mapping, PII policy)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-035,ISSUE,Draft OUT-005/OUT-006 and finalise CV/LinkedIn drafts for the window (publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-036,ISSUE,"Run showroom QA (responsiveness, privacy, links)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-037,ISSUE,Recalculate FIT at the 90-day mark (2027-01-17) and update shortlist,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-038,ISSUE,Prepare application packages for shortlisted roles (not sent),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-039,ISSUE,"Hold informational conversations (each outreach authorised, human-reviewed)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-040,ISSUE,Run weekly reviews WK-13..WK-15 (remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-041,ISSUE,Study Dutch (February),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-042,ISSUE,"Study PSPO I focus areas (CRS-005, MOD-015)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-043,ISSUE,Keep AI governance current (AI Act/Omnibus updates; AIGP CPE if certified),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-044,ISSUE,Run PSPO I practice with Product Owner Open (timed mocks #1–#2),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-045,ISSUE,Reserve AIGP retake preparation or AI Act scenario drills,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-046,ISSUE,Run diagnostic for next credential decision (CONTINUE/DEFER/DROP),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-047,ISSUE,Build interview case-study demos tailored to shortlisted roles,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-048,ISSUE,Iterate L4 pilot and update evidence (authorised),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-049,ISSUE,Draft OUT-007/OUT-008 (publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-050,ISSUE,Tailor portfolio pages and LinkedIn per application,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-051,ISSUE,Submit formal applications (each one authorised by the user) with segment HIGH_FIT/BRIDGE/STRETCH,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-052,ISSUE,Prepare technical/behavioural interviews and case studies,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-053,ISSUE,Follow up with recruiters and networking contacts (authorised),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-054,ISSUE,Run weekly reviews WK-16..WK-19 (remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-055,ISSUE,Study Dutch (March),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-056,ISSUE,Final PSPO I review before 2027-03-12,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-057,ISSUE,Continue agentic/Microsoft learning for bridge roles,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-058,ISSUE,Run PSPO I final mocks; sit assessment 2027-03-12 only if G0–G5 passed and booked,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-059,ISSUE,Run AI Act scenario drills / AIGP retake reserve,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-060,ISSUE,Build interview case-study demos,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-061,ISSUE,Consolidate L4 pilot evidence with metrics and permission to disclose,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-062,ISSUE,Draft OUT-009/OUT-010 (publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-063,ISSUE,Tailor portfolio pages and LinkedIn per application,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-064,ISSUE,Submit formal applications until 2027-03-30 (each one authorised),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-065,ISSUE,Attend interviews and record outcomes,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-066,ISSUE,Follow up and log feedback (authorised),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-067,ISSUE,Run weekly reviews WK-20..WK-23 (remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-068,ISSUE,Study Dutch and keep reduced qualification during interviews/relocation,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-069,ISSUE,Maintain light exam practice (retake reserve only),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-070,ISSUE,Close pending portfolio deliverables,EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-071,ISSUE,Draft OUT-011/OUT-012 and keep showroom current (publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-072,ISSUE,"Run interviews, follow-ups, offers and start-date negotiation (incl. 27% ruling check)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-073,ISSUE,"Execute pre-move relocation steps REL-001..REL-008 (housing, documents, BRP booking, travel)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-074,ISSUE,Run weekly reviews WK-24..WK-28 (remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-075,ISSUE,Continue Dutch and weekly qualification (MON-2027-05),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-076,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-05),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-077,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-05),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-078,ISSUE,Maintain editorial line and showroom (MON-2027-05; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-079,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-05),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-080,ISSUE,Run weekly reviews and monthly report (MON-2027-05; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-081,ISSUE,"Execute post-arrival relocation steps (BRP, BSN, DigiD, bank, health insurance) (MON-2027-05)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-082,ISSUE,Continue Dutch and weekly qualification (MON-2027-06),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-083,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-06),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-084,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-06),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-085,ISSUE,Maintain editorial line and showroom (MON-2027-06; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-086,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-06),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-087,ISSUE,Run weekly reviews and monthly report (MON-2027-06; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-088,ISSUE,"Execute post-arrival relocation steps (BRP, BSN, DigiD, bank, health insurance) (MON-2027-06)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-089,ISSUE,Continue Dutch and weekly qualification (MON-2027-07),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-090,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-07),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-091,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-07),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-092,ISSUE,Maintain editorial line and showroom (MON-2027-07; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-093,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-07),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-094,ISSUE,Run weekly reviews and monthly report (MON-2027-07; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-095,ISSUE,"Execute post-arrival relocation steps (BRP, BSN, DigiD, bank, health insurance) (MON-2027-07)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-096,ISSUE,Continue Dutch and weekly qualification (MON-2027-08),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-097,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-08),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-098,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-08),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-099,ISSUE,Maintain editorial line and showroom (MON-2027-08; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-100,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-08),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-101,ISSUE,Run weekly reviews and monthly report (MON-2027-08; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-102,ISSUE,"Execute post-arrival relocation steps (BRP, BSN, DigiD, bank, health insurance) (MON-2027-08)",EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-103,ISSUE,Continue Dutch and weekly qualification (MON-2027-09),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-104,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-09),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-105,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-09),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-106,ISSUE,Maintain editorial line and showroom (MON-2027-09; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-107,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-09),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-108,ISSUE,Run weekly reviews and monthly report (MON-2027-09; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-109,ISSUE,Continue Dutch and weekly qualification (MON-2027-10),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-110,ISSUE,Practise for next credential only after CONTINUE/DEFER/DROP review (MON-2027-10),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-111,ISSUE,Update portfolio evidence and bridge-role demos (MON-2027-10),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-112,ISSUE,Maintain editorial line and showroom (MON-2027-10; publication needs authorisation),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-113,ISSUE,Continue interviews/applications or bridge/freelance roles with applicable requirements (MON-2027-10),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+ISSUE-114,ISSUE,Run weekly reviews and monthly report (MON-2027-10; remaining BUFFER = contingency),EPICS_ISSUES_TASKS,PLANNED,MA.PRG,2026-10-17
+APP-001,APP,Pipeline entry for JOB-T-001 (Eraneos),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-002,APP,Pipeline entry for JOB-T-002 (Anderson MacGyver),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-003,APP,Pipeline entry for JOB-T-003 (Fellowmind),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-004,APP,Pipeline entry for JOB-T-004 (accelerAite),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-005,APP,Pipeline entry for JOB-T-005 (Frisse Blikken),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-006,APP,Pipeline entry for JOB-T-006 (Accenture),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-007,APP,Pipeline entry for JOB-T-007 (Accenture),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-008,APP,Pipeline entry for JOB-T-008 (Add Value (client: Utrecht-region digita),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-009,APP,Pipeline entry for JOB-T-009 (DICTU (Rijksoverheid)),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-010,APP,Pipeline entry for JOB-T-010 (BearingPoint),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-011,APP,Pipeline entry for JOB-T-011 (Corbion),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-012,APP,Pipeline entry for JOB-T-012 (Athora Netherlands),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-013,APP,Pipeline entry for JOB-T-013 (Deloitte),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-014,APP,Pipeline entry for JOB-T-014 (EY),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-015,APP,Pipeline entry for JOB-T-015 (Everience Benelux),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-016,APP,Pipeline entry for JOB-T-016 (Atos),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-017,APP,Pipeline entry for JOB-T-017 (CGI Nederland),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-018,APP,Pipeline entry for JOB-T-018 (KPMG Nederland),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-019,APP,Pipeline entry for JOB-T-019 (Avans University of Applied Sciences),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-020,APP,Pipeline entry for JOB-T-020 (Younicorp),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-021,APP,Pipeline entry for JOB-T-021 (PwC Nederland),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-022,APP,Pipeline entry for JOB-T-022 (Deeploy),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-023,APP,Pipeline entry for JOB-T-023 (MIVD (Rijksoverheid)),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-024,APP,Pipeline entry for JOB-T-024 (ABN AMRO),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-025,APP,Pipeline entry for JOB-T-025 (Zanders),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-026,APP,Pipeline entry for JOB-T-026 (Talent&Pro),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-027,APP,Pipeline entry for JOB-T-027 (KickstartAI),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-028,APP,Pipeline entry for JOB-T-028 (Verwater Group),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-029,APP,Pipeline entry for JOB-T-029 (TADA Solutions),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-030,APP,Pipeline entry for JOB-T-030 (TalentSpark by TSP),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-031,APP,Pipeline entry for JOB-T-031 (Loyens & Loeff),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-032,APP,Pipeline entry for JOB-T-032 (ING Nederland),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-033,APP,Pipeline entry for JOB-T-033 (Gaide),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-034,APP,Pipeline entry for JOB-T-034 (CGI Nederland),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-035,APP,Pipeline entry for JOB-T-035 (Inspectie Leefomgeving en Transport (ILT),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-036,APP,Pipeline entry for JOB-T-036 (Bit Traineeship),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-037,APP,Pipeline entry for JOB-A-001 (CareerValue (recruiter; unnamed Randstad),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-038,APP,Pipeline entry for JOB-A-002 (CareerValue (recruiter; unnamed client)),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-039,APP,Pipeline entry for JOB-A-003 (PMT Groep),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-040,APP,Pipeline entry for JOB-A-004 (ilionx),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-041,APP,Pipeline entry for JOB-A-005 (Itility),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-042,APP,Pipeline entry for JOB-A-006 (Alliander),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-043,APP,Pipeline entry for JOB-A-008 (Capgemini Engineering),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-044,APP,Pipeline entry for JOB-A-009 (The Automation Group),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-045,APP,Pipeline entry for JOB-A-010 (Nanzen),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-046,APP,Pipeline entry for JOB-A-017 (Small business),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-047,APP,Pipeline entry for JOB-A-018 (Consultancy building client AI solutions),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-048,APP,Pipeline entry for JOB-A-019 (AI agency for SMEs),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-049,APP,"Pipeline entry for JOB-A-020 (Company using Claude, ChatGPT and HeyGen)",JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-050,APP,Pipeline entry for JOB-A-021 (AI assistants for freelancers and SMEs),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-051,APP,Pipeline entry for JOB-A-022 (Real-estate chatbot/WhatsApp startup),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+APP-052,APP,Pipeline entry for JOB-A-023 (AI 'executive operator' across Gmail/Cal),JOB_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-001,NET,AI community / coalition: NL AI Coalition (NL AIC) agenda and community,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-002,NET,AI meetup: The Hague AI meetup group,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-003,NET,Product community: ProductTank Amsterdam / Mind the Product Amsterdam,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-004,NET,Vendor community: UiPath Community Netherlands,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-005,NET,Professional association chapter: IAPP KnowledgeNet (Netherlands chapter),NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-006,NET,Recruiter agency (AI/tech): Source Group International,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-007,NET,Recruiter agency (AI/tech): Robert Walters Netherlands,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-008,NET,Freelance marketplace: Freelancer.nl AI assignments,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-009,NET,Interim/freelance broker: Freep and GreenPepper interim platforms,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-010,NET,Employer type: AI governance SaaS vendors (e.g. Deeploy),NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-011,NET,"Employer type: Consultancies with AI transformation practices (Eraneos, Accenture, BearingPoint, Fellowmind)",NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-012,NET,"Employer type: English-first corporate innovation/AI teams (Loyens & Loeff, ING, ABN AMRO)",NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-013,NET,Training/reskilling employer: Agentic AI trainee programmes (The Automation Group),NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-014,NET,Public-sector channel: Werken voor Nederland (Rijksoverheid vacancies),NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-015,NET,University / AI campus events: TU Delft campus AI events,NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+NET-016,NET,Employer type: AI agencies serving SMEs (freelance consultants/engineers),NETWORKING_PIPELINE,PLANNED,MA.PRG,2026-10-17
+OUT-001,OUT,Editorial slot 2026-11-26: Human gates as a cognitive-risk control in agentic workflows,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-002,OUT,Editorial slot 2026-12-10: Designing information so reviewers can actually decide,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-003,OUT,Editorial slot 2026-12-24: Cognitive load in AI-assisted reviews: what the research says,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-004,OUT,Editorial slot 2027-01-07: Decision logs: why 'no evidence = GAP' beats confident guesses,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-005,OUT,Editorial slot 2027-01-21: What an AI inventory of six agents taught me about the EU AI Act,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-006,OUT,Editorial slot 2027-02-04: Transformation is adoption: a change plan with indicators,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-007,OUT,Editorial slot 2027-02-18: Cognitive risk patterns in AI dashboards,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-008,OUT,Editorial slot 2027-03-04: Information design for governance evidence packs,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-009,OUT,Editorial slot 2027-03-18: Reducing reviewer load with WIP=1 queues,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-010,OUT,Editorial slot 2027-04-01: Decision quality under automation bias: sources and limits,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-011,OUT,Editorial slot 2027-04-15: Applied AI without hype: prototype vs production labels,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+OUT-012,OUT,Editorial slot 2027-04-29: From workflow to operating model: lessons from EXECUTAR,EDITORIAL_CALENDAR,PLANNED,MA.PRG,2026-10-17
+REL-001,REL,Decide target city shortlist (user preference NOT_VERIFIED) using job locations and rent data,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-002,REL,"Estimate housing budget (≈EUR 1,400–2,000/month for 50–70 m² nationally; >EUR 2,000 Amsterdam — derived arithmetic)",RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-003,REL,Start housing search ≥6–8 weeks before travel (address is the critical path for BRP),RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-004,REL,Optional: register in RNI before the move to obtain a BSN if a contract/freelance work needs it pre-arrival (The Hague d,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-005,REL,"Gather documents: valid passport, original birth certificate (legalisation/apostille per municipality), marriage documen",RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-006,REL,If remote work for an NL employer starts before the move: employer requests A1 via SVB before the work abroad starts (or,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-007,REL,Check 27% ruling timing at offer stage: new cases from 2027-01-01 get 27%; employer not obliged; 150 km / 16-of-24-month,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-008,REL,Secure a Dutch address (signed rental contract),RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-009,REL,Book municipal BRP appointment for the arrival week once address and date are fixed,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-010,REL,"Travel to the Netherlands (target date, Europe/Amsterdam)",RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-011,REL,Register in the BRP at the municipality after arrival → BSN,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-012,REL,Apply for DigiD after BRP registration,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-013,REL,Open a Dutch bank account (BSN required),RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-014,REL,Take out Dutch basic health insurance as soon as possible and no later than 4 months after arrival (≈2027-08-30); ideall,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-015,REL,"Only if freelance route chosen: register with KVK (needs BSN, DigiD, Dutch address); check DBA enforcement and VBAR stat",RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-016,REL,Consult a tax advisor on 183-day/treaty allocation if any pre-move work occurs,RELOCATION,PLANNED,MA.PRG,2026-10-17
+REL-017,REL,"Re-check official BRP Q&A, DigiD and KVK pages before acting (official pages not fetched in research)",RELOCATION,PLANNED,MA.PRG,2026-10-17
+RISK-001,RISK,Dutch-language filter excludes most roles,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-002,RISK,Experience-years filter blocks MID+ roles,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-003,RISK,Baseline remains unverified,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-004,RISK,No live deploy for workflow evidence,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-005,RISK,Hardcoded fallback credentials on live site damage credibility,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-006,RISK,"Privacy/redaction failure (personal name, third-party screenshots, licences)",RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-007,RISK,Low certification ROI,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-008,RISK,Schedule overload beyond 40 h/week,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-009,RISK,30%→27% ruling and salary norm reduce net income,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-010,RISK,Information overload / too many fronts,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-011,RISK,AI-agent-authored commits framed as own coding,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-012,RISK,Current job ads expire before the formal window,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-013,RISK,Housing cost and availability delay BRP registration,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-014,RISK,Burnout from sustained 40 h program plus job search,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-015,RISK,Pre-move remote start creates social-security/tax exposure,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+RISK-016,RISK,DBA enforcement limits corporate freelance route,RISK_REGISTER,OPEN,MA.PRG,2026-10-17
+KPI-001,KPI,planned_hours,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-002,KPI,actual_hours,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-003,KPI,velocity,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-004,KPI,readiness_score CERT-15 (AIGP),EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-005,KPI,readiness_score CERT-05 (UiPath AAA),EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-006,KPI,readiness_score CERT-01 (PSPO I),EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-007,KPI,gates passed per certification,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-008,KPI,evidence_added,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-009,KPI,L4 evidence count,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-010,KPI,vacancy_match_delta,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-011,KPI,applications,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-012,KPI,interviews,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-013,KPI,blocked_tasks,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-014,KPI,risks open,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-015,KPI,active verified jobs,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-016,KPI,eligible or conditional jobs,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-017,KPI,Dutch CEFR level,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-018,KPI,budget approved vs proposed,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-019,KPI,editorial pieces,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-020,KPI,networking touchpoints,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-021,KPI,relocation steps done,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-022,KPI,buffer consumption,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+KPI-023,KPI,security P0 open,EXECUTIVE_DASHBOARD,PLANNED,MA.PRG,2026-10-17
+DEC-020,DEC,"Time allocation per phase (40 h/week, BUFFER carved)",DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-021,DEC,BUFFER content and holiday handling,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-022,DEC,Dutch study inside ACTIVE_STUDY,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-023,DEC,Keep Part 1 PROPOSED exam dates (feasibility checked),DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-024,DEC,Roadmap granularity and horizon,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-025,DEC,Week-1 class mapping follows the report,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
+DEC-026,DEC,Pipeline segmentation and CV variants,DECISION_LOG,PROPOSED,MA.PRG,2026-10-17
