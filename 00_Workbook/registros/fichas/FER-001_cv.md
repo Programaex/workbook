@@ -19,14 +19,15 @@ source_refs: [Programaex/design apps/gestao/README.md, EP-OP.OPS-0003, EP-OP.OPS
 
 | Descrição | Fatos |
 |---|---|
-| App `apps/gestao` (Worker Cloudflare `gestao`) com duas views — EPIC 01 riscocognitivo.org (EP-OP.OPS-0003, #3) e Emprego e realocação (EP-OP.OPS-0005, #5) — e folha de impressão A4 paisagem de uma página por view. KPIs com regra e drill-down, marcos, cronograma por frente/trilha com gates, próximos 14 dias, lacunas; a view EPIC 01 inclui o modelo Solo Campaign System. | **Versão / maturidade:** 0.1.0, não publicado (deploy pendente de secrets)<br>**Tecnologias / interfaces:** Cloudflare Workers + assets, React 18, esbuild, design system EXECUTAR, API REST do GitHub<br>**Acesso / preço:** login por usuário e senha (secrets do Worker) |
+| App `apps/gestao` (Worker Cloudflare `gestao`) com duas views — EPIC 01 riscocognitivo.org (EP-OP.OPS-0003, #3) e Emprego e realocação (EP-OP.OPS-0005, #5) — e folha de impressão A4 paisagem de uma página por view. KPIs com regra e drill-down, marcos, cronograma por frente/trilha com gates, próximos 14 dias, lacunas; a view EPIC 01 inclui o modelo Solo Campaign System. | **Versão / maturidade:** 0.1.0, publicado em 2026-10-17 (login padrão do CMS ainda não trocado)<br>**Tecnologias / interfaces:** Cloudflare Workers + assets, React 18, esbuild, design system EXECUTAR, API REST do GitHub<br>**Acesso / preço:** https://gestao.bus-programa.workers.dev · login por usuário e senha (secrets do Worker) |
 
-**Ação principal (CTA):** Imprimir PDF (uma página A4 paisagem por épico)
+**Ação principal (CTA):** Imprimir PDF (uma página A4 paisagem por épico) — https://gestao.bus-programa.workers.dev
 
 ## Origem e histórico de versões
 | Data/versão | Marco | Fonte |
 |---|---|---|
-| 2026-10-17 / 0.1.0 | Criação do app com snapshot do workbook (commit 532752a) e modelo do PDF Solo Campaign System | Programaex/design `apps/gestao/` |
+| 2026-10-17 / 0.1.0 | Criação do app com snapshot do workbook e modelo do PDF Solo Campaign System | Programaex/design `apps/gestao/` (PR #6) |
+| 2026-10-17 / 0.1.0 | Publicação do Worker `gestao` com interface embutida (`deploy:inline`) | Programaex/design PR #7 |
 
 ## Integrações e dependências
 - Snapshot dos clones `D08_operacoes/tarefas/*.md` + registro de tarefas do plano (`docs/planos/executar-epic01-2026-10-a-2027-04/`).
@@ -37,6 +38,7 @@ source_refs: [Programaex/design apps/gestao/README.md, EP-OP.OPS-0003, EP-OP.OPS
 | Data | Validação | Por |
 |---|---|---|
 | 2026-10-17 | 18 testes automáticos (node --test 10, vitest 8); PDFs das 2 views com 1 página A4 paisagem e menor fonte 9 pt | Claude Code (verificação técnica; revisão do owner pendente) |
+| 2026-10-17 | Produção: `/login` 200, `/` sem sessão 302, `/api` sem sessão 401; `/api/epicos/3`, `/4`, `/5` com `source: github` e itens iguais ao snapshot | Claude Code (verificação técnica; revisão do owner pendente) |
 
 ## Saídas e evidências
 `out/gestao-epic01-<data>.pdf`, `out/gestao-emprego-<data>.pdf` (gerados por `npm run pdf -w apps/gestao`).

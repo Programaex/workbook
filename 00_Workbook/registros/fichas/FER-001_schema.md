@@ -20,7 +20,7 @@ source_refs: [Programaex/design apps/gestao/README.md, EP-OP.OPS-0003, EP-OP.OPS
 |---|---|
 | Execução de tarefa | `npm run snapshot -w apps/gestao` regrava `data/snapshot.json` a partir do workbook |
 | Input do usuário | Nenhuma escrita: o painel é somente leitura (botões Atualizar, Pré-visualizar e Imprimir) |
-| Saída de ferramenta | Resposta da API do GitHub gravada no Cache API do Worker por 10 min |
+| Saída de ferramenta | Resposta da API do GitHub gravada no Cache API do Worker por 10 min (sem `GITHUB_TOKEN` o limite anônimo é de 60 chamadas/hora por IP; um 403 faz o painel usar o snapshot) |
 | Decisão do agente | Não se aplica (sem agente) |
 
 ## 2. Armazenamentos (4 tipos)
