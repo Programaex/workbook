@@ -11,6 +11,7 @@ Este repositório é um **dataset**. A estrutura macro D01–D16 é regra; não 
 ## Owners
 - Formato `<GRUPO>.<ÁREA>`, maiúsculas: GV (Governança), TD (Tecnologia e dados), OP (Operação), PD (Produto e experiência), MR (Mercado e receita).
 - Mapa oficial em `OWNERS.csv`. Para criar owner novo: grupo existente + sigla de 3 letras única; registre em `OWNERS.csv`, no README da área e no índice.
+- **Conteúdo pode ter mais de uma área/owner** (ex.: produto + engenharia). Declare `owner` (primário, a área da fonte) e `co_owners: [..]` (demais) no front matter, e `areas: [D##, ..]` quando abranger várias. Para arquivos com blocos de donos diferentes, liste o owner de cada bloco num comentário no topo. O conteúdo é registrado no capítulo do owner primário e referenciado nos capítulos dos co-owners; nunca duplicado.
 - O owner é um papel, não uma pessoa. Não preencha `person` sem informação do usuário.
 - Todo arquivo de dados novo declara o owner (coluna `owner` ou front matter).
 
@@ -18,6 +19,7 @@ Este repositório é um **dataset**. A estrutura macro D01–D16 é regra; não 
 - `00_Workbook/` é o relatório vivo (capa, índice, sumário, escopo, capítulos D01–D16 com seções S01–S06, anexos). Escreva conteúdo nas seções do capítulo da área; mantenha o front matter (`id`, `owner`, `status`, `updated`).
 - `500_Copiloto_templates/` guarda templates, schemas, regras e `scripts/workbook.py`. Novos arquivos nascem de um template; mude o template, não a cópia.
 - Esquemas de IDs: tabela no `README.md`.
+- IDs de engenharia (`ECO-`, `PROD-`, `F00`–`F02`, `ADR-`, `ENG-`) vêm da fonte e são **provisórios** até conciliar com o índice mestre. Um `ENG-NNN` (cartão de ação) que virar tarefa segue a tripla clonagem e ganha ID `<TIPO>-<OWNER>-<nº GitHub>`, guardando o `ENG-NNN` em `aliases`.
 
 ## Regra de operações (tarefas)
 Epic, project, issue ou sub-issue citado = **tripla clonagem, nesta ordem**: 1) GitHub, 2) `D##_*/tarefas/<ID>.md` do owner, 3) `00_Workbook/anexos/C_registro-de-tarefas/<ID>.md`. ID `<TIPO>-<OWNER>-<nº GitHub 4 dígitos>`. Sem acesso ao GitHub: pare e avise. Detalhes: `500_Copiloto_templates/regras/OPERACOES.md`.

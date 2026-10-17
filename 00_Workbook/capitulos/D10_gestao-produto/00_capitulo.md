@@ -14,3 +14,5 @@ updated: 2026-10-17
 
 ## Resumo do capítulo
 _Aguardando conteúdo._
+
+**Templates (co-owner):** `TPL-001` · F01 Product Brief e índice do portfólio. Owner primário: `TD.ENG` (D12).

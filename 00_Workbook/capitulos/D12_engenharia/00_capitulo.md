@@ -14,3 +14,5 @@ updated: 2026-10-17
 
 ## Resumo do capítulo
 _Aguardando conteúdo._
+
+**Templates (owner primário):** `TPL-001` · `500_Copiloto_templates/templates/FICHAS-SCHEMA-ECOSSISTEMA-EXECUTAR.md` — F00, F02, ADR, gates, cartão de ação. Co-owner: `PD.PRO`.

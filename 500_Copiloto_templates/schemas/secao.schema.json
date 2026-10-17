@@ -55,6 +55,18 @@
       "items": {
         "$ref": "ids.schema.json#/definitions/tarefa"
       }
+    },
+    "co_owners": {
+      "type": "array",
+      "items": {
+        "$ref": "ids.schema.json#/definitions/owner"
+      }
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "$ref": "ids.schema.json#/definitions/area"
+      }
     }
   }
 }

@@ -65,9 +65,13 @@ O código identifica o **papel/função** dona da área. A pessoa responsável f
 | Documento de abertura | `WB-CAPA`, `WB-IDX`, `WB-SUM`, `WB-ESC` | `WB-SUM` | — |
 | Anexo | `WB-ANX-<letra>` | `WB-ANX-C` | — |
 | Epic / Project / Issue / Sub-issue | `EP|PJ|IS|SI-<OWNER>-<NNNN>` (NNNN = nº no GitHub) | `IS-MR.MKT-0042` | `#/tarefa` |
+| Template | `TPL-###` | `TPL-001` | — |
+| IDs de engenharia (provisórios) | `ECO-`, `PROD-`, `F0x`, `ADR-<ÁREA>-`, `ENG-` | `ECO-001` | — |
 | Fonte externa | `SRC-FOLDER-###` | `SRC-FOLDER-001` | — |
 
 Schemas em `500_Copiloto_templates/schemas/`. Seções S01 Visão geral · S02 Situação atual · S03 Processos e responsáveis · S04 Indicadores · S05 Riscos e lacunas · S06 Plano e entregas.
+
+Um conteúdo pode ter vários donos: `owner` primário + `co_owners` (ex.: produto `PD.PRO` e engenharia `TD.ENG`). Ver `CLAUDE.md`.
 
 ## Regras operacionais
 

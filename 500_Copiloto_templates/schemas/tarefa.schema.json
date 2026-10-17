@@ -58,6 +58,24 @@
     },
     "workbook_path": {
       "type": "string"
+    },
+    "co_owners": {
+      "type": "array",
+      "items": {
+        "$ref": "ids.schema.json#/definitions/owner"
+      }
+    },
+    "areas": {
+      "type": "array",
+      "items": {
+        "$ref": "ids.schema.json#/definitions/area"
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
     }
   }
 }

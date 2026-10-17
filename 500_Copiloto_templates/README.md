@@ -10,3 +10,9 @@ Templates, schemas, regras e script reutilizáveis para organizar o workbook.
 | `scripts/workbook.py` | `status`, `index`, `check`, `build` |
 
 Placeholders dos templates usam `{CHAVE}`. Edite aqui, não nas cópias.
+
+## Catálogo de templates
+
+| ID | Arquivo | Owner | Co-owners |
+|---|---|---|---|
+| TPL-001 | `templates/FICHAS-SCHEMA-ECOSSISTEMA-EXECUTAR.md` | `TD.ENG` | `PD.PRO` |
