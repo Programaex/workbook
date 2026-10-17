@@ -5,3 +5,4 @@ AGT-003,agente,analytics-agent,A11,,MA.AGT,,Programaex/design .claude/agents/ana
 AGT-004,agente,plano-ops-agent,A11,,MA.AGT,,Programaex/design .claude/agents/plano-ops-agent.md,00_Workbook/registros/fichas/AGT-004_cv.md,00_Workbook/registros/fichas/AGT-004_schema.md,draft
 AGT-005,agente,blog-publisher,A11,,MA.AGT,,Programaex/design .claude/agents/blog-publisher.md,00_Workbook/registros/fichas/AGT-005_cv.md,00_Workbook/registros/fichas/AGT-005_schema.md,draft
 AGT-006,agente,cadeia-valor-unica,A11,,MA.AGT,,Programaex/design .claude/agents/cadeia-valor-unica.md,00_Workbook/registros/fichas/AGT-006_cv.md,00_Workbook/registros/fichas/AGT-006_schema.md,draft
+FER-001,ferramenta,painel-gestao,A09,D08,MA.OPS,,Programaex/design apps/gestao/README.md,00_Workbook/registros/fichas/FER-001_cv.md,00_Workbook/registros/fichas/FER-001_schema.md,draft
