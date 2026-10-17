@@ -30,7 +30,7 @@
       "type": "string"
     },
     "owner": {
-      "$ref": "ids.schema.json#/definitions/owner"
+      "$ref": "ids.schema.json#/definitions/owner_qualquer"
     },
     "area": {
       "$ref": "ids.schema.json#/definitions/area"
@@ -76,6 +76,9 @@
       "items": {
         "type": "string"
       }
+    },
+    "macroarea_id": {
+      "$ref": "ids.schema.json#/definitions/macroarea"
     }
   }
 }

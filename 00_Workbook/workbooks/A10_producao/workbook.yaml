@@ -1,0 +1,38 @@
+schema_version: "1.0"
+adr_id: "ADR-001"
+workbook:
+  id: "WB-A10"
+  title: "Workbook A10 · Produção"
+  area_id: A10
+  subarea_id: null
+  owner_code: MA.PRO
+  owner_role: null
+  owner_person: null
+  status: "draft"
+  version: "1.0"
+  parent_workbook_id: "WB-GERAL"
+  dominio_ids: []
+  source_refs: ["SRC-DOC-001"]
+  related_workbook_ids: []
+  route_refs: []
+  modules: [{"id": "M01", "title": "Linha de Produção Editorial", "path": "modulos/M01_linha-de-producao-editorial/"}]
+  layout:
+    cover_pages: 1
+    index_pages: 1
+    overview_pages: 3
+    content_pages: "unlimited"
+    notes_pages: 3
+    tasks_pages: 2
+    repeat_scope: "module"
+  references:
+    template_id: "TPL-021"
+    schema_id: "workbook.schema.json"
+    adr_ids: ["ADR-001"]
+    evidence_ids: []
+  export:
+    formats:
+      - pdf
+      - md
+      - csv
+    page_size: "A4"
+    overflow_policy: "continuation"

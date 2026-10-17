@@ -1,0 +1,16 @@
+macroarea_id,nome,slug,responsabilidade,owner_code,owner_pessoa,workbook_id,path,status,adr_id
+A01,Governança,governanca,"IDs, READMEs, schemas, rotas, links, QR codes, índices, padrões e ADRs globais",MA.GOV,,WB-A01,00_Workbook/workbooks/A01_governanca/,provisorio_adr001,ADR-001
+A02,Programa,programa,"Project Charter, síntese do ecossistema, estratégia, tática, operações, épicos e portfólio",MA.PRG,,WB-A02,00_Workbook/workbooks/A02_programa/,provisorio_adr001,ADR-001
+A03,Business,business,"Business Plan, Lean Plan, PMF, SWOT, MOAT, PESTEL, modelos econômicos e frameworks",MA.BUS,,WB-A03,00_Workbook/workbooks/A03_business/,provisorio_adr001,ADR-001
+A04,Ecossistema,ecossistema,"Arquitetura das iniciativas, fichas, ADRs, READMEs, subáreas, produtos e relações",MA.ECO,,WB-A04,00_Workbook/workbooks/A04_ecossistema/,provisorio_adr001,ADR-001
+A05,Pesquisa e Evidências,pesquisa-evidencias,"Artigos, fontes, dados brutos, insumos, pesquisas, métodos e evidências",MA.PEV,,WB-A05,00_Workbook/workbooks/A05_pesquisa-evidencias/,provisorio_adr001,ADR-001
+A06,Dados,dados,"Dados estruturados e consultáveis de SEO, palavras-chave, ICP, métricas e indicadores",MA.DAD,,WB-A06,00_Workbook/workbooks/A06_dados/,provisorio_adr001,ADR-001
+A07,Creator PEM,creator-pem,"Matrizes multiplataforma, dependências, regras e schemas de planejamento",MA.CPM,,WB-A07,00_Workbook/workbooks/A07_creator-pem/,provisorio_adr001,ADR-001
+A08,Editorial,editorial,"Calendário, programação e cronogramas editoriais multiplataforma",MA.EDI,,WB-A08,00_Workbook/workbooks/A08_editorial/,provisorio_adr001,ADR-001
+A09,Operações,operacoes,"Épicos, issues, tarefas, responsáveis, prioridades, dependências e acompanhamento",MA.OPS,,WB-A09,00_Workbook/workbooks/A09_operacoes/,provisorio_adr001,ADR-001
+A10,Produção,producao,"Fases de produção, entregáveis, controles e critérios de aprovação por página",MA.PRO,,WB-A10,00_Workbook/workbooks/A10_producao/,provisorio_adr001,ADR-001
+A11,Agentes,agentes,"Fichas de agentes, skills, soluções, ferramentas, permissões e contratos",MA.AGT,,WB-A11,00_Workbook/workbooks/A11_agentes/,provisorio_adr001,ADR-001
+A12,Produtos,produtos,"Catálogo de e-books, skills, ferramentas, soluções, ofertas e demais produtos",MA.PRD,,WB-A12,00_Workbook/workbooks/A12_produtos/,provisorio_adr001,ADR-001
+A13,Design,design,"Mockups, wireframes, design tokens, componentes e Storybook",MA.DSG,,WB-A13,00_Workbook/workbooks/A13_design/,provisorio_adr001,ADR-001
+A14,Templates,templates,"Templates raw, schemas reutilizáveis, versões e documentação",MA.TPL,,WB-A14,00_Workbook/workbooks/A14_templates/,provisorio_adr001,ADR-001
+A15,Comercial,comercial,"Ofertas, vendas, CTAs, propostas, argumentos, funis e materiais comerciais",MA.COM,,WB-A15,00_Workbook/workbooks/A15_comercial/,provisorio_adr001,ADR-001

@@ -1,15 +1,23 @@
-# 00_Workbook
+# 00_Workbook — Workbook Geral (ADR-001)
 
-Arquivo vivo do relatório único. Cada área D01–D16 é um **capítulo**; cada capítulo tem 6 **seções** (S01–S06).
+Camada de **composição e navegação**. Não é um documento monolítico: agrega 15 workbooks especializados (macroáreas A01–A15), cada um exportável sozinho.
 
 ```
 00_Workbook/
-├── 00_capa.md · 01_indice.md · 02_sumario-executivo.md · 03_escopo-e-metodo.md
-├── capitulos/D##_*/ 00_capitulo.md · S01…S06
-├── anexos/ A_glossario.md · B_ids-e-referencias.md · C_registro-de-tarefas/
+├── workbook.yaml · 00_capa.md · 01_index.md · 02_overview.md     # WB-GERAL (1 · 1 · 3 páginas)
+├── workbooks/A##_slug/
+│   ├── workbook.yaml                                              # contrato ADR-001 §6
+│   ├── 00_capa.md · 01_index.md · 02_overview.md                  # 1 · 1 · 3 páginas
+│   └── modulos/M##_slug/ conteudo.md · notas.md · tarefas.md      # ilimitado · 3 · 2 páginas
+├── registros/      # transversais e canônicos: ROTAS, ADRS, ENTIDADES, FONTES, DOCUMENTOS, EVIDENCIAS, DEPENDENCIAS
+│   ├── adr/        # ADR-001 (VALIDATED)
+│   └── fichas/     # <ID>_cv.md + <ID>_schema.md por entidade
+├── anexos/         # A glossário · B IDs · C registro de tarefas (clone 3)
 ├── _controle/COMPLETUDE.csv   # gerado
-└── _build/relatorio.md        # gerado (não versionado)
+└── _build/                    # gerado, não versionado
 ```
 
-Ordem do relatório final: capa → índice → sumário executivo → escopo e método → capítulos D01…D16 → anexos.
-Regras: `500_Copiloto_templates/regras/`. Comandos: `python3 500_Copiloto_templates/scripts/workbook.py status|index|check|build`.
+- **Paginação:** cada página começa com `<!-- page -->`; excesso em bloco fixo → `<!-- page continuation -->`. Nada é omitido.
+- **Registro canônico único:** workbooks referenciam registros e documentos de domínio por ID; nunca copiam.
+- **Novo módulo:** copie `500_Copiloto_templates/templates/TPL-021_workbook-universal/modulo/` para `modulos/M##_slug/` e registre em `modules:` do `workbook.yaml`.
+- **Comandos:** `python3 500_Copiloto_templates/scripts/workbook.py check | status | index | build --escopo GERAL|A##|A##-M##`.

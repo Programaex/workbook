@@ -1,0 +1,38 @@
+schema_version: "1.0"
+adr_id: "ADR-001"
+workbook:
+  id: "WB-A12"
+  title: "Workbook A12 · Produtos"
+  area_id: A12
+  subarea_id: null
+  owner_code: MA.PRD
+  owner_role: null
+  owner_person: null
+  status: "draft"
+  version: "1.0"
+  parent_workbook_id: "WB-GERAL"
+  dominio_ids: []
+  source_refs: []
+  related_workbook_ids: []
+  route_refs: []
+  modules: [{"id": "M01", "title": "Módulo 01", "path": "modulos/M01_modulo-01/"}]
+  layout:
+    cover_pages: 1
+    index_pages: 1
+    overview_pages: 3
+    content_pages: "unlimited"
+    notes_pages: 3
+    tasks_pages: 2
+    repeat_scope: "module"
+  references:
+    template_id: "TPL-021"
+    schema_id: "workbook.schema.json"
+    adr_ids: ["ADR-001"]
+    evidence_ids: []
+  export:
+    formats:
+      - pdf
+      - md
+      - csv
+    page_size: "A4"
+    overflow_policy: "continuation"

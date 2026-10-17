@@ -1,0 +1,191 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato mínimo de workbook (ADR-001 §6)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "adr_id",
+    "workbook"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "adr_id": {
+      "const": "ADR-001"
+    },
+    "workbook": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "area_id",
+        "subarea_id",
+        "owner_role",
+        "owner_person",
+        "status",
+        "version",
+        "parent_workbook_id",
+        "source_refs",
+        "related_workbook_ids",
+        "route_refs",
+        "layout",
+        "references",
+        "export"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "ids.schema.json#/definitions/workbook"
+        },
+        "title": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "area_id": {
+          "anyOf": [
+            {
+              "$ref": "ids.schema.json#/definitions/macroarea"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "subarea_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_code": {
+          "$ref": "ids.schema.json#/definitions/owner_qualquer"
+        },
+        "owner_role": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "owner_person": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "status": {
+          "enum": [
+            "draft",
+            "review",
+            "approved",
+            "published"
+          ]
+        },
+        "version": {
+          "type": "string"
+        },
+        "parent_workbook_id": {
+          "anyOf": [
+            {
+              "$ref": "ids.schema.json#/definitions/workbook"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "dominio_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "ids.schema.json#/definitions/area"
+          }
+        },
+        "source_refs": {
+          "type": "array"
+        },
+        "related_workbook_ids": {
+          "type": "array",
+          "items": {
+            "$ref": "ids.schema.json#/definitions/workbook"
+          }
+        },
+        "route_refs": {
+          "type": "array"
+        },
+        "modules": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title",
+              "path"
+            ],
+            "properties": {
+              "id": {
+                "pattern": "^M\\d{2}$"
+              }
+            }
+          }
+        },
+        "layout": {
+          "type": "object",
+          "properties": {
+            "cover_pages": {
+              "const": 1
+            },
+            "index_pages": {
+              "const": 1
+            },
+            "overview_pages": {
+              "const": 3
+            },
+            "content_pages": {
+              "const": "unlimited"
+            },
+            "notes_pages": {
+              "const": 3
+            },
+            "tasks_pages": {
+              "const": 2
+            },
+            "repeat_scope": {
+              "const": "module"
+            }
+          }
+        },
+        "references": {
+          "type": "object",
+          "required": [
+            "template_id",
+            "schema_id",
+            "adr_ids",
+            "evidence_ids"
+          ]
+        },
+        "export": {
+          "type": "object",
+          "properties": {
+            "formats": {
+              "type": "array",
+              "items": {
+                "enum": [
+                  "pdf",
+                  "md",
+                  "csv"
+                ]
+              }
+            },
+            "page_size": {
+              "const": "A4"
+            },
+            "overflow_policy": {
+              "const": "continuation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

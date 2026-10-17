@@ -1,0 +1,38 @@
+schema_version: "1.0"
+adr_id: "ADR-001"
+workbook:
+  id: "WB-A08"
+  title: "Workbook A08 · Editorial"
+  area_id: A08
+  subarea_id: null
+  owner_code: MA.EDI
+  owner_role: null
+  owner_person: null
+  status: "draft"
+  version: "1.0"
+  parent_workbook_id: "WB-GERAL"
+  dominio_ids: []
+  source_refs: ["D16-DOC-PEM-001"]
+  related_workbook_ids: []
+  route_refs: []
+  modules: [{"id": "M01", "title": "Plano Estratégico de Mídias Sociais", "path": "modulos/M01_plano-estrategico-midias-sociais/"}]
+  layout:
+    cover_pages: 1
+    index_pages: 1
+    overview_pages: 3
+    content_pages: "unlimited"
+    notes_pages: 3
+    tasks_pages: 2
+    repeat_scope: "module"
+  references:
+    template_id: "TPL-021"
+    schema_id: "workbook.schema.json"
+    adr_ids: ["ADR-001"]
+    evidence_ids: []
+  export:
+    formats:
+      - pdf
+      - md
+      - csv
+    page_size: "A4"
+    overflow_policy: "continuation"

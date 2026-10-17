@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ficha CV (TPL-022)",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "entity_type",
+    "nome",
+    "macroarea_id",
+    "owner",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "ids.schema.json#/definitions/entidade"
+    },
+    "entity_type": {
+      "enum": [
+        "agente",
+        "skill",
+        "ferramenta",
+        "produto"
+      ]
+    },
+    "nome": {
+      "type": "string"
+    },
+    "macroarea_id": {
+      "$ref": "ids.schema.json#/definitions/macroarea"
+    },
+    "owner": {
+      "$ref": "ids.schema.json#/definitions/owner_qualquer"
+    },
+    "status": {
+      "enum": [
+        "empty",
+        "draft",
+        "review",
+        "done"
+      ]
+    },
+    "type": {
+      "const": "ficha_cv"
+    }
+  },
+  "x-secoes": [
+    "Cabeçalho (nome, função, descrição, fatos, CTA)",
+    "Origem e histórico de versões",
+    "Integrações e dependências",
+    "Validações e aprovações",
+    "Saídas e evidências",
+    "Avaliações",
+    "Navegação"
+  ]
+}

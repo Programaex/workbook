@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Front matter de bloco de workbook",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "workbook_id",
+    "owner",
+    "title",
+    "status",
+    "version",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "ids.schema.json#/definitions/bloco"
+    },
+    "type": {
+      "enum": [
+        "cover",
+        "index",
+        "overview",
+        "content",
+        "notes",
+        "tasks"
+      ]
+    },
+    "workbook_id": {
+      "$ref": "ids.schema.json#/definitions/workbook"
+    },
+    "macroarea_id": {
+      "anyOf": [
+        {
+          "$ref": "ids.schema.json#/definitions/macroarea"
+        },
+        {
+          "const": "null"
+        }
+      ]
+    },
+    "owner": {
+      "$ref": "ids.schema.json#/definitions/owner_qualquer"
+    },
+    "status": {
+      "enum": [
+        "empty",
+        "draft",
+        "review",
+        "done"
+      ]
+    },
+    "source_refs": {
+      "type": "array"
+    }
+  },
+  "x-paginas": {
+    "cover": 1,
+    "index": 1,
+    "overview": 3,
+    "content": "≥1",
+    "notes": 3,
+    "tasks": 2,
+    "marcador": "<!-- page -->",
+    "continuacao": "<!-- page continuation -->"
+  }
+}

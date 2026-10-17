@@ -1,0 +1,54 @@
+schema_version: "1.0"
+adr_id: "ADR-001"
+workbook:
+  id: "WB-GERAL"
+  title: "Workbook Geral · Ecossistema EXECUTAR"
+  area_id: null
+  subarea_id: null
+  owner_code: MA.GOV
+  owner_role: null
+  owner_person: null
+  status: "draft"
+  version: "1.0"
+  parent_workbook_id: null
+  dominio_ids: []
+  source_refs: []
+  related_workbook_ids: []
+  route_refs: []
+  modules: []
+  layout:
+    cover_pages: 1
+    index_pages: 1
+    overview_pages: 3
+    content_pages: "unlimited"
+    notes_pages: 3
+    tasks_pages: 2
+    repeat_scope: "module"
+  references:
+    template_id: "TPL-021"
+    schema_id: "workbook.schema.json"
+    adr_ids: ["ADR-001"]
+    evidence_ids: []
+  export:
+    formats:
+      - pdf
+      - md
+      - csv
+    page_size: "A4"
+    overflow_policy: "continuation"
+composition:
+  - {id: WB-A01, path: workbooks/A01_governanca/}
+  - {id: WB-A02, path: workbooks/A02_programa/}
+  - {id: WB-A03, path: workbooks/A03_business/}
+  - {id: WB-A04, path: workbooks/A04_ecossistema/}
+  - {id: WB-A05, path: workbooks/A05_pesquisa-evidencias/}
+  - {id: WB-A06, path: workbooks/A06_dados/}
+  - {id: WB-A07, path: workbooks/A07_creator-pem/}
+  - {id: WB-A08, path: workbooks/A08_editorial/}
+  - {id: WB-A09, path: workbooks/A09_operacoes/}
+  - {id: WB-A10, path: workbooks/A10_producao/}
+  - {id: WB-A11, path: workbooks/A11_agentes/}
+  - {id: WB-A12, path: workbooks/A12_produtos/}
+  - {id: WB-A13, path: workbooks/A13_design/}
+  - {id: WB-A14, path: workbooks/A14_templates/}
+  - {id: WB-A15, path: workbooks/A15_comercial/}
