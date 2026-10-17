@@ -8,14 +8,14 @@ Uso: python3 500_Copiloto_templates/scripts/workbook.py <comando> [opções]
   build [--escopo GERAL|A##|A##-M##] [--incluir-vazios]
                                  monta o relatório A4 em 00_Workbook/_build/
 """
-import csv, json, re, sys, pathlib, hashlib
+import csv, json, re, sys, pathlib, hashlib, datetime
 import yaml
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 WB = ROOT / "00_Workbook"
 REG = WB / "registros"
 SCORE = {"empty": 0, "draft": 33, "review": 66, "done": 100}
-ID_RE = re.compile(r"^(EP|PJ|IS|SI)-([A-Z]{2}\.[A-Z]{3})-(\d{4})$")
+ID_RE = re.compile(r"^(PJ|EP|IS|SI|GT)-([A-Z]{2}\.[A-Z]{3})-(\d{4})$")
 OPEN_STATES = {"backlog", "todo", "doing", "blocked"}
 PAGE, CONT = "<!-- page -->", "<!-- page continuation -->"
 FIXED = [("00_capa.md", "cover", 1), ("01_index.md", "index", 1), ("02_overview.md", "overview", 3)]
@@ -208,6 +208,7 @@ def check_contract(d, wid, area, errs):
 
 def check_tasks(errs):
     owners = rows(ROOT / "OWNERS.csv")
+    ids_registrados, pais = set(), []
     for a in owners:
         d = ROOT / a["path"].rstrip("/") / "tarefas"
         for p in sorted(d.glob("*.md")) if d.exists() else []:
@@ -226,10 +227,29 @@ def check_tasks(errs):
                 errs.append(f"{p}: número do id difere de github_number")
             if not m.get("github_url", "").startswith("https://github.com/"):
                 errs.append(f"{p}: clone 1 ausente (github_url)")
-            if m.get("type") == "subissue" and not m.get("parent"):
-                errs.append(f"{p}: sub-issue sem parent")
+            if m.get("type") in ("issue", "subissue", "gate") and not m.get("parent"):
+                errs.append(f"{p}: {m.get('type')} sem parent")
+            if not m.get("assignees"):
+                errs.append(f"{p}: assignees ausente (responsável no GitHub)")
+            datas = {}
+            for k in ("start_date", "due_date"):
+                v = m.get(k)
+                if v in (None, "", "null"):
+                    continue
+                try:
+                    datas[k] = datetime.date.fromisoformat(str(v))
+                except ValueError:
+                    errs.append(f"{p}: {k} fora do formato AAAA-MM-DD ('{v}')")
+            if len(datas) == 2 and datas["start_date"] > datas["due_date"]:
+                errs.append(f"{p}: start_date posterior a due_date")
+            ids_registrados.add(tid)
+            if m.get("parent"):
+                pais.append((p, str(m["parent"])))
             if not (WB / "anexos" / "C_registro-de-tarefas" / f"{tid}.md").exists():
                 errs.append(f"{p}: clone 3 ausente no workbook")
+    for p, pai in pais:
+        if pai not in ids_registrados:
+            errs.append(f"{p}: parent '{pai}' sem registro em D##_*/tarefas/")
     for p in (WB / "anexos" / "C_registro-de-tarefas").glob("*.md"):
         if p.name != "README.md" and not any((ROOT / a["path"].rstrip("/") / "tarefas" / p.name).exists() for a in owners):
             errs.append(f"{p}: clone 3 sem clone 2 na pasta do owner")

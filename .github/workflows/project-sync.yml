@@ -1,0 +1,82 @@
+# Sincroniza issues do workbook com o GitHub Project (OPERACOES.md).
+# Requer: segredo PROJECT_TOKEN (PAT clássico com escopo `project` e `repo`) e
+# variável PROJECT_NUMBER (número da URL /users/Programaex/projects/<N>).
+# Campos do Project usados quando existirem: "Start date" e "Target date" (data),
+# "Owner" e "Tipo" (seleção única; a opção precisa existir com o mesmo nome).
+name: project-sync
+
+on:
+  issues:
+    types: [opened, edited, labeled, reopened]
+  workflow_dispatch:
+
+jobs:
+  sync:
+    if: ${{ github.event_name == 'workflow_dispatch' || contains(join(github.event.issue.labels.*.name, ','), 'tipo:') }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        env:
+          PROJECT_NUMBER: ${{ vars.PROJECT_NUMBER }}
+          PROJECT_OWNER: ${{ vars.PROJECT_OWNER || github.repository_owner }}
+        with:
+          github-token: ${{ secrets.PROJECT_TOKEN }}
+          script: |
+            const number = Number(process.env.PROJECT_NUMBER);
+            if (!number) { core.setFailed('Variável PROJECT_NUMBER ausente'); return; }
+            const { user } = await github.graphql(`
+              query($login: String!, $number: Int!) {
+                user(login: $login) { projectV2(number: $number) {
+                  id
+                  fields(first: 50) { nodes {
+                    ... on ProjectV2Field { id name dataType }
+                    ... on ProjectV2SingleSelectField { id name dataType options { id name } }
+                  } }
+                } }
+              }`, { login: process.env.PROJECT_OWNER, number });
+            const project = user.projectV2;
+            const field = (n) => project.fields.nodes.find((f) => f && f.name === n);
+
+            let issues;
+            if (context.eventName === 'workflow_dispatch') {
+              issues = await github.paginate(github.rest.issues.listForRepo, {
+                owner: context.repo.owner, repo: context.repo.repo, state: 'all', per_page: 100,
+              });
+              issues = issues.filter((i) => !i.pull_request && i.labels.some((l) => l.name.startsWith('tipo:')));
+            } else {
+              issues = [context.payload.issue];
+            }
+
+            for (const issue of issues) {
+              const { addProjectV2ItemById } = await github.graphql(`
+                mutation($project: ID!, $content: ID!) {
+                  addProjectV2ItemById(input: { projectId: $project, contentId: $content }) { item { id } }
+                }`, { project: project.id, content: issue.node_id });
+              const item = addProjectV2ItemById.item.id;
+              const body = issue.body || '';
+              const labels = issue.labels.map((l) => (typeof l === 'string' ? l : l.name));
+              const data = (rotulo) => (body.match(new RegExp(`\\*\\*${rotulo}:\\*\\*\\s*(\\d{4}-\\d{2}-\\d{2})`)) || [])[1];
+              const valores = [
+                ['Start date', { date: data('Início') }],
+                ['Target date', { date: data('Prazo') }],
+                ['Owner', { option: (labels.find((l) => l.startsWith('owner:')) || '').slice(6) }],
+                ['Tipo', { option: (labels.find((l) => l.startsWith('tipo:')) || '').slice(5) }],
+              ];
+              for (const [nome, v] of valores) {
+                const f = field(nome);
+                if (!f) continue;
+                let value;
+                if (v.date) value = { date: v.date };
+                if (v.option && f.options) {
+                  const op = f.options.find((o) => o.name === v.option);
+                  if (op) value = { singleSelectOptionId: op.id };
+                  else core.warning(`#${issue.number}: opção '${v.option}' não existe no campo ${nome}`);
+                }
+                if (!value) continue;
+                await github.graphql(`
+                  mutation($project: ID!, $item: ID!, $field: ID!, $value: ProjectV2FieldValue!) {
+                    updateProjectV2ItemFieldValue(input: { projectId: $project, itemId: $item, fieldId: $field, value: $value }) { projectV2Item { id } }
+                  }`, { project: project.id, item, field: f.id, value });
+              }
+              core.info(`#${issue.number} sincronizada`);
+            }

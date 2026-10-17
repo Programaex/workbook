@@ -1,12 +1,20 @@
 ---
 id: {TIPO}-{OWNER}-{NNNN}
-type: {epic|project|issue|subissue}
-parent: 
+type: {project|epic|issue|subissue|gate}
+parent: {ID do pai ou vazio para PJ}
+project: {ID do PJ ou null}
 owner: {OWNER}
+co_owners: []
+areas: []
 macroarea_id: {A##}
 area: {AREA}
 title: {TITULO}
 status: backlog
+assignees: [Programaex]
+start_date: {AAAA-MM-DD|null}
+due_date: {AAAA-MM-DD|null}
+labels: [tipo:{tipo}, owner:{OWNER}, macro:{A##}]
+aliases: []
 github_url: https://github.com/Programaex/workbook/issues/{NNNN}
 github_number: {NNNN}
 owner_path: {PASTA}/tarefas/{TIPO}-{OWNER}-{NNNN}.md
@@ -20,4 +28,4 @@ updated: {DATA}
 ## Critérios de aceite
 - [ ] 
 ## Vínculos
-Pai: · Filhos: · Blocos de tarefas afetados (`WB-A##-M##-TSK`):
+Project: · Pai: · Filhos: · Gates: · Blocos de tarefas afetados (`WB-A##-M##-TSK`):
