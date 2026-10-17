@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Front matter de epic/project/issue/subissue",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "owner",
+    "area",
+    "title",
+    "status",
+    "github_url",
+    "github_number",
+    "owner_path",
+    "workbook_path"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "ids.schema.json#/definitions/tarefa"
+    },
+    "type": {
+      "enum": [
+        "epic",
+        "project",
+        "issue",
+        "subissue"
+      ]
+    },
+    "parent": {
+      "type": "string"
+    },
+    "owner": {
+      "$ref": "ids.schema.json#/definitions/owner"
+    },
+    "area": {
+      "$ref": "ids.schema.json#/definitions/area"
+    },
+    "status": {
+      "enum": [
+        "backlog",
+        "todo",
+        "doing",
+        "blocked",
+        "done",
+        "cancelled"
+      ]
+    },
+    "github_url": {
+      "type": "string",
+      "pattern": "^https://github.com/"
+    },
+    "github_number": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "owner_path": {
+      "type": "string"
+    },
+    "workbook_path": {
+      "type": "string"
+    }
+  }
+}

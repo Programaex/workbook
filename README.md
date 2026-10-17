@@ -13,7 +13,9 @@ workbook/
 ├── entities.json      # mesmo índice em JSON
 ├── relations.csv      # relações entre entidades (vazio: nenhuma comprovada)
 ├── evidence.json      # evidência da fonte
-├── D01_gestao-empresarial/ … D16_midias-sociais-distribuicao-digital/
+├── 00_Workbook/       # relatório vivo: capa, índice, capítulos D01–D16, anexos
+├── 500_Copiloto_templates/  # templates, schemas, regras e script
+├── D01_gestao-empresarial/ … D16_…/   # cada uma com README.md e tarefas/
 └── _sources/SRC-FOLDER-001/   # pasta adicional observada, vínculo não confirmado
 ```
 
@@ -51,6 +53,27 @@ Grupos:
 | `MR` | Mercado e receita |
 
 O código identifica o **papel/função** dona da área. A pessoa responsável fica em `OWNERS.csv` (coluna `person`), vazia até ser definida.
+
+## Schemas de IDs
+
+| Objeto | Formato | Exemplo | Schema |
+|---|---|---|---|
+| Área | `D##` (01–16) | `D13` | `ids.schema.json#/area` |
+| Owner | `GRUPO.ÁREA` (2+3 letras) | `MR.MKT` | `#/owner` |
+| Capítulo do workbook | `WB-D##-CAP` | `WB-D13-CAP` | `#/capitulo` |
+| Seção do workbook | `WB-D##-S##` (S01–S06) | `WB-D13-S04` | `#/secao` |
+| Documento de abertura | `WB-CAPA`, `WB-IDX`, `WB-SUM`, `WB-ESC` | `WB-SUM` | — |
+| Anexo | `WB-ANX-<letra>` | `WB-ANX-C` | — |
+| Epic / Project / Issue / Sub-issue | `EP|PJ|IS|SI-<OWNER>-<NNNN>` (NNNN = nº no GitHub) | `IS-MR.MKT-0042` | `#/tarefa` |
+| Fonte externa | `SRC-FOLDER-###` | `SRC-FOLDER-001` | — |
+
+Schemas em `500_Copiloto_templates/schemas/`. Seções S01 Visão geral · S02 Situação atual · S03 Processos e responsáveis · S04 Indicadores · S05 Riscos e lacunas · S06 Plano e entregas.
+
+## Regras operacionais
+
+- **Tarefas (tripla clonagem):** todo epic/project/issue/sub-issue citado é clonado 1) no GitHub, 2) em `D##_*/tarefas/` do owner, 3) em `00_Workbook/anexos/C_registro-de-tarefas/`. Ver `500_Copiloto_templates/regras/OPERACOES.md`.
+- **Acompanhamento e completude:** estados `empty → draft → review → done`; área `concluida` = seções `done` + sem tarefas abertas + pessoa definida. Ver `500_Copiloto_templates/regras/ACOMPANHAMENTO.md`.
+- **Comandos:** `python3 500_Copiloto_templates/scripts/workbook.py status|index|check|build`.
 
 ## Como usar como dataset
 

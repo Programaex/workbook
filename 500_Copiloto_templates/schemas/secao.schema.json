@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Front matter de seção/capítulo",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "area",
+    "owner",
+    "title",
+    "status",
+    "version",
+    "updated"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "ids.schema.json#/definitions/secao"
+    },
+    "type": {
+      "enum": [
+        "section",
+        "chapter"
+      ]
+    },
+    "area": {
+      "$ref": "ids.schema.json#/definitions/area"
+    },
+    "owner": {
+      "$ref": "ids.schema.json#/definitions/owner"
+    },
+    "title": {
+      "type": "string"
+    },
+    "status": {
+      "enum": [
+        "empty",
+        "draft",
+        "review",
+        "done"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "sources": {
+      "type": "array"
+    },
+    "tasks": {
+      "type": "array",
+      "items": {
+        "$ref": "ids.schema.json#/definitions/tarefa"
+      }
+    }
+  }
+}

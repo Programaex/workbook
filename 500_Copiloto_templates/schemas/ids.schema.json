@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "IDs do workbook",
+  "definitions": {
+    "area": {
+      "type": "string",
+      "pattern": "^D(0[1-9]|1[0-6])$"
+    },
+    "owner": {
+      "type": "string",
+      "pattern": "^(GV|TD|OP|PD|MR)\\.[A-Z]{3}$"
+    },
+    "secao": {
+      "type": "string",
+      "pattern": "^WB-D(0[1-9]|1[0-6])-S0[1-9]$"
+    },
+    "capitulo": {
+      "type": "string",
+      "pattern": "^WB-D(0[1-9]|1[0-6])-CAP$"
+    },
+    "tarefa": {
+      "type": "string",
+      "pattern": "^(EP|PJ|IS|SI)-(GV|TD|OP|PD|MR)\\.[A-Z]{3}-\\d{4}$"
+    }
+  }
+}
