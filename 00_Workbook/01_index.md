@@ -18,9 +18,10 @@ source_refs: []
 - **WB-A01 · Governança** — owner `MA.GOV` · 16% em_andamento
   - Capa · Index · Overview (`WB-A01-CAPA`, `WB-A01-IDX`, `WB-A01-OVR`)
   - M01 · Registro de rotas e ADRs _(draft)_ — Conteúdo · Notas · Tarefas
-- **WB-A02 · Programa** — owner `MA.PRG` · 11% em_andamento
+- **WB-A02 · Programa** — owner `MA.PRG` · 18% em_andamento
   - Capa · Index · Overview (`WB-A02-CAPA`, `WB-A02-IDX`, `WB-A02-OVR`)
   - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
+  - M02 · EXEC-CAR-NL-2026 · Carreira AI Transformation NL _(draft)_ — Conteúdo · Notas · Tarefas
 - **WB-A03 · Business** — owner `MA.BUS` · 11% em_andamento
   - Capa · Index · Overview (`WB-A03-CAPA`, `WB-A03-IDX`, `WB-A03-OVR`)
   - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
@@ -53,10 +54,10 @@ source_refs: []
   - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
 - **WB-A13 · Design** — owner `MA.DSG` · 11% em_andamento
   - Capa · Index · Overview (`WB-A13-CAPA`, `WB-A13-IDX`, `WB-A13-OVR`)
-  - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
 
 <!-- page continuation -->
 
+  - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
 - **WB-A14 · Templates** — owner `MA.TPL` · 16% em_andamento
   - Capa · Index · Overview (`WB-A14-CAPA`, `WB-A14-IDX`, `WB-A14-OVR`)
   - M01 · Catálogo de templates _(draft)_ — Conteúdo · Notas · Tarefas
@@ -65,14 +66,14 @@ source_refs: []
   - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
 
 ## Registros transversais
-- `ADRS.csv` — 2 registros
+- `ADRS.csv` — 3 registros
 - `DEPENDENCIAS.csv` — 0 registros
 - `DOCUMENTOS.csv` — 2 registros
 - `ENTIDADES.csv` — 6 registros
-- `EVIDENCIAS.csv` — 0 registros
-- `FONTES.csv` — 3 registros
+- `EVIDENCIAS.csv` — 1 registros
+- `FONTES.csv` — 4 registros
 - `ROTAS.csv` — 78 registros
-- ADRs: `ADR-001` VALIDATED, `ADR-002` PLANNED
+- ADRs: `ADR-001` VALIDATED, `ADR-002` PLANNED, `ADR-003` PROPOSED
 <!-- INDEX:FIM -->
 
 <!-- 1 página fixa; se o índice não couber, adicione `<!-- page continuation -->` (nunca corte entradas). -->

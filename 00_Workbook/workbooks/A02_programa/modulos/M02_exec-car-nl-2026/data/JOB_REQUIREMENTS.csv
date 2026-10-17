@@ -1,0 +1,296 @@
+req_id,job_id,req_class,paraphrase,cap_id,required_level,blocking,cert_named_literally,source_id,owner,status,updated
+REQ-001,JOB-T-001,MUST_HAVE,Excellent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-002,JOB-T-001,MUST_HAVE,8+ yrs consulting (Mgr) / 15+ yrs change/consultancy (Sr Mgr),CAP-039,N/A (eligibility),Y,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-003,JOB-T-001,MUST_HAVE,WO degree,CAP-040,N/A (eligibility),Y,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-004,JOB-T-001,MUST_HAVE,At least one AI-adoption/AI-transformation project delivered,CAP-029,N/A (eligibility),Y,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-005,JOB-T-001,MUST_HAVE,Team leadership and client responsibility (Manager),CAP-038,4,N,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-006,JOB-T-001,MUST_HAVE,Change management and process redesign experience,CAP-026,4,N,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-007,JOB-T-001,MUST_HAVE,Strong network and commercial skills (Senior Manager),CAP-036,4,N,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-008,JOB-T-001,NICE_TO_HAVE,Target operating model design,CAP-030,3,N,,SRC-011,MA.PRG,DRAFT,2026-10-17
+REQ-009,JOB-T-002,MUST_HAVE,Fluent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-010,JOB-T-002,MUST_HAVE,5–10 yrs in advisory or data/AI role,CAP-039,N/A (eligibility),Y,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-011,JOB-T-002,MUST_HAVE,"Master's degree (DS, Informatics, Business Adm. or similar)",CAP-040,N/A (eligibility),Y,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-012,JOB-T-002,MUST_HAVE,Proven delivery of AI solutions,CAP-029,N/A (eligibility),Y,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-013,JOB-T-002,MUST_HAVE,Communicates with technical people and executives,CAP-037,3,N,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-014,JOB-T-002,NICE_TO_HAVE,"Data platforms, data governance or change around data/AI",CAP-025,2,N,,SRC-012,MA.PRG,DRAFT,2026-10-17
+REQ-015,JOB-T-003,MUST_HAVE,Dutch required (explicit),CAP-035,N/A (eligibility),Y,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-016,JOB-T-003,MUST_HAVE,5–10 yrs as management/strategy/digital transformation consultant,CAP-039,N/A (eligibility),Y,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-017,JOB-T-003,MUST_HAVE,Translate business needs to technical solutions (strategy/roadmapping),CAP-028,3,N,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-018,JOB-T-003,MUST_HAVE,"Familiarity with Microsoft platform (Copilot Studio, Azure AI)",CAP-003,2,N,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-019,JOB-T-003,MUST_HAVE,Board/MT-level conversations about AI,CAP-037,4,N,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-020,JOB-T-003,MUST_HAVE,Strong stakeholder management,CAP-037,3,N,,SRC-013,MA.PRG,DRAFT,2026-10-17
+REQ-021,JOB-T-004,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-014,MA.PRG,DRAFT,2026-10-17
+REQ-022,JOB-T-004,MUST_HAVE,3 yrs organisational change/PM and 2 yrs implementing AI applications,CAP-039,N/A (eligibility),Y,,SRC-014,MA.PRG,DRAFT,2026-10-17
+REQ-023,JOB-T-004,MUST_HAVE,Understands AI without being a developer; bridges business and IT,CAP-028,3,N,,SRC-014,MA.PRG,DRAFT,2026-10-17
+REQ-024,JOB-T-004,MUST_HAVE,Switches between content and behaviour (change),CAP-026,3,N,,SRC-014,MA.PRG,DRAFT,2026-10-17
+REQ-025,JOB-T-005,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-026,JOB-T-005,UNKNOWN,Considerable experience (non-numeric),CAP-039,N/A (eligibility),Y,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-027,JOB-T-005,MUST_HAVE,Experience with organisation-wide digital/AI transformations,CAP-029,N/A (eligibility),Y,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-028,JOB-T-005,MUST_HAVE,Adoption and behaviour change around new technology,CAP-026,3,N,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-029,JOB-T-005,MUST_HAVE,Change-management expertise,CAP-026,4,N,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-030,JOB-T-005,MUST_HAVE,Coaching colleagues,CAP-027,3,N,,SRC-016,MA.PRG,DRAFT,2026-10-17
+REQ-031,JOB-T-006,MUST_HAVE,Fluent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-032,JOB-T-006,MUST_HAVE,5+ yrs incl. project management,CAP-039,N/A (eligibility),Y,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-033,JOB-T-006,MUST_HAVE,Master's degree,CAP-040,N/A (eligibility),Y,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-034,JOB-T-006,MUST_HAVE,Organisational change / future workforce / HR transformation (comms & training programmes),CAP-026,4,N,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-035,JOB-T-006,MUST_HAVE,Project-based consulting experience,CAP-038,4,N,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-036,JOB-T-006,DIFFERENTIATOR,Role content: AI-enabled change activation; C-level stakeholder/account mgmt (inference),CAP-037,4,N,,SRC-017,MA.PRG,DRAFT,2026-10-17
+REQ-037,JOB-T-007,MUST_HAVE,Fluent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-038,JOB-T-007,MUST_HAVE,Completed Master's (technical or business economics),CAP-040,N/A (eligibility),Y,,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-039,JOB-T-007,MUST_HAVE,Excellent WO/VWO grades; transcripts required,CAP-040,N/A (eligibility),Y,,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-040,JOB-T-007,MUST_HAVE,Affinity with digital/IT,CAP-031,1,N,,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-041,JOB-T-007,NICE_TO_HAVE,External consulting experience,CAP-038,2,N,,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-042,JOB-T-007,NICE_TO_HAVE,Bonus certifications named,CAP-032,1,N,Cloud (Azure/AWS/GCP); SAFe; TOGAF; DAMA; FinOps; TBM,SRC-018,MA.PRG,DRAFT,2026-10-17
+REQ-043,JOB-T-008,MUST_HAVE,Excellent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-044,JOB-T-008,MUST_HAVE,"Relevant degree (AI, CS, Data Science, Informatics)",CAP-040,N/A (eligibility),Y,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-045,JOB-T-008,MUST_HAVE,"Affinity with psychology, human behaviour and change management",CAP-026,3,N,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-046,JOB-T-008,MUST_HAVE,Makes technical content accessible,CAP-033,3,N,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-047,JOB-T-008,MUST_HAVE,Empathy for handling resistance,CAP-037,3,N,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-048,JOB-T-008,DIFFERENTIATOR,"Tasks: AI training programmes, adoption strategy, adoption KPIs (inference)",CAP-027,3,N,,SRC-019,MA.PRG,DRAFT,2026-10-17
+REQ-049,JOB-T-009,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-050,JOB-T-009,MUST_HAVE,HBO/WO level,CAP-040,N/A (eligibility),Y,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-051,JOB-T-009,MUST_HAVE,"Good knowledge of AI/GenAI (LLMs, prompting, RAG, agentic)",CAP-004,3,N,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-052,JOB-T-009,MUST_HAVE,Structuring ill-defined problems,CAP-012,3,N,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-053,JOB-T-009,MUST_HAVE,Extensive advisory/consultancy experience guiding change/innovation,CAP-038,N/A (eligibility),Y,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-054,JOB-T-009,NICE_TO_HAVE,Facilitating workshops and PoCs,CAP-027,2,N,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-055,JOB-T-009,NICE_TO_HAVE,Hands-on GenAI/RAG,CAP-004,3,N,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-056,JOB-T-009,NICE_TO_HAVE,Public-sector experience,CAP-042,2,N,,SRC-020,MA.PRG,DRAFT,2026-10-17
+REQ-057,JOB-T-010,MUST_HAVE,Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-021,MA.PRG,DRAFT,2026-10-17
+REQ-058,JOB-T-010,MUST_HAVE,8+ yrs consulting/technology/digital transformation,CAP-039,N/A (eligibility),Y,,SRC-021,MA.PRG,DRAFT,2026-10-17
+REQ-059,JOB-T-010,MUST_HAVE,"Business cases, transformation roadmaps, executive presentations",CAP-009,4,N,,SRC-021,MA.PRG,DRAFT,2026-10-17
+REQ-060,JOB-T-010,MUST_HAVE,Business development and account growth,CAP-036,3,N,,SRC-021,MA.PRG,DRAFT,2026-10-17
+REQ-061,JOB-T-010,UNKNOWN,"Stack: Azure, Microsoft Fabric, Copilot",CAP-032,3,N,,SRC-021,MA.PRG,DRAFT,2026-10-17
+REQ-062,JOB-T-011,MUST_HAVE,Leading complex enterprise transformation programmes at scale,CAP-029,N/A (eligibility),Y,,SRC-022,MA.PRG,DRAFT,2026-10-17
+REQ-063,JOB-T-011,MUST_HAVE,Based in or relocating to NL; office 3 days/week,CAP-041,N/A (eligibility),Y,,SRC-022,MA.PRG,DRAFT,2026-10-17
+REQ-064,JOB-T-011,UNKNOWN,Language not stated (English-language ad),CAP-034,N/A (eligibility),N,,SRC-022,MA.PRG,DRAFT,2026-10-17
+REQ-065,JOB-T-012,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-066,JOB-T-012,MUST_HAVE,WO level,CAP-040,N/A (eligibility),Y,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-067,JOB-T-012,MUST_HAVE,"3+ yrs in AI/data/IT governance, IT audit or similar",CAP-039,N/A (eligibility),Y,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-068,JOB-T-012,MUST_HAVE,GenAI and AI agents and their governance challenges,CAP-017,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-069,JOB-T-012,MUST_HAVE,EU AI Act and risk-management principles,CAP-015,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-070,JOB-T-012,MUST_HAVE,AVG/GDPR,CAP-019,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-071,JOB-T-012,MUST_HAVE,Communication and analysis,CAP-033,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-072,JOB-T-012,MUST_HAVE,Change capability to embed governance,CAP-026,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-073,JOB-T-012,NICE_TO_HAVE,Infosec/privacy,CAP-023,2,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-074,JOB-T-012,DIFFERENTIATOR,"Tasks: AI register, AI impact assessments, AI governance framework (inference)",CAP-022,3,N,,SRC-023,MA.PRG,DRAFT,2026-10-17
+REQ-075,JOB-T-013,MUST_HAVE,Excellent Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-076,JOB-T-013,MUST_HAVE,5 yrs experience,CAP-039,N/A (eligibility),Y,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-077,JOB-T-013,MUST_HAVE,"Bachelor's or Master's (Law, IT)",CAP-040,N/A (eligibility),Y,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-078,JOB-T-013,MUST_HAVE,EU AI Act knowledge ('absolute vereiste'),CAP-015,3,Y,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-079,JOB-T-013,MUST_HAVE,Risk-management frameworks ISO 42001 / ISO 27001,CAP-021,3,N,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-080,JOB-T-013,MUST_HAVE,Translating legal requirements into policy,CAP-018,3,N,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-081,JOB-T-013,NICE_TO_HAVE,GDPR and IT technical knowledge,CAP-019,2,N,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-082,JOB-T-013,NICE_TO_HAVE,Preferred certifications,CAP-015,2,N,IAPP AIGP; CCLTE CAICO,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-083,JOB-T-013,DIFFERENTIATOR,"Tasks: AI impact assessments, AI vendor evaluation (inference)",CAP-016,3,N,,SRC-024,MA.PRG,DRAFT,2026-10-17
+REQ-084,JOB-T-014,MUST_HAVE,Excellent Dutch and English (reports in both),CAP-035,N/A (eligibility),Y,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-085,JOB-T-014,MUST_HAVE,5+ yrs on privacy and/or AI issues,CAP-039,N/A (eligibility),Y,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-086,JOB-T-014,MUST_HAVE,"Master's (law, information mgmt, AI, privacy)",CAP-040,N/A (eligibility),Y,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-087,JOB-T-014,MUST_HAVE,"AVG, EU AI Act, Data Act, Data Governance Act",CAP-015,4,N,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-088,JOB-T-014,MUST_HAVE,AVG/GDPR depth,CAP-019,4,N,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-089,JOB-T-014,MUST_HAVE,"Governance structures, operating models, compliance roadmaps; Responsible AI frameworks",CAP-018,4,N,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-090,JOB-T-014,MUST_HAVE,Proposal writing and sales,CAP-036,3,N,,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-091,JOB-T-014,MUST_HAVE,Holds certifications ('je beschikt over'),CAP-019,3,Y,CIPP/E; CIPM; CIPT; 'AI Governance'; ISO 27701 Lead Implementer,SRC-025,MA.PRG,DRAFT,2026-10-17
+REQ-092,JOB-T-015,UNKNOWN,Language not stated (English-language ad),CAP-034,N/A (eligibility),N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-093,JOB-T-015,MUST_HAVE,"8–12+ yrs AI/ML, data science, AI governance, model or tech risk",CAP-039,N/A (eligibility),Y,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-094,JOB-T-015,MUST_HAVE,"Assessing AI risk (bias, fairness, explainability, safety)",CAP-016,4,N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-095,JOB-T-015,MUST_HAVE,Translating policy into controls,CAP-018,4,N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-096,JOB-T-015,MUST_HAVE,Senior stakeholder influence,CAP-037,4,N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-097,JOB-T-015,NICE_TO_HAVE,Large regulated enterprise experience,CAP-042,3,N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-098,JOB-T-015,UNKNOWN,"Frameworks named: EU AI Act, NIST AI RMF, ISO/IEC 42001 (expertise)",CAP-015,3,N,,SRC-026,MA.PRG,DRAFT,2026-10-17
+REQ-099,JOB-T-016,MUST_HAVE,Dutch and English (French a plus),CAP-035,N/A (eligibility),Y,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-100,JOB-T-016,MUST_HAVE,6–10+ yrs AI/data/digital consulting,CAP-039,N/A (eligibility),Y,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-101,JOB-T-016,MUST_HAVE,AI governance / Responsible AI / AI risk-compliance experience,CAP-018,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-102,JOB-T-016,MUST_HAVE,"Understanding of AI/ML, GenAI",CAP-004,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-103,JOB-T-016,MUST_HAVE,Enterprise architecture understanding,CAP-031,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-104,JOB-T-016,MUST_HAVE,Consulting skills,CAP-038,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-105,JOB-T-016,NICE_TO_HAVE,Azure/Databricks,CAP-032,2,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-106,JOB-T-016,NICE_TO_HAVE,Team leadership,CAP-037,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-107,JOB-T-016,DIFFERENTIATOR,Tasks: embedding governance in MLOps/LLMOps (inference),CAP-017,3,N,,SRC-027,MA.PRG,DRAFT,2026-10-17
+REQ-108,JOB-T-017,MUST_HAVE,Dutch C1+ and English B2+; open only to native/near-native Dutch speakers,CAP-035,N/A (eligibility),Y,,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-109,JOB-T-017,MUST_HAVE,7+ yrs data governance/management/risk,CAP-039,N/A (eligibility),Y,,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-110,JOB-T-017,MUST_HAVE,Designing and implementing governance frameworks,CAP-018,4,N,,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-111,JOB-T-017,MUST_HAVE,AI governance / Responsible AI / AI risk experience,CAP-016,3,N,,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-112,JOB-T-017,MUST_HAVE,Facilitating workshops,CAP-027,3,N,,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-113,JOB-T-017,MUST_HAVE,At least one of DAMA CDMP Practitioner or DCAM,CAP-025,3,Y,DAMA CDMP Practitioner; DCAM,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-114,JOB-T-017,NICE_TO_HAVE,Strong plus certifications,CAP-015,2,N,IAPP AIGP; ISO 42001,SRC-028,MA.PRG,DRAFT,2026-10-17
+REQ-115,JOB-T-018,MUST_HAVE,Dutch is a 'harde eis' (hard requirement),CAP-035,N/A (eligibility),Y,,SRC-029,MA.PRG,DRAFT,2026-10-17
+REQ-116,JOB-T-018,MUST_HAVE,3+ yrs IT audit/IT risk/digital assurance/cyber/internal audit/tech consulting,CAP-024,N/A (eligibility),Y,,SRC-029,MA.PRG,DRAFT,2026-10-17
+REQ-117,JOB-T-018,MUST_HAVE,Degree with substantial AI or data-science content,CAP-040,N/A (eligibility),Y,,SRC-029,MA.PRG,DRAFT,2026-10-17
+REQ-118,JOB-T-018,MUST_HAVE,Interest in AI governance and AI risk management,CAP-016,1,N,,SRC-029,MA.PRG,DRAFT,2026-10-17
+REQ-119,JOB-T-018,MUST_HAVE,RE or equivalent; candidates studying or willing to start also invited,CAP-023,2,N,RE; CISA; CISM; CIPP,SRC-029,MA.PRG,DRAFT,2026-10-17
+REQ-120,JOB-T-019,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-121,JOB-T-019,MUST_HAVE,HBO level,CAP-040,N/A (eligibility),Y,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-122,JOB-T-019,MUST_HAVE,Affinity with AI and willingness to develop,CAP-001,1,N,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-123,JOB-T-019,MUST_HAVE,"Experience in governance, compliance, risk, infosec or privacy",CAP-024,N/A (eligibility),Y,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-124,JOB-T-019,MUST_HAVE,Risk analyses and advisory reports,CAP-016,2,N,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-125,JOB-T-019,NICE_TO_HAVE,ISO 27001 / ISO 42001 frameworks and relevant legislation,CAP-021,2,N,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-126,JOB-T-019,DIFFERENTIATOR,Tasks: build AI governance framework and AIMS; EU AI Act/AVG classification (inference),CAP-015,3,N,,SRC-030,MA.PRG,DRAFT,2026-10-17
+REQ-127,JOB-T-020,MUST_HAVE,Fluent Dutch,CAP-035,N/A (eligibility),Y,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-128,JOB-T-020,MUST_HAVE,4 yrs in or with public organisations,CAP-039,N/A (eligibility),Y,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-129,JOB-T-020,MUST_HAVE,AI governance / data governance / privacy / compliance experience,CAP-018,3,N,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-130,JOB-T-020,MUST_HAVE,AVG / AI Act knowledge,CAP-015,3,N,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-131,JOB-T-020,MUST_HAVE,HBO/WO in IT,CAP-040,N/A (eligibility),Y,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-132,JOB-T-020,DIFFERENTIATOR,"Tasks: frameworks, AIA/DPIA impact assessments, BIO (inference)",CAP-016,3,N,,SRC-031,MA.PRG,DRAFT,2026-10-17
+REQ-133,JOB-T-021,MUST_HAVE,Excellent Dutch ('uitstekend'),CAP-035,N/A (eligibility),Y,,SRC-032,MA.PRG,DRAFT,2026-10-17
+REQ-134,JOB-T-021,UNKNOWN,Requirements beyond language not captured (extract incomplete),,N/A (eligibility),N,,SRC-032,MA.PRG,DRAFT,2026-10-17
+REQ-135,JOB-T-022,MUST_HAVE,Fluent English,CAP-034,N/A (eligibility),Y,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-136,JOB-T-022,MUST_HAVE,"3+ yrs in partnerships, alliances or enterprise software sales (data/AI/security/GRC)",CAP-039,N/A (eligibility),Y,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-137,JOB-T-022,MUST_HAVE,Co-selling with system integrators; building a partner programme,CAP-036,3,N,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-138,JOB-T-022,MUST_HAVE,"Genuine interest in AI governance, risk and compliance",CAP-017,1,N,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-139,JOB-T-022,NICE_TO_HAVE,"EU AI Act, ISO 42001",CAP-015,2,N,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-140,JOB-T-022,NICE_TO_HAVE,Start-up experience,CAP-042,2,N,,SRC-033,MA.PRG,DRAFT,2026-10-17
+REQ-141,JOB-T-023,MUST_HAVE,Dutch nationality and in principle 10 yrs NL residence,CAP-041,N/A (eligibility),Y,,SRC-034,MA.PRG,DRAFT,2026-10-17
+REQ-142,JOB-T-023,MUST_HAVE,Dutch required (explicit),CAP-035,N/A (eligibility),Y,,SRC-034,MA.PRG,DRAFT,2026-10-17
+REQ-143,JOB-T-023,MUST_HAVE,Regulated-environment experience with EU AI Act/AVG compliance and ethics,CAP-015,3,N,,SRC-034,MA.PRG,DRAFT,2026-10-17
+REQ-144,JOB-T-024,UNKNOWN,Language not stated (English-language ad),CAP-034,N/A (eligibility),N,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-145,JOB-T-024,MUST_HAVE,Significant strategy/management consulting experience,CAP-038,N/A (eligibility),Y,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-146,JOB-T-024,MUST_HAVE,Advising senior decision-makers,CAP-037,4,N,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-147,JOB-T-024,MUST_HAVE,Led enterprise-wide Data & AI initiatives,CAP-029,N/A (eligibility),Y,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-148,JOB-T-024,MUST_HAVE,Master's or equivalent,CAP-040,N/A (eligibility),Y,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-149,JOB-T-024,MUST_HAVE,"Familiarity with DAMA-DMBOK, Data Mesh, BCBS 239 or EU AI Act (frameworks)",CAP-015,2,N,,SRC-035,MA.PRG,DRAFT,2026-10-17
+REQ-150,JOB-T-025,MUST_HAVE,Working language English; Dutch optional,CAP-034,N/A (eligibility),Y,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-151,JOB-T-025,MUST_HAVE,3–6 yrs (Senior Consultant),CAP-039,N/A (eligibility),Y,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-152,JOB-T-025,MUST_HAVE,Strong Python,CAP-005,4,N,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-153,JOB-T-025,MUST_HAVE,Azure/Databricks,CAP-032,3,N,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-154,JOB-T-025,MUST_HAVE,Financial services or regulated-industry experience,CAP-042,N/A (eligibility),Y,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-155,JOB-T-025,NICE_TO_HAVE,Master's/PhD in a quantitative field,CAP-040,N/A (eligibility),N,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-156,JOB-T-025,NICE_TO_HAVE,AML or fraud experience,CAP-042,2,N,,SRC-036,MA.PRG,DRAFT,2026-10-17
+REQ-157,JOB-T-026,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-037,MA.PRG,DRAFT,2026-10-17
+REQ-158,JOB-T-026,MUST_HAVE,Completed bachelor's (HBO),CAP-040,N/A (eligibility),Y,,SRC-037,MA.PRG,DRAFT,2026-10-17
+REQ-159,JOB-T-026,MUST_HAVE,2–4 yrs IT implementations/projects/coordination,CAP-014,N/A (eligibility),Y,,SRC-037,MA.PRG,DRAFT,2026-10-17
+REQ-160,JOB-T-026,MUST_HAVE,Familiar with AI tools such as Copilot / Claude,CAP-001,2,N,,SRC-037,MA.PRG,DRAFT,2026-10-17
+REQ-161,JOB-T-026,NICE_TO_HAVE,Power BI,CAP-008,2,N,,SRC-037,MA.PRG,DRAFT,2026-10-17
+REQ-162,JOB-T-027,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-038,MA.PRG,DRAFT,2026-10-17
+REQ-163,JOB-T-027,MUST_HAVE,3+ yrs PM on ML/AI projects,CAP-014,N/A (eligibility),Y,,SRC-038,MA.PRG,DRAFT,2026-10-17
+REQ-164,JOB-T-027,MUST_HAVE,Risk and resource management in AI projects,CAP-011,3,N,,SRC-038,MA.PRG,DRAFT,2026-10-17
+REQ-165,JOB-T-028,MUST_HAVE,Good Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-039,MA.PRG,DRAFT,2026-10-17
+REQ-166,JOB-T-028,MUST_HAVE,HBO level,CAP-040,N/A (eligibility),Y,,SRC-039,MA.PRG,DRAFT,2026-10-17
+REQ-167,JOB-T-028,NICE_TO_HAVE,"Business analysis, project coordination or process improvement",CAP-007,2,N,,SRC-039,MA.PRG,DRAFT,2026-10-17
+REQ-168,JOB-T-028,NICE_TO_HAVE,"Implementations, testing, user support",CAP-011,2,N,,SRC-039,MA.PRG,DRAFT,2026-10-17
+REQ-169,JOB-T-028,NICE_TO_HAVE,"No-code/low-code, ERP, BI or AI tools",CAP-003,1,N,,SRC-039,MA.PRG,DRAFT,2026-10-17
+REQ-170,JOB-T-029,MUST_HAVE,Professional Dutch,CAP-035,N/A (eligibility),Y,,SRC-040,MA.PRG,DRAFT,2026-10-17
+REQ-171,JOB-T-029,MUST_HAVE,HBO/WO level,CAP-040,N/A (eligibility),Y,,SRC-040,MA.PRG,DRAFT,2026-10-17
+REQ-172,JOB-T-029,MUST_HAVE,"Experience with or clear interest in consultancy, data and process improvement",CAP-012,1,N,,SRC-040,MA.PRG,DRAFT,2026-10-17
+REQ-173,JOB-T-029,UNKNOWN,"Tool: Azure DevOps (user stories, acceptance criteria)",CAP-007,2,N,,SRC-040,MA.PRG,DRAFT,2026-10-17
+REQ-174,JOB-T-030,MUST_HAVE,Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-041,MA.PRG,DRAFT,2026-10-17
+REQ-175,JOB-T-030,MUST_HAVE,"HBO/WO (IE&M, CS, AI)",CAP-040,N/A (eligibility),Y,,SRC-041,MA.PRG,DRAFT,2026-10-17
+REQ-176,JOB-T-030,MUST_HAVE,API/database interest,CAP-006,1,N,,SRC-041,MA.PRG,DRAFT,2026-10-17
+REQ-177,JOB-T-030,MUST_HAVE,Basic Python/JS or motivation to learn,CAP-005,1,N,,SRC-041,MA.PRG,DRAFT,2026-10-17
+REQ-178,JOB-T-031,MUST_HAVE,Excellent English,CAP-034,N/A (eligibility),Y,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-179,JOB-T-031,MUST_HAVE,Valid NL work authorisation; no sponsorship (EU citizen needs no permit),CAP-041,N/A (eligibility),Y,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-180,JOB-T-031,MUST_HAVE,"Bachelor's or master's (Business, Analytics, Law, Innovation, AI)",CAP-040,N/A (eligibility),Y,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-181,JOB-T-031,MUST_HAVE,"Analytical, structured",CAP-012,2,N,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-182,JOB-T-031,MUST_HAVE,Stakeholder communication,CAP-033,2,N,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-183,JOB-T-031,NICE_TO_HAVE,Dutch or French a plus,CAP-035,N/A (eligibility),N,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-184,JOB-T-031,DIFFERENTIATOR,"Tasks: requirements, pilots, user feedback (inference)",CAP-007,2,N,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-185,JOB-T-031,DIFFERENTIATOR,Tasks: adoption/training activities (inference),CAP-026,2,N,,SRC-042,MA.PRG,DRAFT,2026-10-17
+REQ-186,JOB-T-032,UNKNOWN,Language not stated (English-language ad),CAP-034,N/A (eligibility),N,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-187,JOB-T-032,MUST_HAVE,Proven experience (non-numeric),CAP-039,N/A (eligibility),Y,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-188,JOB-T-032,MUST_HAVE,"Agentic automation & AI enablement consultancy, BA and automation (Finance preferred)",CAP-001,3,N,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-189,JOB-T-032,MUST_HAVE,Working in agile squads,CAP-010,2,N,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-190,JOB-T-032,UNKNOWN,"Stack: M365 Copilot, Copilot Studio, Power Platform, GitHub Copilot",CAP-003,3,N,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-191,JOB-T-032,NICE_TO_HAVE,Banking experience,CAP-042,2,N,,SRC-043,MA.PRG,DRAFT,2026-10-17
+REQ-192,JOB-T-033,MUST_HAVE,"Fluent Dutch, good English",CAP-035,N/A (eligibility),Y,,SRC-044,MA.PRG,DRAFT,2026-10-17
+REQ-193,JOB-T-033,MUST_HAVE,3–5 yrs consultancy/BA/strategy or client-facing digital/data/AI,CAP-038,N/A (eligibility),Y,,SRC-044,MA.PRG,DRAFT,2026-10-17
+REQ-194,JOB-T-033,NICE_TO_HAVE,Python or SQL,CAP-005,2,N,,SRC-044,MA.PRG,DRAFT,2026-10-17
+REQ-195,JOB-T-034,MUST_HAVE,Fluent Dutch,CAP-035,N/A (eligibility),Y,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-196,JOB-T-034,MUST_HAVE,Must live in NL,CAP-041,N/A (eligibility),Y,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-197,JOB-T-034,MUST_HAVE,4+ yrs,CAP-039,N/A (eligibility),Y,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-198,JOB-T-034,MUST_HAVE,AI beyond PoC into production,CAP-004,4,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-199,JOB-T-034,MUST_HAVE,Python,CAP-005,3,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-200,JOB-T-034,MUST_HAVE,Cloud platform (Azure/AWS/GCP),CAP-032,3,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-201,JOB-T-034,NICE_TO_HAVE,Energy/utilities background,CAP-042,2,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-202,JOB-T-034,NICE_TO_HAVE,AI governance / AI Act,CAP-015,2,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-203,JOB-T-034,NICE_TO_HAVE,Adoption/change management,CAP-026,2,N,,SRC-045,MA.PRG,DRAFT,2026-10-17
+REQ-204,JOB-T-035,MUST_HAVE,Dutch and English at C1 minimum,CAP-035,N/A (eligibility),Y,,SRC-046,MA.PRG,DRAFT,2026-10-17
+REQ-205,JOB-T-035,MUST_HAVE,"WO; technical or scientific background (DS, CS, AI)",CAP-040,N/A (eligibility),Y,,SRC-046,MA.PRG,DRAFT,2026-10-17
+REQ-206,JOB-T-035,MUST_HAVE,"PhD preferred, or extensive academic experience",CAP-040,N/A (eligibility),Y,,SRC-046,MA.PRG,DRAFT,2026-10-17
+REQ-207,JOB-T-035,MUST_HAVE,Supervising MSc/PhD researchers,CAP-037,3,N,,SRC-046,MA.PRG,DRAFT,2026-10-17
+REQ-208,JOB-T-035,MUST_HAVE,VOG (certificate of good conduct),CAP-041,N/A (eligibility),Y,,SRC-046,MA.PRG,DRAFT,2026-10-17
+REQ-209,JOB-T-036,MUST_HAVE,Dutch speaking (stated in title),CAP-035,N/A (eligibility),Y,,SRC-047,MA.PRG,DRAFT,2026-10-17
+REQ-210,JOB-T-036,MUST_HAVE,Master's in AI/quantitative field or Industrial Design,CAP-040,N/A (eligibility),Y,,SRC-047,MA.PRG,DRAFT,2026-10-17
+REQ-211,JOB-T-036,MUST_HAVE,"Python plus one other language, or ability to explain the technology",CAP-005,2,N,,SRC-047,MA.PRG,DRAFT,2026-10-17
+REQ-212,JOB-A-001,MUST_HAVE,Dutch ('Je beheerst de Nederlandse taal'),CAP-035,N/A (eligibility),Y,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-213,JOB-A-001,MUST_HAVE,Relevant HBO diploma,CAP-040,N/A (eligibility),Y,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-214,JOB-A-001,MUST_HAVE,UiPath or similar RPA experience (beginners welcome),CAP-002,2,N,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-215,JOB-A-001,MUST_HAVE,Client communication,CAP-033,2,N,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-216,JOB-A-001,MUST_HAVE,Translating business processes into technical solutions,CAP-012,2,N,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-217,JOB-A-001,NICE_TO_HAVE,Python or Power BI,CAP-005,1,N,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-218,JOB-A-001,NICE_TO_HAVE,Willingness to learn UiPath,CAP-002,1,N,,SRC-063,MA.PRG,DRAFT,2026-10-17
+REQ-219,JOB-A-002,MUST_HAVE,Dutch ('Je beheerst de Nederlandse taal'),CAP-035,N/A (eligibility),Y,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-220,JOB-A-002,MUST_HAVE,Relevant HBO diploma,CAP-040,N/A (eligibility),Y,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-221,JOB-A-002,MUST_HAVE,UiPath or similar RPA experience (beginners welcome),CAP-002,2,N,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-222,JOB-A-002,MUST_HAVE,Client communication,CAP-033,2,N,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-223,JOB-A-002,MUST_HAVE,Translating business processes into technical solutions,CAP-012,2,N,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-224,JOB-A-002,NICE_TO_HAVE,Python or Power BI,CAP-005,1,N,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-225,JOB-A-002,NICE_TO_HAVE,Willingness to learn UiPath,CAP-002,1,N,,SRC-064,MA.PRG,DRAFT,2026-10-17
+REQ-226,JOB-A-003,MUST_HAVE,Excellent Dutch,CAP-035,N/A (eligibility),Y,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-227,JOB-A-003,MUST_HAVE,3 yrs independent RPA development (UiPath preferred),CAP-039,N/A (eligibility),Y,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-228,JOB-A-003,MUST_HAVE,UiPath RPA development,CAP-002,3,N,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-229,JOB-A-003,MUST_HAVE,Explaining technical choices to process owners and IT,CAP-033,3,N,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-230,JOB-A-003,MUST_HAVE,HBO/WO level,CAP-040,N/A (eligibility),Y,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-231,JOB-A-003,MUST_HAVE,Agile/Scrum,CAP-010,2,N,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-232,JOB-A-003,MUST_HAVE,Relevant certifications in RPA/AI/hyperautomation or intention to obtain (none named),CAP-002,2,N,'relevante certificeringen' (generic; none named),SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-233,JOB-A-003,NICE_TO_HAVE,"C#, SQL, Python, APIs, AI applications",CAP-005,2,N,,SRC-065,MA.PRG,DRAFT,2026-10-17
+REQ-234,JOB-A-004,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-235,JOB-A-004,MUST_HAVE,2 yrs programming,CAP-039,N/A (eligibility),Y,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-236,JOB-A-004,MUST_HAVE,UiPath experience,CAP-002,3,N,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-237,JOB-A-004,MUST_HAVE,Strong C# and/or .NET,CAP-005,3,N,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-238,JOB-A-004,MUST_HAVE,WO level,CAP-040,N/A (eligibility),Y,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-239,JOB-A-004,DIFFERENTIATOR,Interest in AI and agentic work,CAP-001,2,N,,SRC-066,MA.PRG,DRAFT,2026-10-17
+REQ-240,JOB-A-005,MUST_HAVE,Good communication in Dutch and English,CAP-035,N/A (eligibility),Y,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-241,JOB-A-005,MUST_HAVE,HBO/WO in relevant field,CAP-040,N/A (eligibility),Y,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-242,JOB-A-005,MUST_HAVE,2+ yrs Microsoft Power Platform incl. governance and security,CAP-039,N/A (eligibility),Y,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-243,JOB-A-005,MUST_HAVE,"Power Platform build (Power Apps/Automate/BI, Dataverse)",CAP-003,3,N,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-244,JOB-A-005,MUST_HAVE,Integrations (APIs via Python/FastAPI/C#),CAP-006,3,N,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-245,JOB-A-005,MUST_HAVE,Agile/DevOps mindset,CAP-010,2,N,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-246,JOB-A-005,MUST_HAVE,Residence in NL with valid work permit; no sponsorship,CAP-041,N/A (eligibility),Y,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-247,JOB-A-005,NICE_TO_HAVE,C# or Python,CAP-005,2,N,,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-248,JOB-A-005,NICE_TO_HAVE,PL certifications (preferred or aim to obtain),CAP-003,2,N,Microsoft PL-100; PL-200; PL-400,SRC-067,MA.PRG,DRAFT,2026-10-17
+REQ-249,JOB-A-006,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-068,MA.PRG,DRAFT,2026-10-17
+REQ-250,JOB-A-006,MUST_HAVE,"Celonis: KPIs and dashboards, stakeholder workshops, user training",CAP-013,3,N,,SRC-068,MA.PRG,DRAFT,2026-10-17
+REQ-251,JOB-A-006,UNKNOWN,"4 yrs as Process Mining Consultant/Analyst (snippet, UNVERIFIED)",CAP-039,N/A (eligibility),Y,,SRC-068,MA.PRG,DRAFT,2026-10-17
+REQ-252,JOB-A-006,UNKNOWN,"HBO/WO (snippet, UNVERIFIED)",CAP-040,N/A (eligibility),Y,,SRC-068,MA.PRG,DRAFT,2026-10-17
+REQ-253,JOB-A-008,UNKNOWN,"Dutch likely: ad written in Dutch, no explicit language line",CAP-035,N/A (eligibility),Y,,SRC-073,MA.PRG,DRAFT,2026-10-17
+REQ-254,JOB-A-008,MUST_HAVE,"Degree in electrical engineering, industrial automation or similar",CAP-040,N/A (eligibility),Y,,SRC-073,MA.PRG,DRAFT,2026-10-17
+REQ-255,JOB-A-009,MUST_HAVE,Strong Dutch or English written communication,CAP-034,N/A (eligibility),Y,,SRC-074,MA.PRG,DRAFT,2026-10-17
+REQ-256,JOB-A-009,MUST_HAVE,5 yrs demonstrable business experience (any background),CAP-039,N/A (eligibility),Y,,SRC-074,MA.PRG,DRAFT,2026-10-17
+REQ-257,JOB-A-009,MUST_HAVE,"Demonstrable interest: own projects, prompts, automations or agents",CAP-001,2,N,,SRC-074,MA.PRG,DRAFT,2026-10-17
+REQ-258,JOB-A-010,UNKNOWN,English inferred from English ad (not stated),CAP-034,N/A (eligibility),N,,SRC-075,MA.PRG,DRAFT,2026-10-17
+REQ-259,JOB-A-010,MUST_HAVE,2 yrs experience,CAP-039,N/A (eligibility),Y,,SRC-075,MA.PRG,DRAFT,2026-10-17
+REQ-260,JOB-A-010,MUST_HAVE,Shipping LLM systems in production,CAP-004,4,N,,SRC-075,MA.PRG,DRAFT,2026-10-17
+REQ-261,JOB-A-010,MUST_HAVE,Evals and measurement focus,CAP-023,3,N,,SRC-075,MA.PRG,DRAFT,2026-10-17
+REQ-262,JOB-A-010,UNKNOWN,"Stack: Python, FastAPI, Postgres, Next.js/TS, LangChain, Claude, LlamaIndex, RAG, OpenTelemetry, Terraform, GCP/AWS",CAP-005,3,N,,SRC-075,MA.PRG,DRAFT,2026-10-17
+REQ-263,JOB-A-017,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-082,MA.PRG,DRAFT,2026-10-17
+REQ-264,JOB-A-017,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-082,MA.PRG,DRAFT,2026-10-17
+REQ-265,JOB-A-017,MUST_HAVE,"Scope/stack (listing card): Power Automate incl. web scraping, Copilot Studio",CAP-003,3,N,,SRC-082,MA.PRG,DRAFT,2026-10-17
+REQ-266,JOB-A-017,MUST_HAVE,Python (listing card),CAP-005,2,N,,SRC-082,MA.PRG,DRAFT,2026-10-17
+REQ-267,JOB-A-018,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-268,JOB-A-018,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-269,JOB-A-018,MUST_HAVE,Scope/stack (listing card): n8n integrations,CAP-006,3,N,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-270,JOB-A-018,MUST_HAVE,"Claude/OpenAI API, RAG (listing card)",CAP-004,3,N,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-271,JOB-A-018,MUST_HAVE,AI agents (listing card),CAP-001,3,N,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-272,JOB-A-018,MUST_HAVE,"Python, Docker (listing card)",CAP-005,3,N,,SRC-083,MA.PRG,DRAFT,2026-10-17
+REQ-273,JOB-A-019,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-084,MA.PRG,DRAFT,2026-10-17
+REQ-274,JOB-A-019,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-084,MA.PRG,DRAFT,2026-10-17
+REQ-275,JOB-A-019,MUST_HAVE,AI agents (listing card),CAP-001,3,N,,SRC-084,MA.PRG,DRAFT,2026-10-17
+REQ-276,JOB-A-019,MUST_HAVE,AI training (listing card),CAP-027,2,N,,SRC-084,MA.PRG,DRAFT,2026-10-17
+REQ-277,JOB-A-019,MUST_HAVE,"Exact Online, AFAS, Microsoft 365 integrations (listing card)",CAP-006,2,N,,SRC-084,MA.PRG,DRAFT,2026-10-17
+REQ-278,JOB-A-020,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-085,MA.PRG,DRAFT,2026-10-17
+REQ-279,JOB-A-020,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-085,MA.PRG,DRAFT,2026-10-17
+REQ-280,JOB-A-020,MUST_HAVE,On-site in Noordwijkerhout,CAP-041,N/A (eligibility),Y,,SRC-085,MA.PRG,DRAFT,2026-10-17
+REQ-281,JOB-A-020,MUST_HAVE,Set up AI structure and workflows with Claude/GPT (listing card),CAP-001,3,N,,SRC-085,MA.PRG,DRAFT,2026-10-17
+REQ-282,JOB-A-020,MUST_HAVE,Process optimisation (listing card),CAP-012,3,N,,SRC-085,MA.PRG,DRAFT,2026-10-17
+REQ-283,JOB-A-021,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-086,MA.PRG,DRAFT,2026-10-17
+REQ-284,JOB-A-021,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-086,MA.PRG,DRAFT,2026-10-17
+REQ-285,JOB-A-021,MUST_HAVE,Hermes Agent (listing card),CAP-001,3,N,,SRC-086,MA.PRG,DRAFT,2026-10-17
+REQ-286,JOB-A-021,MUST_HAVE,n8n and APIs (listing card),CAP-006,3,N,,SRC-086,MA.PRG,DRAFT,2026-10-17
+REQ-287,JOB-A-022,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-087,MA.PRG,DRAFT,2026-10-17
+REQ-288,JOB-A-022,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-087,MA.PRG,DRAFT,2026-10-17
+REQ-289,JOB-A-022,MUST_HAVE,Python AI development (listing card),CAP-005,3,N,,SRC-087,MA.PRG,DRAFT,2026-10-17
+REQ-290,JOB-A-022,MUST_HAVE,Finish and launch existing AI chatbot platform (listing card),CAP-004,3,N,,SRC-087,MA.PRG,DRAFT,2026-10-17
+REQ-291,JOB-A-022,MUST_HAVE,Technical launch/deployment (listing card),CAP-031,3,N,,SRC-087,MA.PRG,DRAFT,2026-10-17
+REQ-292,JOB-A-023,UNKNOWN,Language unknown (Dutch-language listing),CAP-035,N/A (eligibility),Y,,SRC-088,MA.PRG,DRAFT,2026-10-17
+REQ-293,JOB-A-023,UNKNOWN,Freelance contracting: KvK needs BSN + NL address; DBA enforcement,CAP-041,N/A (eligibility),Y,,SRC-088,MA.PRG,DRAFT,2026-10-17
+REQ-294,JOB-A-023,MUST_HAVE,Lindy AI agents/workflows (listing card),CAP-001,3,N,,SRC-088,MA.PRG,DRAFT,2026-10-17
+REQ-295,JOB-A-023,MUST_HAVE,Gmail/Calendar/CRM integration (listing card),CAP-006,3,N,,SRC-088,MA.PRG,DRAFT,2026-10-17

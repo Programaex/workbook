@@ -1,1 +1,2 @@
 evidencia_id,descricao,tipo,caminho_ou_link,refere_a,data,owner
+EVD-WB-A02-M02-001,"Validação da camada de dados EXEC-CAR-NL-2026 (23 CSVs, referências, 40 h/semana, marcos, privacidade)",validacao,00_Workbook/workbooks/A02_programa/modulos/M02_exec-car-nl-2026/data/,WB-A02-M02,2026-10-17,MA.PRG

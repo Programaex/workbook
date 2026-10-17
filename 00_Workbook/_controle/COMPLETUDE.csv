@@ -1,6 +1,6 @@
 workbook_id,macroarea_id,owner,pessoa,modulos,completude_pct,estado
 WB-A01,A01,MA.GOV,,1,16,em_andamento
-WB-A02,A02,MA.PRG,,1,11,em_andamento
+WB-A02,A02,MA.PRG,,2,18,em_andamento
 WB-A03,A03,MA.BUS,,1,11,em_andamento
 WB-A04,A04,MA.ECO,,1,11,em_andamento
 WB-A05,A05,MA.PEV,,1,11,em_andamento

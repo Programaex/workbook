@@ -12,10 +12,10 @@ workbook:
   version: "1.0"
   parent_workbook_id: "WB-GERAL"
   dominio_ids: []
-  source_refs: []
+  source_refs: ["SRC-DOC-004"]
   related_workbook_ids: []
   route_refs: []
-  modules: [{"id": "M01", "title": "Módulo 01", "path": "modulos/M01_modulo-01/"}]
+  modules: [{"id": "M01", "title": "Módulo 01", "path": "modulos/M01_modulo-01/"}, {"id": "M02", "title": "EXEC-CAR-NL-2026 · Carreira AI Transformation NL", "path": "modulos/M02_exec-car-nl-2026/"}]
   layout:
     cover_pages: 1
     index_pages: 1
@@ -27,8 +27,8 @@ workbook:
   references:
     template_id: "TPL-021"
     schema_id: "workbook.schema.json"
-    adr_ids: ["ADR-001"]
-    evidence_ids: []
+    adr_ids: ["ADR-001", "ADR-003"]
+    evidence_ids: ["EVD-WB-A02-M02-001"]
   export:
     formats:
       - pdf

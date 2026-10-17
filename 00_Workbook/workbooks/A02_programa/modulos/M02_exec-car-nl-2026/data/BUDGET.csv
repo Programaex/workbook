@@ -1,0 +1,25 @@
+bud_id,item,cert_id,amount,currency,price_basis,source_id,route_role,approval,evidence_class,notes,owner,status,updated
+BUD-001,AIGP exam (non-member),CERT-15,799,USD,Official store price,SRC-137,MAIN,NOT_APPROVED,FACT,Membership status NOT_VERIFIED; member price USD 649,MA.PRG,DRAFT,2026-10-17
+BUD-002,"AIGP exam (member price, alternative)",CERT-15,649,USD,Official store price,SRC-137,MAIN,NOT_APPROVED,FACT,Only with IAPP membership (BUD-005),MA.PRG,DRAFT,2026-10-17
+BUD-003,AIGP practice exam (digital),CERT-15,60,USD,Official store price,SRC-137,MAIN,NOT_APPROVED,FACT,For G3 MOCKS (CRS-002),MA.PRG,DRAFT,2026-10-17
+BUD-004,AIGP official online training (not recommended),CERT-15,1195,USD,Official store price,SRC-137,MAIN,NOT_APPROVED,FACT,Optional; not in lean route,MA.PRG,DRAFT,2026-10-17
+BUD-005,IAPP professional membership (annual),CERT-15,295,USD,Official store price,SRC-137,MAIN,NOT_APPROVED,FACT,Optional; covers CMF,MA.PRG,DRAFT,2026-10-17
+BUD-006,AIGP Certification Maintenance Fee at recertification (non-member),CERT-15,250,USD,Official store page,SRC-137,MAIN,NOT_APPROVED,FACT,Future cost,MA.PRG,DRAFT,2026-10-17
+BUD-007,AIGP retake fee,CERT-15,PENDING_OFFICIAL_VERIFICATION,USD,PENDING_OFFICIAL_VERIFICATION,SRC-137,MAIN,NOT_APPROVED,NOT_VERIFIED,3rd-party cites USD 475/625 (Apr 2024) — not used,MA.PRG,DRAFT,2026-10-17
+BUD-008,UiPath Agentic Automation Associate exam,CERT-05,150,USD,Official EDD/FAQ (+ tax),SRC-118,OPTIONAL,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-009,"UiPath retake (full fee per attempt, contingency)",CERT-05,150,USD,Official FAQ/policies,SRC-135,OPTIONAL,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-010,Scrum.org PSPO I assessment,CERT-01,200,USD,Search extract of official page,SRC-103,OPTIONAL,NOT_APPROVED,FACT,PENDING_OFFICIAL_VERIFICATION (403),MA.PRG,DRAFT,2026-10-17
+BUD-011,Dutch language course and CEFR test,,PENDING_OFFICIAL_VERIFICATION,PENDING_OFFICIAL_VERIFICATION,PENDING_OFFICIAL_VERIFICATION,SRC-003,LANGUAGE (non-certification),NOT_APPROVED,NOT_VERIFIED,Provider and price to research (DEC-012),MA.PRG,DRAFT,2026-10-17
+BUD-012,PRINCE2 v7 Foundation (voucher + eBook),CERT-12,701,USD,"Official page (US location, VAT incl.)",SRC-121,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-013,PRINCE2 v7 Practitioner (exam + LRK),CERT-13,778,USD,"Official page (US location, VAT incl.)",SRC-122,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-014,PECB ISO/IEC 42001 Lead Implementer training + exam,CERT-16,PENDING_OFFICIAL_VERIFICATION,PENDING_OFFICIAL_VERIFICATION,Partner-set,SRC-125,DEFERRED,NOT_APPROVED,NOT_VERIFIED,,MA.PRG,DRAFT,2026-10-17
+BUD-015,PECB credential upgrade,CERT-16,100,USD,Official maintenance policy,SRC-142,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-016,Prosci Change Management Certification (online),CERT-18,4500,USD,Official page,SRC-128,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-017,OMG BPM 2 Fundamental exam,CERT-19,350,USD,Official info sheet (+ taxes),SRC-145,DROPPED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-018,PSPO-AI Essentials class,CERT-02,Trainer-set (example 595 excl. 21% VAT),EUR,Search extract of course listing,SRC-109,DEFERRED,NOT_APPROVED,FACT,PENDING_OFFICIAL_VERIFICATION,MA.PRG,DRAFT,2026-10-17
+BUD-019,PSPO II assessment,CERT-03,250,USD,Search extract of official page,SRC-112,DEFERRED,NOT_APPROVED,FACT,PENDING_OFFICIAL_VERIFICATION,MA.PRG,DRAFT,2026-10-17
+BUD-020,UiPath Agentic Automation Professional exam,CERT-06,300,USD,Official EDD (+ tax),SRC-119,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-021,UiPath Automation Developer Associate exam,CERT-04,150,USD,Official EDD (+ tax),SRC-117,DEFERRED,NOT_APPROVED,FACT,,MA.PRG,DRAFT,2026-10-17
+BUD-022,UiPath Agentic Automation Builder Professional exam,CERT-07,PENDING_OFFICIAL_VERIFICATION,USD,EDD 150 vs FAQ 300 conflict,SRC-120,DEFERRED,NOT_APPROVED,NOT_VERIFIED,,MA.PRG,DRAFT,2026-10-17
+BUD-023,TOTAL lean route first attempts (AIGP non-member + AAA + PSPO I),CERT-15;CERT-05;CERT-01,1149,USD,Sum of BUD-001 + BUD-008 + BUD-010,SRC-003,MAIN+OPTIONAL,NOT_APPROVED,INFERENCE,Computed; excludes Dutch course (PENDING) and retakes,MA.PRG,DRAFT,2026-10-17
+BUD-024,REFERENCE draft core route (PSPO I + AAA + PRINCE2 F+P + AIGP non-member) — not proposed,CERT-01;CERT-05;CERT-12;CERT-13;CERT-15,2628,USD,Sum of official prices,SRC-006,REFERENCE,NOT_APPROVED,INFERENCE,Excludes PECB and Prosci,MA.PRG,DRAFT,2026-10-17
