@@ -39,7 +39,7 @@ source_refs: []
 - **WB-A08 · Editorial** — owner `MA.EDI` · 16% em_andamento
   - Capa · Index · Overview (`WB-A08-CAPA`, `WB-A08-IDX`, `WB-A08-OVR`)
   - M01 · Plano Estratégico de Mídias Sociais _(draft)_ — Conteúdo · Notas · Tarefas
-- **WB-A09 · Operações** — owner `MA.OPS` · 11% em_andamento
+- **WB-A09 · Operações** — owner `MA.OPS` · 16% em_andamento
   - Capa · Index · Overview (`WB-A09-CAPA`, `WB-A09-IDX`, `WB-A09-OVR`)
   - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
 - **WB-A10 · Produção** — owner `MA.PRO` · 16% em_andamento
