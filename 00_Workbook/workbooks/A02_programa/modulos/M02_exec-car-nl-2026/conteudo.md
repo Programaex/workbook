@@ -537,7 +537,7 @@ Viabilidade (DEC-023, PROPOSED): estudo de 24 h ≥ 24 h de curso planejado e 15
 | BUD-023 | TOTAL lean route first attempts (AIGP non-member + AAA + PSPO I) | 1149 | USD | Sum of BUD-001 + BUD-008 + BUD-010 | MAIN+OPTIONAL | NOT_APPROVED | INFERENCE | Computed; excludes Dutch course (PENDING) and retakes |
 | BUD-024 | REFERENCE draft core route (PSPO I + AAA + PRINCE2 F+P + AIGP non-member) — not proposed | 2628 | USD | Sum of official prices | REFERENCE | NOT_APPROVED | INFERENCE | Excludes PECB and Prosci |
 
-Viabilidade (DEC-023, PROPOSED): estudo de 24 h ≥ 16 h de curso planejado e 10 h de exam prep ≥ 6 h antes de 2027-03-12. Todo o Scrum.org está `PENDING_OFFICIAL_VERIFICATION` (HTTP 403; somente extrato de busca). GAP-018 cita "BUD-009" como linha de custo do PSPO I, mas a linha correspondente em `data/BUDGET.csv` é BUD-010 (BUD-009 é o retake UiPath); a divergência fica registrada aqui, sem alterar o CSV.
+Viabilidade (DEC-023, PROPOSED): estudo de 24 h ≥ 16 h de curso planejado e 10 h de exam prep ≥ 6 h antes de 2027-03-12. Todo o Scrum.org está `PENDING_OFFICIAL_VERIFICATION` (HTTP 403; somente extrato de busca). Linha de custo do PSPO I: BUD-010 (GAP-018 corrigido em 17/10/2026; antes apontava BUD-009, o retake UiPath).
 
 <!-- page -->
 # 3 · Curriculum & Certification Plan — sobreposições e orçamento total
@@ -803,8 +803,290 @@ Ordenado por prioridade (P0 → P3) e ID. Fonte: `data/GAP_BACKLOG.csv`; justifi
 | GAP-012 | UiPath platform knowledge | CAP-002 | P3 | 2 study + 2 mock (ESTIMATE) | 0 | 2026-10-22 (PROPOSED) | ESTIMATE: +20.0 pts mean FIT index over 4 active jobs (projected levels, not evidence) | PROPOSED |
 | GAP-014 | CI evidence and documentation discrepancies | CAP-031 | P3 | 3 (ESTIMATE) | 0 | 2026-11-06 (PROPOSED) | ESTIMATE: no direct FIT index gain (enabler/risk control) | PROPOSED |
 | GAP-017 | Process mining (deferred) | CAP-013 | P3 | N/A (DEFERRED) | 0 | 2027-03-31 (PROPOSED, DEFERRED) | ESTIMATE: no direct FIT index gain (enabler/risk control) | PROPOSED |
-| GAP-018 | Product ownership (optional) | CAP-010;CAP-007 | P3 | 16 (ESTIMATE) | USD 200 if exam (BUD-009, NOT_APPROVED) | 2027-02-26 (PROPOSED) | ESTIMATE: +7.7 pts mean FIT index over 6 active jobs (projected levels, not evidence) | PROPOSED |
+| GAP-018 | Product ownership (optional) | CAP-010;CAP-007 | P3 | 16 (ESTIMATE) | USD 200 if exam (BUD-010, NOT_APPROVED) | 2027-02-26 (PROPOSED) | ESTIMATE: +7.7 pts mean FIT index over 6 active jobs (projected levels, not evidence) | PROPOSED |
 | GAP-019 | Hands-on coding ownership (technical track only) | CAP-005 | P3 | N/A (DEFERRED) | 0 | TBD (PROPOSED) | ESTIMATE: no direct FIT index gain (enabler/risk control) | PROPOSED |
 | GAP-020 | Data governance literacy (deferred) | CAP-025 | P3 | N/A (DEFERRED) | PENDING_OFFICIAL_VERIFICATION | TBD (PROPOSED) | ESTIMATE: no direct FIT index gain (enabler/risk control) | PROPOSED |
 
 Ganhos `ESTIMATE` usam níveis projetados, não evidência, e não são probabilidade de contratação. Itens com dependência de autorização (GAP-003, GAP-007, GAP-011, GAP-014, GAP-021) não avançam sem ordem explícita do usuário.
+
+<!-- page -->
+# 6 · Portfolio Specification
+
+**Casos âncora candidatos** (somente evidência real, L3):
+
+| EVD | Caminho | Problema | Publicável | Prova |
+|---|---|---|---|---|
+| EVD-D-001 | apps/workflow/ | 8-phase agentic editorial workflow with human gates G01/G04/G06, WIP=1, real-time WebSocket, agent task board | REDACT | https://github.com/programaex/design/blob/6851cd2264ff7270721ca5542daa5cab3350f7ef/apps/workflow/ |
+| EVD-D-003 | apps/site/ | Operational CMS/hub: signed-cookie login, completeness panel, routes+QR, ops views (dashboard, calendar, Gantt finish-to-start, DAG with cycle rejection, WIP=1 focus, CSV/JSON/PDF import/export) | REDACT/SECURITY | https://github.com/programaex/design/blob/6f6b66f1ca281c34ff2b3df91a7ffedcfa38ebe4/apps/site/ |
+
+**Estrutura de cada caso:** problema e contexto · diagnóstico AS-IS · discovery/PRD · arquitetura (C4/ADR) e BPMN AS-IS/TO-BE · demo de agentes com testes, logs, human-in-the-loop e fallback · business case com custos estimados e reais separados · governança (inventário de IA, avaliação de risco, aplicabilidade do EU AI Act avaliada e não presumida, mapeamento ISO 42001) · plano de mudança ADKAR · evidência independente (URL, commit, release, teste reproduzível, capturas datadas) · narrativa em inglês Problem → Decision → Delivery → Evidence → Business Value → Lessons.
+
+**Checklist do showroom:** headline alinhada aos cargos · proposta de valor · 2–4 casos · credenciais só com badge/link oficial · stack e skills · contato e CTA · política de privacidade · responsivo · QA de links · classificação PUBLIC/REDACT/PRIVATE/NEEDS_PERMISSION por peça · narrativa de autoria "projetei, especifiquei, governei e revisei; o agente implementou" (DEC-018).
+
+**Pré-condições:** GAP-003 (segurança) e GAP-021 (redação/atribuição) antes de compartilhar qualquer URL. Nada é publicado sem autorização.
+
+<!-- page -->
+# 7 · Employment & Relocation Plan
+
+**Variantes de CV (inglês, ATS):** Transformation · Automation · AI Governance · Product/Process (DEC-026). Conteúdo só com fatos do baseline; enquanto NOT_VERIFIED, as seções Experience ficam como placeholders `[to be filled from verified work history]`.
+
+**LinkedIn (estrutura, inglês):** Headline por família-alvo · About (problema → abordagem → evidência) · Experience factual · Featured com os casos âncora · Skills alinhadas a `data/CAPABILITY_DICTIONARY.csv` · Certifications só após emissão.
+
+**Fases:** 19/11–31/01 posicionamento, matrizes por vaga, entrevistas informacionais e networking · 01/02–30/03 campanha de candidaturas verificadas por segmento (HIGH_FIT, BRIDGE, STRETCH) com reverificação de cada anúncio antes de aplicar · 31/03–30/04 processos seletivos e realocação · após 30/04 continuidade e funções ponte.
+
+**Networking (categorias, sem nomes; envio só após revisão e autorização):**
+
+| NET | Categoria | Canal/organização | A partir de |
+|---|---|---|---|
+| NET-001 | AI community / coalition | NL AI Coalition (NL AIC) agenda and community | 2026-11-19 |
+| NET-002 | AI meetup | The Hague AI meetup group | 2026-11-19 |
+| NET-003 | Product community | ProductTank Amsterdam / Mind the Product Amsterdam | 2026-11-19 |
+| NET-004 | Vendor community | UiPath Community Netherlands | 2026-11-19 |
+| NET-005 | Professional association chapter | IAPP KnowledgeNet (Netherlands chapter) | 2026-11-19 |
+| NET-006 | Recruiter agency (AI/tech) | Source Group International | 2026-11-19 |
+| NET-007 | Recruiter agency (AI/tech) | Robert Walters Netherlands | 2026-11-19 |
+| NET-008 | Freelance marketplace | Freelancer.nl AI assignments | 2026-11-19 |
+| NET-009 | Interim/freelance broker | Freep and GreenPepper interim platforms | 2026-11-19 |
+| NET-010 | Employer type | AI governance SaaS vendors (e.g. Deeploy) | 2026-11-19 |
+| NET-011 | Employer type | Consultancies with AI transformation practices (Eraneos, Accenture, BearingPoint, Fellowmind) | 2026-11-19 |
+| NET-012 | Employer type | English-first corporate innovation/AI teams (Loyens & Loeff, ING, ABN AMRO) | 2026-11-19 |
+| NET-013 | Training/reskilling employer | Agentic AI trainee programmes (The Automation Group) | 2026-11-19 |
+| NET-014 | Public-sector channel | Werken voor Nederland (Rijksoverheid vacancies) | 2026-11-19 |
+| NET-015 | University / AI campus events | TU Delft campus AI events | 2026-11-19 |
+| NET-016 | Employer type | AI agencies serving SMEs (freelance consultants/engineers) | 2026-11-19 |
+
+<!-- page -->
+# 7 · Realocação
+
+| REL | Passo | Data-alvo | Verificação |
+|---|---|---|---|
+| REL-001 | Decide target city shortlist (user preference NOT_VERIFIED) using job locations and rent data | 2027-02-26 | NOT_VERIFIED |
+| REL-002 | Estimate housing budget (≈EUR 1,400–2,000/month for 50–70 m² nationally; >EUR 2,000 Amsterdam — derived arithmetic) | 2027-02-26 | FACT |
+| REL-003 | Start housing search ≥6–8 weeks before travel (address is the critical path for BRP) | 2027-03-05 | NOT_VERIFIED |
+| REL-004 | Optional: register in RNI before the move to obtain a BSN if a contract/freelance work needs it pre-arrival (The Hague desk serves EU passports since 2026-01-01) | 2027-03-31 | FACT |
+| REL-005 | Gather documents: valid passport, original birth certificate (legalisation/apostille per municipality), marriage documents if relevant | 2027-03-31 | NOT_VERIFIED |
+| REL-006 | If remote work for an NL employer starts before the move: employer requests A1 via SVB before the work abroad starts (or local payroll/EOR/delayed start) | 2027-03-31 | FACT |
+| REL-007 | Check 27% ruling timing at offer stage: new cases from 2027-01-01 get 27%; employer not obliged; 150 km / 16-of-24-months test; indexed 2027 salary norms NOT_VERIFIED | 2027-04-09 | FACT |
+| REL-008 | Secure a Dutch address (signed rental contract) | 2027-04-16 | FACT |
+| REL-009 | Book municipal BRP appointment for the arrival week once address and date are fixed | 2027-04-16 | FACT |
+| REL-010 | Travel to the Netherlands (target date, Europe/Amsterdam) | 2027-04-30 | FACT |
+| REL-011 | Register in the BRP at the municipality after arrival → BSN | 2027-05-07 | FACT |
+| REL-012 | Apply for DigiD after BRP registration | 2027-05-14 | NOT_VERIFIED |
+| REL-013 | Open a Dutch bank account (BSN required) | 2027-05-21 | FACT |
+| REL-014 | Take out Dutch basic health insurance as soon as possible and no later than 4 months after arrival (≈2027-08-30); ideally from first employment day | 2027-08-30 | FACT |
+| REL-015 | Only if freelance route chosen: register with KVK (needs BSN, DigiD, Dutch address); check DBA enforcement and VBAR status | 2027-05-28 | FACT |
+| REL-016 | Consult a tax advisor on 183-day/treaty allocation if any pre-move work occurs | 2027-03-31 | NOT_VERIFIED |
+| REL-017 | Re-check official BRP Q&A, DigiD and KVK pages before acting (official pages not fetched in research) | 2027-03-26 | NOT_VERIFIED |
+
+**Regra fiscal 30%:** para novos casos a partir de 01/01/2027 cai para 27%, com normas salariais próprias (fontes de consultorias; página oficial ainda sem a mudança). Funções júnior podem não atingir a norma salarial. Confirmar com fonte oficial ou assessor.
+
+<!-- page -->
+# 7 · Pipeline de candidaturas (estado IDENTIFIED)
+
+| APP | Vaga | Empregador | Segmento | CV | Estágio | Próxima ação |
+|---|---|---|---|---|---|---|
+| APP-001 | JOB-T-001 | Eraneos | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-002 | JOB-T-002 | Anderson MacGyver | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-003 | JOB-T-003 | Fellowmind | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-004 | JOB-T-004 | accelerAite | STRETCH | Transformation | IDENTIFIED | Close must-have gaps first (GAP-006;GAP-008;GAP-016); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-005 | JOB-T-005 | Frisse Blikken | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-006 | JOB-T-006 | Accenture | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-007 | JOB-T-007 | Accenture | NOT_YET_ELIGIBLE | Transformation | IDENTIFIED | Hold: blocking must-have fails; no application; keep for trend analysis |
+| APP-008 | JOB-T-008 | Add Value (client: Utrecht-region digital transformation consultancy) | STRETCH | Transformation | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-005;GAP-008); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-009 | JOB-T-009 | DICTU (Rijksoverheid) | STRETCH | Transformation | IDENTIFIED | Decide by 2026-12-31 deadline (TASK in WK-10); default TARGET_LATER — no application without authorisation |
+| APP-010 | JOB-T-010 | BearingPoint | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-011 | JOB-T-011 | Corbion | STRETCH | Transformation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-012 | JOB-T-012 | Athora Netherlands | STRETCH | AI Governance | IDENTIFIED | Close must-have gaps first (GAP-002;GAP-003;GAP-004;GAP-005;GAP-006;GAP-008;GAP-013); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-013 | JOB-T-013 | Deloitte | STRETCH | AI Governance | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-014 | JOB-T-014 | EY | STRETCH | AI Governance | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-015 | JOB-T-015 | Everience Benelux | BRIDGE | AI Governance | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-016 | JOB-T-016 | Atos | STRETCH | AI Governance | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-017 | JOB-T-017 | CGI Nederland | NOT_YET_ELIGIBLE | AI Governance | IDENTIFIED | Hold: blocking must-have fails; no application; keep for trend analysis |
+| APP-018 | JOB-T-018 | KPMG Nederland | STRETCH | AI Governance | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-004;GAP-011); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-019 | JOB-T-019 | Avans University of Applied Sciences | NOT_YET_ELIGIBLE | AI Governance | IDENTIFIED | Do not apply (DEC-013); ad closes 2026-10-20; keep as archetype only |
+| APP-020 | JOB-T-020 | Younicorp | STRETCH | AI Governance | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-021 | JOB-T-021 | PwC Nederland | STRETCH | AI Governance | IDENTIFIED | Close must-have gaps first (GAP-001); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-022 | JOB-T-022 | Deeploy | HIGH_FIT | AI Governance | IDENTIFIED | User decision: apply now (outside formal window) or target a 2027 opening; first verify blockers REQ-135 Fluent English [PASS_USER_CLAIM] ; REQ-136 3+ yrs in partnerships, alliances or enterprise software sales (data/AI/security/GRC) [NOT_VERIFIED]; prepare package; submission only with explicit authorisation; re-verify ad before 2027-02-01 |
+| APP-023 | JOB-T-023 | MIVD (Rijksoverheid) | NOT_YET_ELIGIBLE | AI Governance | IDENTIFIED | Hold: blocking must-have fails; no application; keep for trend analysis |
+| APP-024 | JOB-T-024 | ABN AMRO | BRIDGE | AI Governance | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-025 | JOB-T-025 | Zanders | STRETCH | AI Governance | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-026 | JOB-T-026 | Talent&Pro | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-002;GAP-011); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-027 | JOB-T-027 | KickstartAI | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-002;GAP-007); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-028 | JOB-T-028 | Verwater Group | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-029 | JOB-T-029 | TADA Solutions | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-007); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-030 | JOB-T-030 | TalentSpark by TSP | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-011;GAP-019); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-031 | JOB-T-031 | Loyens & Loeff | HIGH_FIT | Product-Process | IDENTIFIED | User decision: apply now (outside formal window) or target a 2027 opening; first verify blockers REQ-178 Excellent English [PASS_USER_CLAIM] ; REQ-179 Valid NL work authorisation; no sponsorship (EU citizen needs no permit) [PASS_USER_CLAIM] ; REQ-180 Bache; prepare package; submission only with explicit authorisation; re-verify ad before 2027-02-01 |
+| APP-032 | JOB-T-032 | ING Nederland | BRIDGE | Product-Process | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-033 | JOB-T-033 | Gaide | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-034 | JOB-T-034 | CGI Nederland | STRETCH | Product-Process | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-035 | JOB-T-035 | Inspectie Leefomgeving en Transport (ILT, Rijksoverheid) | NOT_YET_ELIGIBLE | Product-Process | IDENTIFIED | No application (NOT_YET_ELIGIBLE; closes 2026-10-27); keep as archetype |
+| APP-036 | JOB-T-036 | Bit Traineeship | STRETCH | Product-Process | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-019); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-037 | JOB-A-001 | CareerValue (recruiter; unnamed Randstad client) | STRETCH | Automation | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-005;GAP-007;GAP-012); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-038 | JOB-A-002 | CareerValue (recruiter; unnamed client) | STRETCH | Automation | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-005;GAP-007;GAP-012); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-039 | JOB-A-003 | PMT Groep | STRETCH | Automation | IDENTIFIED | Close must-have gaps first (GAP-001;GAP-002;GAP-005;GAP-006;GAP-012;GAP-018); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-040 | JOB-A-004 | ilionx | STRETCH | Automation | IDENTIFIED | Close must-have gaps first (GAP-002;GAP-006;GAP-012;GAP-019); treat ad as archetype; replace with re-verified ad before 2027-02-01 |
+| APP-041 | JOB-A-005 | Itility | STRETCH | Automation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action |
+| APP-042 | JOB-A-006 | Alliander | STRETCH | Automation | IDENTIFIED | Long-term target (AI Transformation Manager path); networking/market-learning only; re-verify before any action / deadline note: 2026-10-01 (closes 2026-11-30) |
+| APP-043 | JOB-A-008 | Capgemini Engineering | NOT_YET_ELIGIBLE | Automation | IDENTIFIED | Hold: blocking must-have fails; no application; keep for trend analysis |
+| APP-044 | JOB-A-009 | The Automation Group | HIGH_FIT | Automation | IDENTIFIED | User decision: apply now (outside formal window) or target a 2027 opening; first verify blockers REQ-255 Strong Dutch or English written communication [PASS_USER_CLAIM] ; REQ-256 5 yrs demonstrable business experience (any background) [NOT_VERIFIED]; prepare package; submission only with explicit authorisation; re-verify ad before 2027-02-01 |
+| APP-045 | JOB-A-010 | Nanzen | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-046 | JOB-A-017 | Small business | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-047 | JOB-A-018 | Consultancy building client AI solutions | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-048 | JOB-A-019 | AI agency for SMEs | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-049 | JOB-A-020 | Company using Claude, ChatGPT and HeyGen | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-050 | JOB-A-021 | AI assistants for freelancers and SMEs | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-051 | JOB-A-022 | Real-estate chatbot/WhatsApp startup | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+| APP-052 | JOB-A-023 | AI 'executive operator' across Gmail/Calendar/CRM | BRIDGE | Automation | IDENTIFIED | Confirm language/requirements via public sources; prepare BRIDGE package after evidence tasks; re-verify ad before 2027-02-01; no application without authorisation |
+
+<!-- page -->
+# 7 · Calendário editorial (Frankswaching / riscos cognitivos)
+
+Slots planejados; nada publicado. Separar evidência científica, opinião, hipótese e aplicação de negócio.
+
+| OUT | Data | Pilar | Título provisório | Tipo de afirmação | Idioma |
+|---|---|---|---|---|---|
+| OUT-001 | 2026-11-26 | risco cognitivo | Human gates as a cognitive-risk control in agentic workflows | BUSINESS_APPLICATION | EN |
+| OUT-002 | 2026-12-10 | design da informação | Designing information so reviewers can actually decide | OPINION | EN |
+| OUT-003 | 2026-12-24 | carga cognitiva | Cognitive load in AI-assisted reviews: what the research says | EVIDENCE | EN |
+| OUT-004 | 2027-01-07 | decisão | Decision logs: why 'no evidence = GAP' beats confident guesses | BUSINESS_APPLICATION | EN |
+| OUT-005 | 2027-01-21 | IA aplicada | What an AI inventory of six agents taught me about the EU AI Act | BUSINESS_APPLICATION | EN |
+| OUT-006 | 2027-02-04 | transformação empresarial | Transformation is adoption: a change plan with indicators | HYPOTHESIS | EN |
+| OUT-007 | 2027-02-18 | risco cognitivo | Cognitive risk patterns in AI dashboards | HYPOTHESIS | EN |
+| OUT-008 | 2027-03-04 | design da informação | Information design for governance evidence packs | OPINION | EN |
+| OUT-009 | 2027-03-18 | carga cognitiva | Reducing reviewer load with WIP=1 queues | BUSINESS_APPLICATION | EN |
+| OUT-010 | 2027-04-01 | decisão | Decision quality under automation bias: sources and limits | EVIDENCE | EN |
+| OUT-011 | 2027-04-15 | IA aplicada | Applied AI without hype: prototype vs production labels | OPINION | EN |
+| OUT-012 | 2027-04-29 | transformação empresarial | From workflow to operating model: lessons from EXECUTAR | BUSINESS_APPLICATION | EN |
+
+<!-- page -->
+# 8 · Dynamic Career Fit Dashboard
+
+**Não é probabilidade de contratação.** Bloqueios primeiro (idioma, autorização, local, anos mínimos, requisito técnico inegociável); falha em MUST_HAVE bloqueante → NOT_YET_ELIGIBLE. Índice ponderado MUST 60 / NICE 25 / DIFF 15, renormalizado na ausência de grupos (DEC-011). FIT_NOW usa apenas evidência de repositório; EXPERIENCE e LANGUAGE dependem do baseline e ficam NOT_VERIFIED; FIT_30D/60D/90D são ESTIMATE. `scored_coverage` com LOW BASE indica poucos requisitos pontuáveis.
+
+Elegibilidade: NOT_YET_ELIGIBLE: 28, CONDITIONAL: 24. Recomendação: TARGET_LATER: 16, BUILD_FIRST: 16, BRIDGE: 11, NOT_YET_ELIGIBLE: 6, APPLY: 3.
+
+<!-- page -->
+# 8 · Fit por vaga (1)
+
+| Vaga | Empresa | Elegib. | Bloqueios | Base | Agora | 30D | 60D | 90D | Recom. |
+|---|---|---|---|---|---|---|---|---|---|
+| JOB-T-001 | Eraneos | NOT_YET_ELIGIBLE | REQ-001 Excellent Dutch and English [FAIL_ASSUMED] ; REQ-002 8+ yrs consulting (Mgr) / 15+ yrs change/consultancy (Sr Mgr) [NOT_VERIFIED] ; REQ-003 WO degree [NOT_VERIFIED] ; REQ-004 At least one AI-adoption/AI-transformation project delivered [NOT_VERIFIED] | 2 of 8 classified reqs scored (6 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 27 | ESTIMATE:27 | ESTIMATE:27 | ESTIMATE:45 | TARGET_LATER |
+| JOB-T-002 | Anderson MacGyver | NOT_YET_ELIGIBLE | REQ-009 Fluent Dutch and English [FAIL_ASSUMED] ; REQ-010 5–10 yrs in advisory or data/AI role [NOT_VERIFIED] ; REQ-011 Master's degree (DS, Informatics, Business Adm. or similar) [NOT_VERIFIED] ; REQ-012 Proven delivery of AI solutions [NOT_VERIFIED] | 1 of 6 classified reqs scored (5 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 0 | ESTIMATE:0 | ESTIMATE:0 | ESTIMATE:0 | TARGET_LATER |
+| JOB-T-003 | Fellowmind | NOT_YET_ELIGIBLE | REQ-015 Dutch required (explicit) [FAIL_ASSUMED] ; REQ-016 5–10 yrs as management/strategy/digital transformation consultant [NOT_VERIFIED] | 2 of 6 classified reqs scored (4 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 17 | ESTIMATE:17 | ESTIMATE:17 | ESTIMATE:83 | TARGET_LATER |
+| JOB-T-004 | accelerAite | CONDITIONAL | REQ-021 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-022 3 yrs organisational change/PM and 2 yrs implementing AI applications [NOT_VERIFIED] | 2 of 3 classified reqs scored (1 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 33 | ESTIMATE:33 | ESTIMATE:33 | ESTIMATE:67 | BUILD_FIRST |
+| JOB-T-005 | Frisse Blikken | CONDITIONAL | REQ-025 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-026 Considerable experience (non-numeric) [NOT_VERIFIED] ; REQ-027 Experience with organisation-wide digital/AI transformations [NOT_VERIFIED] | 2 of 4 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 29 | ESTIMATE:29 | ESTIMATE:29 | ESTIMATE:58 | TARGET_LATER |
+| JOB-T-006 | Accenture | NOT_YET_ELIGIBLE | REQ-031 Fluent Dutch and English [FAIL_ASSUMED] ; REQ-032 5+ yrs incl. project management [NOT_VERIFIED] ; REQ-033 Master's degree [NOT_VERIFIED] | 1 of 6 classified reqs scored (5 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 25 | ESTIMATE:25 | ESTIMATE:25 | ESTIMATE:50 | TARGET_LATER |
+| JOB-T-007 | Accenture | NOT_YET_ELIGIBLE | REQ-037 Fluent Dutch and English [FAIL_ASSUMED] ; REQ-038 Completed Master's (technical or business economics) [NOT_VERIFIED] ; REQ-039 Excellent WO/VWO grades; transcripts required [NOT_VERIFIED] | 2 of 6 classified reqs scored (4 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 71 | ESTIMATE:71 | ESTIMATE:71 | ESTIMATE:71 | NOT_YET_ELIGIBLE |
+| JOB-T-008 | Add Value (client: Utrecht-region digital transformation consultancy) | NOT_YET_ELIGIBLE | REQ-043 Excellent Dutch and English [FAIL_ASSUMED] ; REQ-044 Relevant degree (AI, CS, Data Science, Informatics) [NOT_VERIFIED] | 2 of 6 classified reqs scored (4 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 33 | ESTIMATE:50 | ESTIMATE:50 | ESTIMATE:67 | BUILD_FIRST |
+| JOB-T-009 | DICTU (Rijksoverheid) | CONDITIONAL | REQ-049 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-050 HBO/WO level [NOT_VERIFIED] ; REQ-053 Extensive advisory/consultancy experience guiding change/innovation [NOT_VERIFIED] | 3 of 7 classified reqs scored (4 NOT_VERIFIED excluded) | 67 | ESTIMATE:67 | ESTIMATE:88 | ESTIMATE:88 | TARGET_LATER |
+| JOB-T-010 | BearingPoint | NOT_YET_ELIGIBLE | REQ-057 Dutch and English [FAIL_ASSUMED] ; REQ-058 8+ yrs consulting/technology/digital transformation [NOT_VERIFIED] | 1 of 4 classified reqs scored (3 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 25 | ESTIMATE:25 | ESTIMATE:25 | ESTIMATE:50 | TARGET_LATER |
+| JOB-T-011 | Corbion | CONDITIONAL | REQ-062 Leading complex enterprise transformation programmes at scale [NOT_VERIFIED] ; REQ-063 Based in or relocating to NL; office 3 days/week [CONDITIONAL] | 0 of 2 classified reqs scored (2 NOT_VERIFIED excluded) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | TARGET_LATER |
+| JOB-T-012 | Athora Netherlands | CONDITIONAL | REQ-065 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-066 WO level [NOT_VERIFIED] ; REQ-067 3+ yrs in AI/data/IT governance, IT audit or similar [NOT_VERIFIED] | 7 of 9 classified reqs scored (2 NOT_VERIFIED excluded) | 34 | ESTIMATE:42 | ESTIMATE:67 | ESTIMATE:71 | BUILD_FIRST |
+| JOB-T-013 | Deloitte | NOT_YET_ELIGIBLE | REQ-075 Excellent Dutch and English [FAIL_ASSUMED] ; REQ-078 EU AI Act knowledge ('absolute vereiste') [FAIL_NOW] ; REQ-076 5 yrs experience [NOT_VERIFIED] ; REQ-077 Bachelor's or Master's (Law, IT) [NOT_VERIFIED] | 6 of 9 classified reqs scored (3 NOT_VERIFIED excluded) | 7 | ESTIMATE:25 | ESTIMATE:69 | ESTIMATE:69 | TARGET_LATER |
+| JOB-T-014 | EY | NOT_YET_ELIGIBLE | REQ-084 Excellent Dutch and English (reports in both) [FAIL_ASSUMED] ; REQ-091 Holds certifications ('je beschikt over') [FAIL_NOW] ; REQ-085 5+ yrs on privacy and/or AI issues [NOT_VERIFIED] ; REQ-086 Master's (law, information mgmt, AI, privacy) [NOT_VERIFIED] | 4 of 8 classified reqs scored (4 NOT_VERIFIED excluded) | 6 | ESTIMATE:12 | ESTIMATE:40 | ESTIMATE:40 | TARGET_LATER |
+| JOB-T-015 | Everience Benelux | CONDITIONAL | REQ-093 8–12+ yrs AI/ML, data science, AI governance, model or tech risk [NOT_VERIFIED] | 2 of 5 classified reqs scored (3 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 12 | ESTIMATE:25 | ESTIMATE:50 | ESTIMATE:50 | BRIDGE |
+| JOB-T-016 | Atos | NOT_YET_ELIGIBLE | REQ-099 Dutch and English (French a plus) [FAIL_ASSUMED] ; REQ-100 6–10+ yrs AI/data/digital consulting [NOT_VERIFIED] | 5 of 9 classified reqs scored (4 NOT_VERIFIED excluded) | 50 | ESTIMATE:50 | ESTIMATE:63 | ESTIMATE:63 | TARGET_LATER |
+| JOB-T-017 | CGI Nederland | NOT_YET_ELIGIBLE | REQ-108 Dutch C1+ and English B2+; open only to native/near-native Dutch speakers [FAIL] ; REQ-113 At least one of DAMA CDMP Practitioner or DCAM [FAIL_NOW] ; REQ-109 7+ yrs data governance/management/risk [NOT_VERIFIED] | 4 of 7 classified reqs scored (3 NOT_VERIFIED excluded) | 6 | ESTIMATE:28 | ESTIMATE:57 | ESTIMATE:57 | NOT_YET_ELIGIBLE |
+| JOB-T-018 | KPMG Nederland | NOT_YET_ELIGIBLE | REQ-115 Dutch is a 'harde eis' (hard requirement) [FAIL_ASSUMED] ; REQ-116 3+ yrs IT audit/IT risk/digital assurance/cyber/internal audit/tech consulting [NOT_VERIFIED] ; REQ-117 Degree with substantial AI or data-science content [NOT_VERIFIED] | 2 of 5 classified reqs scored (3 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 25 | ESTIMATE:75 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+
+<!-- page -->
+# 8 · Fit por vaga (2)
+
+| Vaga | Empresa | Elegib. | Bloqueios | Base | Agora | 30D | 60D | 90D | Recom. |
+|---|---|---|---|---|---|---|---|---|---|
+| JOB-T-019 | Avans University of Applied Sciences | NOT_YET_ELIGIBLE | JOB Closes 2026-10-20 (3 days after consultation); 1-year contract start incompatible with relocation 2027-04-30 (INFERENCE; DEC-013) [FAIL] ; REQ-120 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-121 HBO level [NOT_VERIFIED] ; REQ-123 Experience in governance, compliance, risk, infosec or privacy [NOT_VERIFIED] | 4 of 6 classified reqs scored (2 NOT_VERIFIED excluded) | 30 | ESTIMATE:50 | ESTIMATE:95 | ESTIMATE:95 | NOT_YET_ELIGIBLE |
+| JOB-T-020 | Younicorp | NOT_YET_ELIGIBLE | REQ-127 Fluent Dutch [FAIL_ASSUMED] ; REQ-128 4 yrs in or with public organisations [NOT_VERIFIED] ; REQ-131 HBO/WO in IT [NOT_VERIFIED] | 3 of 6 classified reqs scored (3 NOT_VERIFIED excluded) | 13 | ESTIMATE:33 | ESTIMATE:67 | ESTIMATE:67 | TARGET_LATER |
+| JOB-T-021 | PwC Nederland | NOT_YET_ELIGIBLE | REQ-133 Excellent Dutch ('uitstekend') [FAIL_ASSUMED] | 0 of 1 classified reqs scored (1 NOT_VERIFIED excluded) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | BUILD_FIRST |
+| JOB-T-022 | Deeploy | CONDITIONAL | REQ-135 Fluent English [PASS_USER_CLAIM] ; REQ-136 3+ yrs in partnerships, alliances or enterprise software sales (data/AI/security/GRC) [NOT_VERIFIED] | 2 of 6 classified reqs scored (4 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 71 | ESTIMATE:85 | ESTIMATE:100 | ESTIMATE:100 | APPLY |
+| JOB-T-023 | MIVD (Rijksoverheid) | NOT_YET_ELIGIBLE | REQ-141 Dutch nationality and in principle 10 yrs NL residence [FAIL] ; REQ-142 Dutch required (explicit) [FAIL_ASSUMED] | 1 of 3 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 0 | ESTIMATE:33 | ESTIMATE:67 | ESTIMATE:67 | NOT_YET_ELIGIBLE |
+| JOB-T-024 | ABN AMRO | CONDITIONAL | REQ-145 Significant strategy/management consulting experience [NOT_VERIFIED] ; REQ-147 Led enterprise-wide Data & AI initiatives [NOT_VERIFIED] ; REQ-148 Master's or equivalent [NOT_VERIFIED] | 1 of 5 classified reqs scored (4 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 0 | ESTIMATE:50 | ESTIMATE:100 | ESTIMATE:100 | BRIDGE |
+| JOB-T-025 | Zanders | CONDITIONAL | REQ-150 Working language English; Dutch optional [PASS_USER_CLAIM] ; REQ-151 3–6 yrs (Senior Consultant) [NOT_VERIFIED] ; REQ-154 Financial services or regulated-industry experience [NOT_VERIFIED] | 2 of 7 classified reqs scored (5 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 25 | ESTIMATE:25 | ESTIMATE:25 | ESTIMATE:25 | TARGET_LATER |
+| JOB-T-026 | Talent&Pro | CONDITIONAL | REQ-157 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-158 Completed bachelor's (HBO) [NOT_VERIFIED] ; REQ-159 2–4 yrs IT implementations/projects/coordination [NOT_VERIFIED] | 2 of 4 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+| JOB-T-027 | KickstartAI | CONDITIONAL | REQ-162 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-163 3+ yrs PM on ML/AI projects [NOT_VERIFIED] | 1 of 2 classified reqs scored (1 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 67 | ESTIMATE:67 | ESTIMATE:67 | ESTIMATE:67 | BUILD_FIRST |
+| JOB-T-028 | Verwater Group | NOT_YET_ELIGIBLE | REQ-165 Good Dutch and English [FAIL_ASSUMED] ; REQ-166 HBO level [NOT_VERIFIED] | 3 of 5 classified reqs scored (2 NOT_VERIFIED excluded) | 67 | ESTIMATE:67 | ESTIMATE:67 | ESTIMATE:100 | BUILD_FIRST |
+| JOB-T-029 | TADA Solutions | NOT_YET_ELIGIBLE | REQ-170 Professional Dutch [FAIL_ASSUMED] ; REQ-171 HBO/WO level [NOT_VERIFIED] | 1 of 3 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+| JOB-T-030 | TalentSpark by TSP | NOT_YET_ELIGIBLE | REQ-174 Dutch and English [FAIL_ASSUMED] ; REQ-175 HBO/WO (IE&M, CS, AI) [NOT_VERIFIED] | 2 of 4 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+| JOB-T-031 | Loyens & Loeff | CONDITIONAL | REQ-178 Excellent English [PASS_USER_CLAIM] ; REQ-179 Valid NL work authorisation; no sponsorship (EU citizen needs no permit) [PASS_USER_CLAIM] ; REQ-180 Bachelor's or master's (Business, Analytics, Law, Innovation, AI) [NOT_VERIFIED] | 4 of 8 classified reqs scored (4 NOT_VERIFIED excluded) | 75 | ESTIMATE:95 | ESTIMATE:95 | ESTIMATE:100 | APPLY |
+| JOB-T-032 | ING Nederland | CONDITIONAL | REQ-187 Proven experience (non-numeric) [NOT_VERIFIED] | 2 of 4 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 75 | ESTIMATE:75 | ESTIMATE:75 | ESTIMATE:75 | BRIDGE |
+| JOB-T-033 | Gaide | NOT_YET_ELIGIBLE | REQ-192 Fluent Dutch, good English [FAIL_ASSUMED] ; REQ-193 3–5 yrs consultancy/BA/strategy or client-facing digital/data/AI [NOT_VERIFIED] | 1 of 3 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+| JOB-T-034 | CGI Nederland | NOT_YET_ELIGIBLE | REQ-195 Fluent Dutch [FAIL_ASSUMED] ; REQ-196 Must live in NL [CONDITIONAL] ; REQ-197 4+ yrs [NOT_VERIFIED] | 5 of 9 classified reqs scored (4 NOT_VERIFIED excluded) | 35 | ESTIMATE:42 | ESTIMATE:55 | ESTIMATE:63 | TARGET_LATER |
+| JOB-T-035 | Inspectie Leefomgeving en Transport (ILT, Rijksoverheid) | NOT_YET_ELIGIBLE | JOB Closes 2026-10-27 [FAIL] ; REQ-204 Dutch and English at C1 minimum [FAIL_ASSUMED] ; REQ-205 WO; technical or scientific background (DS, CS, AI) [NOT_VERIFIED] ; REQ-206 PhD preferred, or extensive academic experience [NOT_VERIFIED] ; REQ-208 VOG (certificate of good conduct) [NOT_VERIFIED] | 0 of 5 classified reqs scored (5 NOT_VERIFIED excluded) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_YET_ELIGIBLE |
+| JOB-T-036 | Bit Traineeship | NOT_YET_ELIGIBLE | REQ-209 Dutch speaking (stated in title) [FAIL_ASSUMED] ; REQ-210 Master's in AI/quantitative field or Industrial Design [NOT_VERIFIED] | 1 of 3 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BUILD_FIRST |
+
+<!-- page -->
+# 8 · Fit por vaga (3)
+
+| Vaga | Empresa | Elegib. | Bloqueios | Base | Agora | 30D | 60D | 90D | Recom. |
+|---|---|---|---|---|---|---|---|---|---|
+| JOB-A-001 | CareerValue (recruiter; unnamed Randstad client) | NOT_YET_ELIGIBLE | REQ-212 Dutch ('Je beheerst de Nederlandse taal') [FAIL_ASSUMED] ; REQ-213 Relevant HBO diploma [NOT_VERIFIED] | 5 of 7 classified reqs scored (2 NOT_VERIFIED excluded) | 50 | ESTIMATE:62 | ESTIMATE:88 | ESTIMATE:88 | BUILD_FIRST |
+| JOB-A-002 | CareerValue (recruiter; unnamed client) | NOT_YET_ELIGIBLE | REQ-219 Dutch ('Je beheerst de Nederlandse taal') [FAIL_ASSUMED] ; REQ-220 Relevant HBO diploma [NOT_VERIFIED] | 5 of 7 classified reqs scored (2 NOT_VERIFIED excluded) | 50 | ESTIMATE:62 | ESTIMATE:88 | ESTIMATE:88 | BUILD_FIRST |
+| JOB-A-003 | PMT Groep | NOT_YET_ELIGIBLE | REQ-226 Excellent Dutch [FAIL_ASSUMED] ; REQ-227 3 yrs independent RPA development (UiPath preferred) [NOT_VERIFIED] ; REQ-230 HBO/WO level [NOT_VERIFIED] | 5 of 8 classified reqs scored (3 NOT_VERIFIED excluded) | 44 | ESTIMATE:50 | ESTIMATE:65 | ESTIMATE:65 | BUILD_FIRST |
+| JOB-A-004 | ilionx | CONDITIONAL | REQ-234 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-235 2 yrs programming [NOT_VERIFIED] ; REQ-238 WO level [NOT_VERIFIED] | 3 of 5 classified reqs scored (2 NOT_VERIFIED excluded) | 47 | ESTIMATE:47 | ESTIMATE:60 | ESTIMATE:60 | BUILD_FIRST |
+| JOB-A-005 | Itility | NOT_YET_ELIGIBLE | REQ-240 Good communication in Dutch and English [FAIL_ASSUMED] ; REQ-241 HBO/WO in relevant field [NOT_VERIFIED] ; REQ-242 2+ yrs Microsoft Power Platform incl. governance and security [NOT_VERIFIED] ; REQ-246 Residence in NL with valid work permit; no sponsorship [CONDITIONAL] | 5 of 9 classified reqs scored (4 NOT_VERIFIED excluded) | 50 | ESTIMATE:50 | ESTIMATE:50 | ESTIMATE:80 | TARGET_LATER |
+| JOB-A-006 | Alliander | CONDITIONAL | REQ-249 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-251 4 yrs as Process Mining Consultant/Analyst (snippet, UNVERIFIED) [NOT_VERIFIED] ; REQ-252 HBO/WO (snippet, UNVERIFIED) [NOT_VERIFIED] | 1 of 1 classified reqs scored (0 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 0 | ESTIMATE:0 | ESTIMATE:0 | ESTIMATE:0 | TARGET_LATER |
+| JOB-A-008 | Capgemini Engineering | NOT_YET_ELIGIBLE | JOB Industrial automation (PLC/SCADA/DCS/MES) outside business-process profile (INFERENCE) [FAIL] ; REQ-253 Dutch likely: ad written in Dutch, no explicit language line [UNVERIFIED] ; REQ-254 Degree in electrical engineering, industrial automation or similar [NOT_VERIFIED] | 0 of 1 classified reqs scored (1 NOT_VERIFIED excluded) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_COMPUTABLE (no scorable requirement) | NOT_YET_ELIGIBLE |
+| JOB-A-009 | The Automation Group | CONDITIONAL | REQ-255 Strong Dutch or English written communication [PASS_USER_CLAIM] ; REQ-256 5 yrs demonstrable business experience (any background) [NOT_VERIFIED] | 1 of 3 classified reqs scored (2 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | APPLY |
+| JOB-A-010 | Nanzen | CONDITIONAL | REQ-259 2 yrs experience [NOT_VERIFIED] | 2 of 3 classified reqs scored (1 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 42 | ESTIMATE:42 | ESTIMATE:71 | ESTIMATE:71 | BRIDGE |
+| JOB-A-017 | Small business | CONDITIONAL | REQ-263 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-264 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 2 of 2 classified reqs scored (0 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 50 | ESTIMATE:50 | ESTIMATE:50 | ESTIMATE:83 | BRIDGE |
+| JOB-A-018 | Consultancy building client AI solutions | CONDITIONAL | REQ-267 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-268 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 4 of 4 classified reqs scored (0 NOT_VERIFIED excluded) | 83 | ESTIMATE:83 | ESTIMATE:92 | ESTIMATE:92 | BRIDGE |
+| JOB-A-019 | AI agency for SMEs | CONDITIONAL | REQ-273 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-274 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 2 of 3 classified reqs scored (1 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BRIDGE |
+| JOB-A-020 | Company using Claude, ChatGPT and HeyGen | CONDITIONAL | REQ-278 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-279 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] ; REQ-280 On-site in Noordwijkerhout [CONDITIONAL] | 2 of 3 classified reqs scored (1 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 83 | ESTIMATE:83 | ESTIMATE:83 | ESTIMATE:83 | BRIDGE |
+| JOB-A-021 | AI assistants for freelancers and SMEs | CONDITIONAL | REQ-283 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-284 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 2 of 2 classified reqs scored (0 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BRIDGE |
+| JOB-A-022 | Real-estate chatbot/WhatsApp startup | CONDITIONAL | REQ-287 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-288 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 3 of 3 classified reqs scored (0 NOT_VERIFIED excluded) | 78 | ESTIMATE:78 | ESTIMATE:89 | ESTIMATE:89 | BRIDGE |
+| JOB-A-023 | AI 'executive operator' across Gmail/Calendar/CRM | CONDITIONAL | REQ-292 Language unknown (Dutch-language listing) [UNVERIFIED] ; REQ-293 Freelance contracting: KvK needs BSN + NL address; DBA enforcement [NOT_VERIFIED] | 2 of 2 classified reqs scored (0 NOT_VERIFIED excluded) — LOW BASE: index rests on ≤2 reqs | 100 | ESTIMATE:100 | ESTIMATE:100 | ESTIMATE:100 | BRIDGE |
+
+<!-- page -->
+# 9 · Source & Assumption Ledger
+
+**Fontes:** 219 em `data/SOURCE_REGISTER.csv`. Por status: VERIFIED_ACTIVE: 149, UNVERIFIED: 37, EXPIRED: 15, PENDING_OFFICIAL_VERIFICATION: 13, VERIFIED_ARCHIVED: 5. Por tipo: SECONDARY: 79, JOB_AD: 79, OFFICIAL_CERT: 43, OFFICIAL_GOV: 13, REPO: 3, USER_INPUT: 2.
+
+**Pendências de verificação oficial (ordem de desbloqueio):**
+
+| CERT | Credencial | Campos pendentes |
+|---|---|---|
+| CERT-07 | UiPath Agentic Automation Builder Professional (UiPath-AABPv1) | price (EDD vs FAQ conflict); relation to AAP; question count; domain weights |
+| CERT-14 | PRINCE2 Agile Practitioner (Version 2) | all fields (search result only) |
+| CERT-16 | PECB ISO/IEC 42001 Lead Implementer | exam duration; question count; pass mark; open-book status; training price; AMF amount; languages |
+| CERT-17 | PECB ISO/IEC 42001 Foundation (Certificate Holder) | exam length; pass mark; price; languages |
+| CERT-20 | TOGAF Enterprise Architecture Foundation (OGEA-101) | fee; languages; validity; retake |
+| CERT-21 | PMP (Project Management Professional) | all fields (pmi.org HTTP 403) |
+| CERT-22 | IPMA certification Level D / C (via IPMA-NL) | all NL-specific fields |
+| CERT-23 | DAMA CDMP Practitioner / DCAM (either) | all fields (credential named in job ad; issuer page not researched) |
+| CERT-24 | CIPP/E (and generic CIPP) | all fields (credential named in job ad; issuer page not researched) |
+| CERT-25 | CIPM | all fields (credential named in job ad; issuer page not researched) |
+| CERT-26 | CIPT | all fields (credential named in job ad; issuer page not researched) |
+| CERT-27 | ISO 27701 Lead Implementer | all fields (credential named in job ad; issuer page not researched) |
+| CERT-28 | RE / CISA / CISM (audit) | all fields (credential named in job ad; issuer page not researched) |
+| CERT-29 | CCLTE CAICO | all fields (credential named in job ad; issuer page not researched) |
+| CERT-30 | Microsoft PL-100 / PL-200 / PL-400 (as named in ad) | all fields (credential named in job ad; issuer page not researched) |
+| CERT-31 | SAFe / Cloud (Azure/AWS/GCP) / FinOps / TBM (bonus list) | all fields (credential named in job ad; issuer page not researched) |
+
+**Premissas:** baseline NOT_VERIFIED (DEC-010); rascunhos do anexo como USER_CLAIM (DEC-009); sem neerlandês funcional até prova (DEC-016); feriados e capacidade pós-mudança de 40 h/semana são ASSUMPTION; ganhos de match e horas de lacunas são ESTIMATE.
+
+**KPIs de acompanhamento:**
+
+| KPI | Métrica | Baseline | Meta | Cadência |
+|---|---|---|---|---|
+| KPI-001 | planned_hours | 40 per full week | 40 per full week (sum of classes = available_hours) | weekly |
+| KPI-002 | actual_hours | 0 (program starts 2026-10-19) | Within ±10% of planned (PROPOSED) | weekly |
+| KPI-003 | velocity | NOT_VERIFIED (no week executed) | ≥0.8 (PROPOSED) | weekly |
+| KPI-004 | readiness_score CERT-15 (AIGP) | NOT_VERIFIED (no diagnostic yet) | ≥85% in 2 independent mocks before 2027-01-29 | weekly |
+| KPI-005 | readiness_score CERT-05 (UiPath AAA) | NOT_VERIFIED (no practice test yet) | ≥85% in 2 mocks before 2026-12-18 | weekly |
+| KPI-006 | readiness_score CERT-01 (PSPO I) | NOT_VERIFIED | ≥85% before 2027-03-12 | weekly |
+| KPI-007 | gates passed per certification | 0 of 18 (all OPEN/BLOCKED) | G0–G4 PASSED before READY_TO_BOOK | biweekly |
+| KPI-008 | evidence_added | 19 EVD rows (0 added) | ≥1 upgrade per biweekly review (PROPOSED) | biweekly |
+| KPI-009 | L4 evidence count | 0 | ≥1 by 2027-01-29 (GAP-007) | monthly |
+| KPI-010 | vacancy_match_delta | mean FIT_NOW 50.0 over 48 computable jobs (2026-10-17) | Positive delta at 30/60/90-day marks (no fixed target) | monthly |
+| KPI-011 | applications | 0 | Calibrated to quality of verified ads; no arbitrary volume target (EPIC 07) | weekly |
+| KPI-012 | interviews | 0 | No fixed target; tracked per segment | weekly |
+| KPI-013 | blocked_tasks | 8 WK-01..WK-12 tasks require authorisation (planned, not yet blocked) | 0 blocked >7 days | weekly |
+| KPI-014 | risks open | 16 open; 7 with score ≥16 | No score-25 risk without active mitigation | biweekly |
+| KPI-015 | active verified jobs | 52 (2026-10-17) | All shortlisted jobs re-verified ≤7 days before applying | weekly |
+| KPI-016 | eligible or conditional jobs | 24 of 52 | Increase after Dutch/baseline evidence | monthly |
+| KPI-017 | Dutch CEFR level | NOT_VERIFIED | A2/B1 by 2027-04 (INFERENCE on feasibility) | monthly |
+| KPI-018 | budget approved vs proposed | 0 approved (all BUDGET rows NOT_APPROVED) | Approval before any booking (G4/G5) | monthly |
+| KPI-019 | editorial pieces | 0 drafted / 0 published | 12 drafted by 2027-04-30; publication only with authorisation | biweekly |
+| KPI-020 | networking touchpoints | 0 | Quality over volume; no target (PROPOSED) | biweekly |
+| KPI-021 | relocation steps done | 0 of 17 | All pre-move steps by 2027-04-30; health insurance by 2027-08-30 | weekly from 2027-03-31; monthly before |
+| KPI-022 | buffer consumption | 0 | Contingency left ≥1 h/week on average | weekly |
+| KPI-023 | security P0 open | 1 open (GAP-003) | 0 before any URL is shared | weekly |
