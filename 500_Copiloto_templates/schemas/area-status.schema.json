@@ -3,8 +3,8 @@
   "title": "Linha de COMPLETUDE.csv",
   "type": "object",
   "properties": {
-    "area_id": {
-      "$ref": "ids.schema.json#/definitions/area"
+    "workbook_id": {
+      "$ref": "ids.schema.json#/definitions/workbook"
     },
     "completude_pct": {
       "type": "integer",
@@ -13,10 +13,10 @@
     },
     "estado": {
       "enum": [
-        "nao_iniciada",
+        "nao_iniciado",
         "em_andamento",
         "em_revisao",
-        "concluida"
+        "concluido"
       ]
     }
   }

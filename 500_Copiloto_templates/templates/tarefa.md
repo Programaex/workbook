@@ -3,6 +3,7 @@ id: {TIPO}-{OWNER}-{NNNN}
 type: {epic|project|issue|subissue}
 parent: 
 owner: {OWNER}
+macroarea_id: {A##}
 area: {AREA}
 title: {TITULO}
 status: backlog
@@ -19,4 +20,4 @@ updated: {DATA}
 ## Critérios de aceite
 - [ ] 
 ## Vínculos
-Pai: · Filhos: · Seções do workbook afetadas (`WB-…`):
+Pai: · Filhos: · Blocos de tarefas afetados (`WB-A##-M##-TSK`):

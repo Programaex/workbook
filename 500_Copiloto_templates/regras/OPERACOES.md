@@ -5,7 +5,7 @@ Vale para **epics, projects, issues e sub-issues** sempre que forem citados (em 
 ## Ordem obrigatória (3 clones)
 1. **GitHub** — criar/localizar o item no repositório `Programaex/workbook` (issue/sub-issue; project e epic conforme a convenção do GitHub Projects). O número do GitHub é a chave.
 2. **Pasta do owner** — `D##_*/tarefas/<ID>.md` da área dona. É o registro de tarefas do owner.
-3. **Workbook** — espelho em `00_Workbook/anexos/C_registro-de-tarefas/<ID>.md`, e o ID entra em `tasks:` das seções `WB-…` afetadas.
+3. **Workbook** — espelho em `00_Workbook/anexos/C_registro-de-tarefas/<ID>.md`, e o ID entra na tabela do bloco **Tarefas** (`WB-A##-M##-TSK`) do módulo afetado.
 
 Nunca crie o clone 2 sem o 1, nem o 3 sem o 2. Se o GitHub estiver inacessível, **pare e avise**; não use número provisório.
 

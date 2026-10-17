@@ -1,25 +1,64 @@
 # EXECUTAR — Workbook
 
-Repositório de **dataset** da estrutura macro do Programa EXECUTAR: 16 áreas (D01–D16), cada uma com um owner correlativo. Fonte: `IMG_4287.jpeg` (infográfico `EXEC-INFO-DOMAIN-001` v1.0.0).
+Repositório de **dataset** e **Workbook Geral** do Programa EXECUTAR, conforme o **ADR-001 — Arquitetura Unificada de Workbooks** (VALIDATED 2026-10-17, `00_Workbook/registros/adr/`).
+
+Duas camadas de taxonomia:
+- **Macroáreas A01–A15** (ADR-001): cada uma é um **workbook** especializado.
+- **Domínios D01–D16** (foto `IMG_4287.jpeg`, `EXEC-INFO-DOMAIN-001`): pastas de owner, imutáveis.
+
+Artefatos declaram `macroarea_id` e `dominio_id`. Não há mapeamento global D→A; relações só com fonte em `relations.csv` (hoje: `D16-DOC-PEM-001 → A08`). Mapeamento de rotas ↔ macroáreas: ADR-002 (pendente).
 
 ## Estrutura
 
 ```
 workbook/
-├── CLAUDE.md          # regras para agentes
-├── README.md
-├── MASTER_INDEX.csv   # índice canônico (17 entidades)
-├── OWNERS.csv         # registro de owners
-├── entities.json      # mesmo índice em JSON
-├── relations.csv      # relações entre entidades (vazio: nenhuma comprovada)
-├── evidence.json      # evidência da fonte
-├── 00_Workbook/       # relatório vivo: capa, índice, capítulos D01–D16, anexos
-├── 500_Copiloto_templates/  # templates, schemas, regras e script
-├── D01_gestao-empresarial/ … D16_…/   # cada uma com README.md e tarefas/
-└── _sources/SRC-FOLDER-001/   # pasta adicional observada, vínculo não confirmado
+├── CLAUDE.md · README.md
+├── MACROAREAS.csv     # A01–A15, owners MA.<SIG>, workbook_id
+├── OWNERS.csv         # D01–D16, owners GRUPO.ÁREA
+├── MASTER_INDEX.csv ≡ entities.json   # índice canônico de entidades
+├── relations.csv · evidence.json
+├── 00_Workbook/       # Workbook Geral: composição dos 15 workbooks + registros transversais
+├── 500_Copiloto_templates/  # templates (TPL-001..023), schemas, regras, script
+├── D01_… / D16_…/     # domínios: README, tarefas/ (clone 2), documentos/
+└── _sources/          # fontes originais (SRC-FOLDER-001, SRC-DOC-001..003)
 ```
 
-## Áreas e owners
+## Macroáreas e workbooks (ADR-001)
+
+| Owner | ID | Macroárea | Workbook |
+|---|---|---|---|
+| `MA.GOV` | A01 | Governança | `WB-A01` · `00_Workbook/workbooks/A01_governanca/` |
+| `MA.PRG` | A02 | Programa | `WB-A02` · `00_Workbook/workbooks/A02_programa/` |
+| `MA.BUS` | A03 | Business | `WB-A03` · `00_Workbook/workbooks/A03_business/` |
+| `MA.ECO` | A04 | Ecossistema | `WB-A04` · `00_Workbook/workbooks/A04_ecossistema/` |
+| `MA.PEV` | A05 | Pesquisa e Evidências | `WB-A05` · `00_Workbook/workbooks/A05_pesquisa-evidencias/` |
+| `MA.DAD` | A06 | Dados | `WB-A06` · `00_Workbook/workbooks/A06_dados/` |
+| `MA.CPM` | A07 | Creator PEM | `WB-A07` · `00_Workbook/workbooks/A07_creator-pem/` |
+| `MA.EDI` | A08 | Editorial | `WB-A08` · `00_Workbook/workbooks/A08_editorial/` |
+| `MA.OPS` | A09 | Operações | `WB-A09` · `00_Workbook/workbooks/A09_operacoes/` |
+| `MA.PRO` | A10 | Produção | `WB-A10` · `00_Workbook/workbooks/A10_producao/` |
+| `MA.AGT` | A11 | Agentes | `WB-A11` · `00_Workbook/workbooks/A11_agentes/` |
+| `MA.PRD` | A12 | Produtos | `WB-A12` · `00_Workbook/workbooks/A12_produtos/` |
+| `MA.DSG` | A13 | Design | `WB-A13` · `00_Workbook/workbooks/A13_design/` |
+| `MA.TPL` | A14 | Templates | `WB-A14` · `00_Workbook/workbooks/A14_templates/` |
+| `MA.COM` | A15 | Comercial | `WB-A15` · `00_Workbook/workbooks/A15_comercial/` |
+
+Owners `MA.<SIG>` são **propostos** (correlativos à macroárea); pessoas a definir em `MACROAREAS.csv`.
+
+## Layout universal de cada workbook
+
+| Bloco | Páginas | Comportamento |
+|---|---|---|
+| Capa | 1 | Fixa |
+| Index | 1 | Fixa; overflow → continuação |
+| Overview top-down | 3 | Fixo, síntese progressiva |
+| Conteúdo (por módulo) | ilimitadas | Dinâmico |
+| Notas (por módulo) | 3 | Fixas |
+| Tarefas (por módulo) | 2 | Fixas |
+
+Nenhuma informação é omitida: excesso vira página de continuação (`<!-- page continuation -->`).
+
+## Domínios e owners
 
 Código de owner: `<GRUPO>.<ÁREA>` (ex.: `MR.MKT` = Mercado e receita · Marketing).
 
@@ -56,37 +95,39 @@ O código identifica o **papel/função** dona da área. A pessoa responsável f
 
 ## Schemas de IDs
 
-| Objeto | Formato | Exemplo | Schema |
+| Objeto | Formato | Exemplo | Schema (`ids.schema.json#/…`) |
 |---|---|---|---|
-| Área | `D##` (01–16) | `D13` | `ids.schema.json#/area` |
-| Owner | `GRUPO.ÁREA` (2+3 letras) | `MR.MKT` | `#/owner` |
-| Capítulo do workbook | `WB-D##-CAP` | `WB-D13-CAP` | `#/capitulo` |
-| Seção do workbook | `WB-D##-S##` (S01–S06) | `WB-D13-S04` | `#/secao` |
-| Documento de abertura | `WB-CAPA`, `WB-IDX`, `WB-SUM`, `WB-ESC` | `WB-SUM` | — |
-| Anexo | `WB-ANX-<letra>` | `WB-ANX-C` | — |
-| Epic / Project / Issue / Sub-issue | `EP|PJ|IS|SI-<OWNER>-<NNNN>` (NNNN = nº no GitHub) | `IS-MR.MKT-0042` | `#/tarefa` |
-| Template | `TPL-###` (registro: `500_Copiloto_templates/00_CONTROLE/CROSSWALK_REPO.csv`) | `TPL-001` | — |
-| IDs de engenharia (provisórios) | `ECO-`, `PROD-`, `F0x`, `ADR-<ÁREA>-`, `ENG-` | `ECO-001` | — |
-| Fonte externa | `SRC-FOLDER-###` | `SRC-FOLDER-001` | — |
+| Macroárea | `A##` (01–15) | `A08` | `macroarea` |
+| Owner de macroárea | `MA.<SIG>` | `MA.EDI` | `owner_macroarea` |
+| Domínio | `D##` (01–16) | `D13` | `area` |
+| Owner de domínio | `GRUPO.ÁREA` | `MR.MKT` | `owner` |
+| Workbook | `WB-GERAL`, `WB-A##` | `WB-A08` | `workbook` |
+| Bloco | `WB-A##-CAPA\|IDX\|OVR`, `WB-A##-M##-CNT\|NOT\|TSK` | `WB-A08-M01-CNT` | `bloco` |
+| Entidade (fichas obrigatórias) | `AGT-###`, `SKL-###`, `FER-###`, `PROD-###` | `AGT-002` | `entidade` |
+| ADR | `ADR-###` | `ADR-001` | `adr` |
+| Documento de domínio | `D##-DOC-<TIPO>-###` | `D16-DOC-PEM-001` | `documento_dominio` |
+| Epic / Project / Issue / Sub-issue | `EP\|PJ\|IS\|SI-<OWNER>-<NNNN>` (nº GitHub) | `IS-MR.MKT-0042` | `tarefa` |
+| Template | `TPL-###` (`00_CONTROLE/CROSSWALK_REPO.csv`) | `TPL-021` | `template` |
+| Fonte | `SRC-DOC-###`, `SRC-FOLDER-###` | `SRC-DOC-003` | `fonte` |
+| IDs de engenharia (provisórios) | `ECO-`, `F0x`, `ENG-` | `ECO-001` | — |
 
-Schemas em `500_Copiloto_templates/schemas/`. Seções S01 Visão geral · S02 Situação atual · S03 Processos e responsáveis · S04 Indicadores · S05 Riscos e lacunas · S06 Plano e entregas.
+Um conteúdo pode ter vários donos: `owner` primário + `co_owners`. Ver `CLAUDE.md`.
 
-Um conteúdo pode ter vários donos: `owner` primário + `co_owners` (ex.: produto `PD.PRO` e engenharia `TD.ENG`). Ver `CLAUDE.md`.
+## Registros transversais (`00_Workbook/registros/`)
+
+`ROTAS.csv` (78 rotas, verbatim de `SRC-DOC-003` + colunas de vínculo) · `ADRS.csv` · `ENTIDADES.csv` · `FONTES.csv` · `DOCUMENTOS.csv` · `EVIDENCIAS.csv` · `DEPENDENCIAS.csv` · `fichas/`.
+
+Toda entidade (agente, skill, ferramenta, produto) tem **ficha CV** (`TPL-022`) e **ficha schema** (`TPL-023`).
 
 ## Regras operacionais
 
-- **Tarefas (tripla clonagem):** todo epic/project/issue/sub-issue citado é clonado 1) no GitHub, 2) em `D##_*/tarefas/` do owner, 3) em `00_Workbook/anexos/C_registro-de-tarefas/`. Ver `500_Copiloto_templates/regras/OPERACOES.md`.
-- **Acompanhamento e completude:** estados `empty → draft → review → done`; área `concluida` = seções `done` + sem tarefas abertas + pessoa definida. Ver `500_Copiloto_templates/regras/ACOMPANHAMENTO.md`.
-- **Comandos:** `python3 500_Copiloto_templates/scripts/workbook.py status|index|check|build`.
-
-## Como usar como dataset
-
-- `MASTER_INDEX.csv` e `entities.json` são a fonte de verdade de IDs, nomes e owners.
-- Cada pasta de área tem um `README.md` com front matter YAML (`id`, `owner`, `group`, `status`).
-- `status: existing` = observado na fonte; **não** comprova implementação.
+- **Tarefas (tripla clonagem):** GitHub → `D##_*/tarefas/` → `00_Workbook/anexos/C_registro-de-tarefas/`. Ver `500_Copiloto_templates/regras/OPERACOES.md`.
+- **Acompanhamento e completude:** blocos `empty → draft → review → done`, por workbook. Ver `500_Copiloto_templates/regras/ACOMPANHAMENTO.md`.
+- **Comandos:** `python3 500_Copiloto_templates/scripts/workbook.py check | status | index | build --escopo GERAL|A##|A##-M##`.
 
 ## Limitações conhecidas
 
-- Conteúdo interno das áreas não inspecionado (a fonte indica 7 itens por área, não individualizados).
-- Versões e pessoas responsáveis permanecem vazias.
-- `SRC-FOLDER-001` não tem owner nem relação com D01–D16.
+- IDs A01–A15 e owners `MA.*` são provisórios (ADR-001 §3); pessoas não atribuídas.
+- Rotas ainda sem vínculo com macroárea/workbook/entidade (ADR-002).
+- Exportação gera MD A4 + índice de páginas; PDF pendente.
+- `SRC-FOLDER-001` sem owner nem relação comprovada.

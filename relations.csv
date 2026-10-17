@@ -1,1 +1,2 @@
 parent_id,child_id,relation_type,source_of_truth,notes
+A08,D16-DOC-PEM-001,pertence_a_macroarea,D16_midias-sociais-distribuicao-digital/documentos/D16-DOC-PEM-001.yaml#navegacao.macroarea_id,A fonte declara macroarea_id A08 sem nome; ADR-001 define A08 = Editorial.

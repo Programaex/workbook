@@ -1,0 +1,480 @@
+artefato:
+  id: D16-DOC-PEM-001
+  titulo: Plano Estratégico de Mídias Sociais
+  tipo: MACRO
+  obrigatorio_na_arquitetura: true
+  estado_atual: PRE_PREENCHIDO
+  aprovacao: PENDENTE
+  owner: A_DEFINIR
+  proxima_acao_registrada: Executar PF-24 (reconciliação cruzada depends_on/blocks) — NA-03.
+  quantidade_campos: 36
+navegacao:
+  portfolio_id: M2
+  macroarea_id: A08
+  macroarea_arquivo: ../macroareas/A08.yaml
+  dominio_id: D16
+  dominio_arquivo: ../dominios/D16.yaml
+contexto_m2:
+  aplicabilidade_artefato: A_CONFIRMAR
+  observacao: A fonte não vincula formalmente este artefato ao M2; avaliar durante o preenchimento.
+secoes:
+- nome: Objectives
+  campos:
+  - titulo: objetivos
+    rastreio: D16-DOC-PEM-001.OBJECTIVES.OBJETIVOS
+    campo_original: objetivos
+    instrucao_planilha: 'Definir, validar e manter: Objetivos'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Audience
+  campos:
+  - titulo: publicos
+    rastreio: D16-DOC-PEM-001.AUDIENCE.PUBLICOS
+    campo_original: publicos
+    instrucao_planilha: 'Definir, validar e manter: Publicos'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Channels
+  campos:
+  - titulo: canal
+    rastreio: D16-DOC-PEM-001.CHANNELS.CANAL
+    campo_original: canal
+    instrucao_planilha: 'Definir, validar e manter: Canal'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: funcao
+    rastreio: D16-DOC-PEM-001.CHANNELS.FUNCAO
+    campo_original: funcao
+    instrucao_planilha: 'Definir, validar e manter: Funcao'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Content pillars
+  campos:
+  - titulo: pilar
+    rastreio: D16-DOC-PEM-001.CONTENT_PILLARS.PILAR
+    campo_original: pilar
+    instrucao_planilha: 'Definir, validar e manter: Pilar'
+    status_fonte: FOUND
+    classe_epistemica: DIRECT
+    confianca: alta
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: tese
+    rastreio: D16-DOC-PEM-001.CONTENT_PILLARS.TESE
+    campo_original: tese
+    instrucao_planilha: 'Definir, validar e manter: Tese'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Formats
+  campos:
+  - titulo: artigo
+    rastreio: D16-DOC-PEM-001.FORMATS.ARTIGO
+    campo_original: artigo
+    instrucao_planilha: 'Definir, validar e manter: Artigo'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: video
+    rastreio: D16-DOC-PEM-001.FORMATS.VIDEO
+    campo_original: video
+    instrucao_planilha: 'Definir, validar e manter: Video'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: carrossel
+    rastreio: D16-DOC-PEM-001.FORMATS.CARROSSEL
+    campo_original: carrossel
+    instrucao_planilha: 'Definir, validar e manter: Carrossel'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: story
+    rastreio: D16-DOC-PEM-001.FORMATS.STORY
+    campo_original: story
+    instrucao_planilha: 'Definir, validar e manter: Story'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: newsletter
+    rastreio: D16-DOC-PEM-001.FORMATS.NEWSLETTER
+    campo_original: newsletter
+    instrucao_planilha: 'Definir, validar e manter: Newsletter'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Editorial calendar
+  campos:
+  - titulo: data
+    rastreio: D16-DOC-PEM-001.EDITORIAL_CALENDAR.DATA
+    campo_original: data
+    instrucao_planilha: 'Definir, validar e manter: Data'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: tema
+    rastreio: D16-DOC-PEM-001.EDITORIAL_CALENDAR.TEMA
+    campo_original: tema
+    instrucao_planilha: 'Definir, validar e manter: Tema'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: canal
+    rastreio: D16-DOC-PEM-001.EDITORIAL_CALENDAR.CANAL
+    campo_original: canal
+    instrucao_planilha: 'Definir, validar e manter: Canal'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Production
+  campos:
+  - titulo: pesquisa
+    rastreio: D16-DOC-PEM-001.PRODUCTION.PESQUISA
+    campo_original: pesquisa
+    instrucao_planilha: 'Definir, validar e manter: Pesquisa'
+    status_fonte: FOUND
+    classe_epistemica: DIRECT
+    confianca: alta
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: texto
+    rastreio: D16-DOC-PEM-001.PRODUCTION.TEXTO
+    campo_original: texto
+    instrucao_planilha: 'Definir, validar e manter: Texto'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: visual
+    rastreio: D16-DOC-PEM-001.PRODUCTION.VISUAL
+    campo_original: visual
+    instrucao_planilha: 'Definir, validar e manter: Visual'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: revisao
+    rastreio: D16-DOC-PEM-001.PRODUCTION.REVISAO
+    campo_original: revisao
+    instrucao_planilha: 'Definir, validar e manter: Revisao'
+    status_fonte: FOUND
+    classe_epistemica: DIRECT
+    confianca: alta
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Repurposing
+  campos:
+  - titulo: fonte
+    rastreio: D16-DOC-PEM-001.REPURPOSING.FONTE
+    campo_original: fonte
+    instrucao_planilha: 'Definir, validar e manter: Fonte'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: derivados
+    rastreio: D16-DOC-PEM-001.REPURPOSING.DERIVADOS
+    campo_original: derivados
+    instrucao_planilha: 'Definir, validar e manter: Derivados'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Distribution
+  campos:
+  - titulo: organico
+    rastreio: D16-DOC-PEM-001.DISTRIBUTION.ORGANICO
+    campo_original: organico
+    instrucao_planilha: 'Definir, validar e manter: Organico'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: comunidade
+    rastreio: D16-DOC-PEM-001.DISTRIBUTION.COMUNIDADE
+    campo_original: comunidade
+    instrucao_planilha: 'Definir, validar e manter: Comunidade'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: parceria
+    rastreio: D16-DOC-PEM-001.DISTRIBUTION.PARCERIA
+    campo_original: parceria
+    instrucao_planilha: 'Definir, validar e manter: Parceria'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Cta
+  campos:
+  - titulo: cta
+    rastreio: D16-DOC-PEM-001.CTA.CTA
+    campo_original: cta
+    instrucao_planilha: 'Definir, validar e manter: CTA'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: destino
+    rastreio: D16-DOC-PEM-001.CTA.DESTINO
+    campo_original: destino
+    instrucao_planilha: 'Definir, validar e manter: Destino'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Community
+  campos:
+  - titulo: resposta
+    rastreio: D16-DOC-PEM-001.COMMUNITY.RESPOSTA
+    campo_original: resposta
+    instrucao_planilha: 'Definir, validar e manter: Resposta'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: moderacao
+    rastreio: D16-DOC-PEM-001.COMMUNITY.MODERACAO
+    campo_original: moderacao
+    instrucao_planilha: 'Definir, validar e manter: Moderacao'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Measurement
+  campos:
+  - titulo: alcance
+    rastreio: D16-DOC-PEM-001.MEASUREMENT.ALCANCE
+    campo_original: alcance
+    instrucao_planilha: 'Definir, validar e manter: Alcance'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: engajamento
+    rastreio: D16-DOC-PEM-001.MEASUREMENT.ENGAJAMENTO
+    campo_original: engajamento
+    instrucao_planilha: 'Definir, validar e manter: Engajamento'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: clique
+    rastreio: D16-DOC-PEM-001.MEASUREMENT.CLIQUE
+    campo_original: clique
+    instrucao_planilha: 'Definir, validar e manter: Clique'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: conversao
+    rastreio: D16-DOC-PEM-001.MEASUREMENT.CONVERSAO
+    campo_original: conversao
+    instrucao_planilha: 'Definir, validar e manter: Conversao'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Governance
+  campos:
+  - titulo: owner
+    rastreio: D16-DOC-PEM-001.GOVERNANCE.OWNER
+    campo_original: owner
+    instrucao_planilha: 'Definir, validar e manter: Owner'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: aprovacao
+    rastreio: D16-DOC-PEM-001.GOVERNANCE.APROVACAO
+    campo_original: aprovacao
+    instrucao_planilha: 'Definir, validar e manter: Aprovacao'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+- nome: Brand compliance
+  campos:
+  - titulo: voz
+    rastreio: D16-DOC-PEM-001.BRAND_COMPLIANCE.VOZ
+    campo_original: voz
+    instrucao_planilha: 'Definir, validar e manter: Voz'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: visual
+    rastreio: D16-DOC-PEM-001.BRAND_COMPLIANCE.VISUAL
+    campo_original: visual
+    instrucao_planilha: 'Definir, validar e manter: Visual'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null
+  - titulo: claims
+    rastreio: D16-DOC-PEM-001.BRAND_COMPLIANCE.CLAIMS
+    campo_original: claims
+    instrucao_planilha: 'Definir, validar e manter: Claims'
+    status_fonte: DERIVED
+    classe_epistemica: PROPOSED
+    confianca: baixa
+    preenchimento_m2:
+      aplicabilidade: A_CONFIRMAR
+      resposta: null
+      evidencia_ou_link_obsidian: null
+      decisao_ou_observacao: null

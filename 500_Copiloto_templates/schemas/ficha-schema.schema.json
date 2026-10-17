@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Ficha schema / anatomia (TPL-023)",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "entity_type",
+    "nome",
+    "macroarea_id",
+    "owner",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "$ref": "ids.schema.json#/definitions/entidade"
+    },
+    "entity_type": {
+      "enum": [
+        "agente",
+        "skill",
+        "ferramenta",
+        "produto"
+      ]
+    },
+    "nome": {
+      "type": "string"
+    },
+    "macroarea_id": {
+      "$ref": "ids.schema.json#/definitions/macroarea"
+    },
+    "owner": {
+      "$ref": "ids.schema.json#/definitions/owner_qualquer"
+    },
+    "status": {
+      "enum": [
+        "empty",
+        "draft",
+        "review",
+        "done"
+      ]
+    },
+    "type": {
+      "const": "ficha_schema"
+    }
+  },
+  "x-secoes": [
+    "Gatilhos de escrita",
+    "Armazenamentos (working, episodic, semantic, procedural)",
+    "Decisão de contexto (trust + recência)",
+    "Write policy (gate, trust, validate/admit)",
+    "Manutenção (decay, dedupe, TTL)",
+    "Contrato (entradas, saídas, ferramentas)"
+  ]
+}

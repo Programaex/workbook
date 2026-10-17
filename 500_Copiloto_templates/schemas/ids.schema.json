@@ -10,17 +10,55 @@
       "type": "string",
       "pattern": "^(GV|TD|OP|PD|MR)\\.[A-Z]{3}$"
     },
-    "secao": {
-      "type": "string",
-      "pattern": "^WB-D(0[1-9]|1[0-6])-S0[1-9]$"
-    },
-    "capitulo": {
-      "type": "string",
-      "pattern": "^WB-D(0[1-9]|1[0-6])-CAP$"
-    },
     "tarefa": {
       "type": "string",
       "pattern": "^(EP|PJ|IS|SI)-(GV|TD|OP|PD|MR)\\.[A-Z]{3}-\\d{4}$"
+    },
+    "macroarea": {
+      "type": "string",
+      "pattern": "^A(0[1-9]|1[0-5])$"
+    },
+    "owner_macroarea": {
+      "type": "string",
+      "pattern": "^MA\\.[A-Z]{3}$"
+    },
+    "workbook": {
+      "type": "string",
+      "pattern": "^WB-(GERAL|A(0[1-9]|1[0-5]))$"
+    },
+    "bloco": {
+      "type": "string",
+      "pattern": "^WB-(GERAL|A(0[1-9]|1[0-5]))-(CAPA|IDX|OVR|M\\d{2}-(CNT|NOT|TSK))$"
+    },
+    "entidade": {
+      "type": "string",
+      "pattern": "^(AGT|SKL|FER|PROD)-\\d{3}$"
+    },
+    "adr": {
+      "type": "string",
+      "pattern": "^ADR-\\d{3}$"
+    },
+    "template": {
+      "type": "string",
+      "pattern": "^TPL-\\d{3}$"
+    },
+    "fonte": {
+      "type": "string",
+      "pattern": "^SRC-(DOC|FOLDER)-\\d{3}$"
+    },
+    "documento_dominio": {
+      "type": "string",
+      "pattern": "^D(0[1-9]|1[0-6])-DOC-[A-Z]{2,5}-\\d{3}$"
+    },
+    "owner_qualquer": {
+      "anyOf": [
+        {
+          "$ref": "#/definitions/owner"
+        },
+        {
+          "$ref": "#/definitions/owner_macroarea"
+        }
+      ]
     }
   }
 }

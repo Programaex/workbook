@@ -1,0 +1,3 @@
+doc_id,titulo,dominio_id,macroarea_id,owner,owner_pessoa_fonte,estado_fonte,aprovacao_fonte,caminho
+D13-DOC-PEM-004,PEM · Plano de Entrada no Mercado,D13,,MR.MKT,NAO_DETERMINADO,existente,NÃO AVALIADO,D13_mercado-geracao-demanda/documentos/D13-DOC-PEM-004_plano-de-entrada-no-mercado.md
+D16-DOC-PEM-001,Plano Estratégico de Mídias Sociais,D16,A08,MR.MID,A_DEFINIR,PRE_PREENCHIDO,PENDENTE,D16_midias-sociais-distribuicao-digital/documentos/D16-DOC-PEM-001.yaml
