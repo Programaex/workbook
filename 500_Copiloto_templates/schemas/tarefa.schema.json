@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Front matter de epic/project/issue/subissue",
+  "title": "Front matter de project/epic/issue/subissue/gate",
   "type": "object",
   "required": [
     "id",
@@ -12,7 +12,8 @@
     "github_url",
     "github_number",
     "owner_path",
-    "workbook_path"
+    "workbook_path",
+    "assignees"
   ],
   "properties": {
     "id": {
@@ -20,10 +21,11 @@
     },
     "type": {
       "enum": [
-        "epic",
         "project",
+        "epic",
         "issue",
-        "subissue"
+        "subissue",
+        "gate"
       ]
     },
     "parent": {
@@ -79,6 +81,65 @@
     },
     "macroarea_id": {
       "$ref": "ids.schema.json#/definitions/macroarea"
+    },
+    "project": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "assignees": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "start_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "due_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "labels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^(tipo|owner|co|macro):"
+      }
     }
-  }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "type": {
+            "enum": [
+              "issue",
+              "subissue",
+              "gate"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": [
+          "parent"
+        ],
+        "properties": {
+          "parent": {
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
 }

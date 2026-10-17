@@ -34,7 +34,10 @@ Este repositório é um **dataset** e o **Workbook Geral** do EXECUTAR, governad
 - IDs de engenharia (`ECO-`, `PROD-`, `F00`–`F02`, `ADR-`, `ENG-`) vêm da fonte e são **provisórios** até conciliar com o índice mestre. Um `ENG-NNN` (cartão de ação) que virar tarefa segue a tripla clonagem e ganha ID `<TIPO>-<OWNER>-<nº GitHub>`, guardando o `ENG-NNN` em `aliases`.
 
 ## Regra de operações (tarefas)
-Epic, project, issue ou sub-issue citado = **tripla clonagem, nesta ordem**: 1) GitHub, 2) `D##_*/tarefas/<ID>.md` do owner, 3) `00_Workbook/anexos/C_registro-de-tarefas/<ID>.md`. ID `<TIPO>-<OWNER>-<nº GitHub 4 dígitos>`. Sem acesso ao GitHub: pare e avise. Detalhes: `500_Copiloto_templates/regras/OPERACOES.md`.
+O acompanhamento operacional é estruturado em **GitHub Projects**: `PJ` project → `EP` epic → `IS` issue → `SI` sub-issue, com **gates** `GT` (pontos de decisão) como sub-issues do epic. Hierarquia por sub-issues nativas; visões Table, Board e Roadmap.
+- Todo item tem: responsável (*Assignees* = `Programaex`, "assigned to me", salvo indicação do usuário); datas `**Início:**`/`**Prazo:**` (AAAA-MM-DD) no corpo, nos campos *Start date*/*Target date* do Project e em `start_date`/`due_date` dos clones; rótulos `tipo:<tipo>`, `owner:<GRUPO.ÁREA>` (primário), `co:<GRUPO.ÁREA>` (uma subtag por co-owner) e `macro:A##`.
+- Citado = **tripla clonagem, nesta ordem**: 1) GitHub (issue + Project), 2) `D##_*/tarefas/<ID>.md` do owner, 3) `00_Workbook/anexos/C_registro-de-tarefas/<ID>.md`. ID `<TIPO>-<OWNER>-<nº GitHub 4 dígitos>`; IDs de plano (`TSK-`, `GATE-`) vão em `aliases`.
+- Sem acesso ao GitHub: pare e avise. Owner não claro: pergunte. Detalhes: `500_Copiloto_templates/regras/OPERACOES.md`.
 
 ## Regra de acompanhamento e completude
 Ao editar o workbook, registros ou tarefas rode `workbook.py check`, `status` e `index`, e commite `00_Workbook/_controle/COMPLETUDE.csv`. Nunca marque `done` sem fontes e revisão do owner. Critérios: `500_Copiloto_templates/regras/ACOMPANHAMENTO.md`.

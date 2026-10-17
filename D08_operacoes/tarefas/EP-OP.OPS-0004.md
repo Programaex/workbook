@@ -2,6 +2,7 @@
 id: EP-OP.OPS-0004
 type: epic
 parent: 
+project: null
 owner: OP.OPS
 co_owners: [MR.MKT, MR.VEN, PD.PRO, MR.MID]
 areas: [D08, D13, D14, D10, D16]
@@ -9,6 +10,10 @@ macroarea_id: A09
 area: D08
 title: Campanha 02 — Lançamento do ecossistema e do Executar App (15/11/2026–05/01/2027)
 status: backlog
+assignees: [Programaex]
+start_date: 2026-11-13
+due_date: 2027-01-05
+labels: [tipo:epic, owner:OP.OPS, co:MR.MKT, co:MR.VEN, co:PD.PRO, co:MR.MID, macro:A09]
 github_url: https://github.com/Programaex/workbook/issues/4
 github_number: 0004
 owner_path: D08_operacoes/tarefas/EP-OP.OPS-0004.md
@@ -32,4 +37,4 @@ Owner primário OP.OPS (macroárea A09 Operações, conforme indicação do usu�
 - [ ] Campanha 02 agendada até 18/12/2026
 
 ## Vínculos
-Pai: — · Filhos: — · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK
+Project: GAP (número do Project pendente) · Pai: — · Filhos: — · Gates: GT-OP.OPS-0012, GT-OP.OPS-0013, GT-OP.OPS-0014, GT-OP.OPS-0015 · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK

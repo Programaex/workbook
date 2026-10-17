@@ -12,7 +12,7 @@
     },
     "tarefa": {
       "type": "string",
-      "pattern": "^(EP|PJ|IS|SI)-(GV|TD|OP|PD|MR)\\.[A-Z]{3}-\\d{4}$"
+      "pattern": "^(PJ|EP|IS|SI|GT)-(GV|TD|OP|PD|MR)\\.[A-Z]{3}-\\d{4}$"
     },
     "macroarea": {
       "type": "string",
