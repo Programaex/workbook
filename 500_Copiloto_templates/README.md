@@ -10,7 +10,7 @@ Templates, schemas, regras e script reutilizáveis para organizar o workbook.
 | `90_REFERENCIAS/` | Arquivos-fonte do pacote (`Untitled 2.md`, `CAPA.md`, `ID_AREA_TUTULO_OWNER.md`, mapa A4…) |
 | `templates/` | `TPL-020` fichas schema ecossistema · `TPL-021` workbook universal (ADR-001) · `TPL-022` ficha CV · `TPL-023` ficha schema · tarefa · checklist de fechamento |
 | `schemas/` | JSON Schema: `ids`, `workbook` (contrato ADR-001 §6), `bloco`, `ficha-cv`, `ficha-schema`, `tarefa`, `area-status` |
-| `regras/` | `OPERACOES.md` (tripla clonagem) e `ACOMPANHAMENTO.md` (completude) |
+| `regras/` | `OPERACOES.md` (GitHub Projects, hierarquia com gates, tripla clonagem) e `ACOMPANHAMENTO.md` (completude) |
 | `scripts/workbook.py` | `status`, `index`, `check` (contrato, paginação, fichas, rotas, tarefas, checksums), `build --escopo` |
 
 ## Catálogo de templates

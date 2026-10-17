@@ -106,7 +106,7 @@ O código identifica o **papel/função** dona da área. A pessoa responsável f
 | Entidade (fichas obrigatórias) | `AGT-###`, `SKL-###`, `FER-###`, `PROD-###` | `AGT-002` | `entidade` |
 | ADR | `ADR-###` | `ADR-001` | `adr` |
 | Documento de domínio | `D##-DOC-<TIPO>-###` | `D16-DOC-PEM-001` | `documento_dominio` |
-| Epic / Project / Issue / Sub-issue | `EP\|PJ\|IS\|SI-<OWNER>-<NNNN>` (nº GitHub) | `IS-MR.MKT-0042` | `tarefa` |
+| Project / Epic / Issue / Sub-issue / Gate | `PJ\|EP\|IS\|SI\|GT-<OWNER>-<NNNN>` (nº GitHub) | `IS-MR.MKT-0042` | `tarefa` |
 | Template | `TPL-###` (`00_CONTROLE/CROSSWALK_REPO.csv`) | `TPL-021` | `template` |
 | Fonte | `SRC-DOC-###`, `SRC-FOLDER-###` | `SRC-DOC-003` | `fonte` |
 | IDs de engenharia (provisórios) | `ECO-`, `F0x`, `ENG-` | `ECO-001` | — |
@@ -121,7 +121,7 @@ Toda entidade (agente, skill, ferramenta, produto) tem **ficha CV** (`TPL-022`) 
 
 ## Regras operacionais
 
-- **Tarefas (tripla clonagem):** GitHub → `D##_*/tarefas/` → `00_Workbook/anexos/C_registro-de-tarefas/`. Ver `500_Copiloto_templates/regras/OPERACOES.md`.
+- **Tarefas (GitHub Projects + tripla clonagem):** Project → Epic → Issue → Sub-issue, com Gates; responsável, datas e rótulos `tipo:`/`owner:`/`co:`/`macro:`. GitHub → `D##_*/tarefas/` → `00_Workbook/anexos/C_registro-de-tarefas/`. Ver `500_Copiloto_templates/regras/OPERACOES.md`.
 - **Acompanhamento e completude:** blocos `empty → draft → review → done`, por workbook. Ver `500_Copiloto_templates/regras/ACOMPANHAMENTO.md`.
 - **Comandos:** `python3 500_Copiloto_templates/scripts/workbook.py check | status | index | build --escopo GERAL|A##|A##-M##`.
 

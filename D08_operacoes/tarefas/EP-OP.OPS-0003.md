@@ -2,6 +2,7 @@
 id: EP-OP.OPS-0003
 type: epic
 parent: 
+project: null
 owner: OP.OPS
 co_owners: [MR.MKT, MR.MID, PD.PRO, TD.ENG]
 areas: [D08, D13, D16, D10, D12]
@@ -9,6 +10,10 @@ macroarea_id: A09
 area: D08
 title: EPIC 01 — Lançamento riscocognitivo.org (17/10–05/12/2026)
 status: backlog
+assignees: [Programaex]
+start_date: 2026-10-17
+due_date: 2026-12-05
+labels: [tipo:epic, owner:OP.OPS, co:MR.MKT, co:MR.MID, co:PD.PRO, co:TD.ENG, macro:A09]
 github_url: https://github.com/Programaex/workbook/issues/3
 github_number: 0003
 owner_path: D08_operacoes/tarefas/EP-OP.OPS-0003.md
@@ -31,4 +36,4 @@ Owner primário OP.OPS (macroárea A09 Operações, conforme indicação do usu�
 - [ ] Relatório do ciclo de 30 dias fechado em 05/12/2026
 
 ## Vínculos
-Pai: — · Filhos: — · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK
+Project: GAP (número do Project pendente) · Pai: — · Filhos: — · Gates: GT-OP.OPS-0007, GT-OP.OPS-0008, GT-OP.OPS-0009, GT-OP.OPS-0010, GT-OP.OPS-0011 · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK

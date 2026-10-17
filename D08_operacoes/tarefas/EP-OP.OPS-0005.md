@@ -2,6 +2,7 @@
 id: EP-OP.OPS-0005
 type: epic
 parent: 
+project: null
 owner: OP.OPS
 co_owners: [GV.PES, GV.GES, OP.PRD]
 areas: [D08, D04, D01, D07]
@@ -9,6 +10,10 @@ macroarea_id: A09
 area: D08
 title: Emprego e realocação profissional na Europa (19/11/2026–30/03/2027)
 status: backlog
+assignees: [Programaex]
+start_date: 2026-11-19
+due_date: 2027-03-30
+labels: [tipo:epic, owner:OP.OPS, co:GV.PES, co:GV.GES, co:OP.PRD, macro:A09]
 github_url: https://github.com/Programaex/workbook/issues/5
 github_number: 0005
 owner_path: D08_operacoes/tarefas/EP-OP.OPS-0005.md
@@ -34,4 +39,4 @@ Owner primário OP.OPS (macroárea A09 Operações, conforme indicação do usu�
 - [ ] Encerramento e decisão sobre a viagem em 30/03/2027
 
 ## Vínculos
-Pai: — · Filhos: — · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK
+Project: GAP (número do Project pendente) · Pai: — · Filhos: — · Gates: GT-OP.OPS-0016, GT-OP.OPS-0017, GT-OP.OPS-0018 · Blocos de tarefas afetados (`WB-A##-M##-TSK`): WB-A09-M01-TSK
