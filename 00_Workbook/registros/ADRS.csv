@@ -1,3 +1,4 @@
 adr_id,titulo,status,data,macroarea_id,owner,caminho,escopo,notas
 ADR-001,Arquitetura Unificada de Workbooks do Ecossistema EXECUTAR,VALIDATED,2026-10-17,A01,MA.GOV,00_Workbook/registros/adr/ADR-001_arquitetura-unificada-workbooks.md,Programaex/workbook,Homônimo dos ADR-001 do repo Programaex/design (escopos distintos).
 ADR-002,"Taxonomia de Domínios, Subáreas, Produtos e Rotas",PLANNED,,A01,MA.GOV,,Programaex/workbook,Pendente: mapear ROTAS.csv → macroárea/workbook/entidade sem alterar a paginação do ADR-001.
+ADR-003,Rota de certificações e alocação de 40 h do programa EXEC-CAR-NL-2026,PROPOSED,2026-10-17,A02,MA.PRG,00_Workbook/registros/adr/ADR-003_rota-certificacoes-exec-car-nl.md,Programaex/workbook,Consolida DEC-001…DEC-026 do módulo WB-A02-M02; aguarda aprovação do owner.

@@ -16,6 +16,7 @@ source_refs: []
 <!-- INDEX:INICIO -->
 - Capa · Index · Overview (`WB-A02-CAPA`, `WB-A02-IDX`, `WB-A02-OVR`)
 - M01 · Módulo 01 _(empty)_ — Conteúdo · Notas · Tarefas
+- M02 · EXEC-CAR-NL-2026 · Carreira AI Transformation NL _(draft)_ — Conteúdo · Notas · Tarefas
 <!-- INDEX:FIM -->
 
 <!-- 1 página fixa; se o índice não couber, adicione `<!-- page continuation -->` (nunca corte entradas). -->
