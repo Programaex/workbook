@@ -69,7 +69,7 @@ source_refs: []
 - `ADRS.csv` — 3 registros
 - `DEPENDENCIAS.csv` — 0 registros
 - `DOCUMENTOS.csv` — 2 registros
-- `ENTIDADES.csv` — 6 registros
+- `ENTIDADES.csv` — 7 registros
 - `EVIDENCIAS.csv` — 1 registros
 - `FONTES.csv` — 4 registros
 - `ROTAS.csv` — 78 registros
