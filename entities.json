@@ -1,0 +1,351 @@
+[
+  {
+    "id": "D01",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D01_gestao-empresarial",
+    "canonical_name": "Gestão empresarial",
+    "status": "existing",
+    "version": null,
+    "owner": "GV.GES",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D01_gestao-empresarial/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D02",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D02_juridico-riscos-conformidade",
+    "canonical_name": "Jurídico, riscos e conformidade",
+    "status": "existing",
+    "version": null,
+    "owner": "GV.JUR",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D02_juridico-riscos-conformidade/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D03",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D03_financas",
+    "canonical_name": "Finanças",
+    "status": "existing",
+    "version": null,
+    "owner": "GV.FIN",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D03_financas/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D04",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D04_pessoas-recursos-humanos",
+    "canonical_name": "Pessoas e recursos humanos",
+    "status": "existing",
+    "version": null,
+    "owner": "GV.PES",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D04_pessoas-recursos-humanos/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D05",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D05_dados",
+    "canonical_name": "Dados",
+    "status": "existing",
+    "version": null,
+    "owner": "TD.DAD",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D05_dados/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D06",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D06_conhecimento-busca-corporativa",
+    "canonical_name": "Conhecimento e busca corporativa",
+    "status": "existing",
+    "version": null,
+    "owner": "TD.CON",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D06_conhecimento-busca-corporativa/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D07",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D07_produtividade-execucao",
+    "canonical_name": "Produtividade e execução",
+    "status": "existing",
+    "version": null,
+    "owner": "OP.PRD",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D07_produtividade-execucao/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D08",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D08_operacoes",
+    "canonical_name": "Operações",
+    "status": "existing",
+    "version": null,
+    "owner": "OP.OPS",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D08_operacoes/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D09",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D09_pesquisa-inovacao",
+    "canonical_name": "Pesquisa e inovação",
+    "status": "existing",
+    "version": null,
+    "owner": "PD.INO",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D09_pesquisa-inovacao/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D10",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D10_gestao-produto",
+    "canonical_name": "Gestão de produto",
+    "status": "existing",
+    "version": null,
+    "owner": "PD.PRO",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D10_gestao-produto/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D11",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D11_experiencia-projeto",
+    "canonical_name": "Experiência e projeto",
+    "status": "existing",
+    "version": null,
+    "owner": "PD.EXP",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D11_experiencia-projeto/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D12",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D12_engenharia",
+    "canonical_name": "Engenharia",
+    "status": "existing",
+    "version": null,
+    "owner": "TD.ENG",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D12_engenharia/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D13",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D13_mercado-geracao-demanda",
+    "canonical_name": "Mercado e geração de demanda",
+    "status": "existing",
+    "version": null,
+    "owner": "MR.MKT",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D13_mercado-geracao-demanda/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D14",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D14_vendas",
+    "canonical_name": "Vendas",
+    "status": "existing",
+    "version": null,
+    "owner": "MR.VEN",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D14_vendas/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D15",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D15_atendimento-sucesso-cliente",
+    "canonical_name": "Atendimento e sucesso do cliente",
+    "status": "existing",
+    "version": null,
+    "owner": "MR.CSU",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D15_atendimento-sucesso-cliente/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "D16",
+    "parent_id": null,
+    "type": "folder",
+    "name": "D16_midias-sociais-distribuicao-digital",
+    "canonical_name": "Mídias sociais e distribuição digital",
+    "status": "existing",
+    "version": null,
+    "owner": "MR.MID",
+    "source_ref": "IMG_4287.jpeg",
+    "path": "D16_midias-sociais-distribuicao-digital/",
+    "purpose": null,
+    "capabilities": [],
+    "outputs": [],
+    "notes": "Pasta visível na foto; interface indica 7 itens. Conteúdo interno não inspecionado.",
+    "cta": {
+      "label": "Ver área",
+      "mode": "display_only",
+      "target": null
+    }
+  },
+  {
+    "id": "SRC-FOLDER-001",
+    "parent_id": null,
+    "type": "folder",
+    "name": "EXECUTAR GTM VIDEO ASSETS EXECUTADOS",
+    "canonical_name": "EXECUTAR GTM VIDEO ASSETS EXECUTADOS",
+    "status": "existing",
+    "version": null,
+    "owner": null,
+    "source_ref": "IMG_4287.jpeg",
+    "path": "_sources/SRC-FOLDER-001/",
+    "notes": "Nome transcrito da linha inferior; ID gerado. Relação com D01–D16 não demonstrada."
+  }
+]

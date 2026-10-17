@@ -1,0 +1,17 @@
+owner_code,group_code,group_name,area_id,area_name,path,person,status
+GV.GES,GV,Governança,D01,Gestão empresarial,D01_gestao-empresarial/,,code_reserved
+GV.JUR,GV,Governança,D02,"Jurídico, riscos e conformidade",D02_juridico-riscos-conformidade/,,code_reserved
+GV.FIN,GV,Governança,D03,Finanças,D03_financas/,,code_reserved
+GV.PES,GV,Governança,D04,Pessoas e recursos humanos,D04_pessoas-recursos-humanos/,,code_reserved
+TD.DAD,TD,Tecnologia e dados,D05,Dados,D05_dados/,,code_reserved
+TD.CON,TD,Tecnologia e dados,D06,Conhecimento e busca corporativa,D06_conhecimento-busca-corporativa/,,code_reserved
+OP.PRD,OP,Operação,D07,Produtividade e execução,D07_produtividade-execucao/,,code_reserved
+OP.OPS,OP,Operação,D08,Operações,D08_operacoes/,,code_reserved
+PD.INO,PD,Produto e experiência,D09,Pesquisa e inovação,D09_pesquisa-inovacao/,,code_reserved
+PD.PRO,PD,Produto e experiência,D10,Gestão de produto,D10_gestao-produto/,,code_reserved
+PD.EXP,PD,Produto e experiência,D11,Experiência e projeto,D11_experiencia-projeto/,,code_reserved
+TD.ENG,TD,Tecnologia e dados,D12,Engenharia,D12_engenharia/,,code_reserved
+MR.MKT,MR,Mercado e receita,D13,Mercado e geração de demanda,D13_mercado-geracao-demanda/,,code_reserved
+MR.VEN,MR,Mercado e receita,D14,Vendas,D14_vendas/,,code_reserved
+MR.CSU,MR,Mercado e receita,D15,Atendimento e sucesso do cliente,D15_atendimento-sucesso-cliente/,,code_reserved
+MR.MID,MR,Mercado e receita,D16,Mídias sociais e distribuição digital,D16_midias-sociais-distribuicao-digital/,,code_reserved

@@ -1,0 +1,17 @@
+{
+  "INFOGRAPHIC_ID": "EXEC-INFO-DOMAIN-001",
+  "VERSION": "1.0.0",
+  "SOURCE_REF": "IMG_4287.jpeg",
+  "VIEW_MODE": "HIERARCHY_MAP",
+  "ENTITY_COUNT": 17,
+  "AREA_COUNT": 16,
+  "PAGE_COUNT": 1,
+  "STATUS": "VERIFIED",
+  "AUTOMATION_LEVEL": "semi_automated",
+  "verification_scope": "Transcrição visual dos nomes, IDs únicos, contagem, dimensões e inspeção visual do PNG sem clipping; conteúdo interno das pastas não verificado.",
+  "inspection": "PNG aberto e conferido visualmente",
+  "dimensions_px": [
+    2480,
+    3508
+  ]
+}
