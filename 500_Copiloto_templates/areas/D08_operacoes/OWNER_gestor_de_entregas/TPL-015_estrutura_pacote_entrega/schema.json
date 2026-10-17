@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:executar:copiloto:template:TPL-015:v1",
+  "title": "TPL-015_estrutura_pacote_entrega",
+  "description": "Layout de pastas e arquivos finais do pacote 3D esperado.",
+  "type": "object",
+  "properties": {
+    "registro_id": {
+      "type": "string",
+      "description": "Identificador único da linha dentro do template."
+    },
+    "template_id": {
+      "type": "string",
+      "description": "ID canônico do template."
+    },
+    "area_id": {
+      "type": "string",
+      "description": "ID da área do catálogo do ecossistema.",
+      "enum": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16"
+      ]
+    },
+    "owner_papel": {
+      "type": "string",
+      "description": "Papel funcional sugerido, não identifica pessoa."
+    },
+    "owner_pessoa": {
+      "type": "string",
+      "description": "Nome da pessoa responsável (não definido na fonte)."
+    },
+    "status": {
+      "type": "string",
+      "description": "Estado do registro. Referencia não significa trabalho concluído.",
+      "enum": [
+        "rascunho",
+        "em_revisao",
+        "aprovado",
+        "referencia",
+        "arquivado"
+      ]
+    },
+    "secao_origem": {
+      "type": "string",
+      "description": "Seção documental que deu origem ao registro."
+    },
+    "evidencia_ref": {
+      "type": "string",
+      "description": "URI ou ID de evidência validada, se houver."
+    },
+    "pasta_raiz": {
+      "type": "string",
+      "description": ""
+    },
+    "caminho_relativo": {
+      "type": "string",
+      "description": ""
+    },
+    "tipo_artefato": {
+      "type": "string",
+      "description": ""
+    },
+    "obrigatorio": {
+      "type": "boolean",
+      "description": ""
+    },
+    "estado_arquivo": {
+      "type": "string",
+      "description": "",
+      "enum": [
+        "nao_gerado",
+        "gerado",
+        "verificado"
+      ]
+    },
+    "checksum_sha256": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "required": [
+    "registro_id",
+    "template_id",
+    "area_id",
+    "owner_papel",
+    "status",
+    "pasta_raiz",
+    "caminho_relativo",
+    "tipo_artefato",
+    "obrigatorio",
+    "estado_arquivo"
+  ],
+  "additionalProperties": false
+}

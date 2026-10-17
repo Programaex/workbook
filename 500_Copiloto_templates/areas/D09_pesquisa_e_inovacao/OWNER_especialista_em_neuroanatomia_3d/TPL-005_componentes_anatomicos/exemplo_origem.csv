@@ -1,0 +1,12 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,estrutura,grupo_anatomico,independente,pivo_proprio,hierarquia_animacao_propria,criterio_proporcao,asset_path,verificacao_anatomica
+TPL-005-REF-001,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Hemisfério cerebral esquerdo,Hemisférios,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-002,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Hemisfério cerebral direito,Hemisférios,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-003,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Lobo frontal,Lobos cerebrais,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-004,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Lobo parietal,Lobos cerebrais,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-005,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Lobo temporal,Lobos cerebrais,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-006,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Lobo occipital,Lobos cerebrais,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-007,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Cerebelo,Região posterior,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-008,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Tronco encefálico,Estruturas centrais,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-009,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Corpo caloso,Estruturas internas,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-010,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Tálamo,Estruturas internas,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,
+TPL-005-REF-011,TPL-005,D09,Especialista em Neuroanatomia 3D,,referencia,3. MODELAGEM ANATÔMICA,,Hipocampo,Estruturas internas,true,true,true,"Proporções anatômicas plausíveis, com estilização editorial",,

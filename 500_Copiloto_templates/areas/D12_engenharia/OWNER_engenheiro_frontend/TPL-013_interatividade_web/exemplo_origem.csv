@@ -1,0 +1,8 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,feature,comportamento_esperado,tipo_controle,criterio_aceite,dependencia
+TPL-013-REF-001,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Visualizador,Three.js interativo e reprodução da cena 3D,canvas 3D,,
+TPL-013-REF-002,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Autoplay,Iniciar reprodução automaticamente,reprodução,,
+TPL-013-REF-003,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Pausa,Pausar/retomar animação,botão,,
+TPL-013-REF-004,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Velocidade,Ajustar velocidade da animação,controle de velocidade,,
+TPL-013-REF-005,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Progresso,Acompanhar e controlar posição na timeline,controle de progresso,,
+TPL-013-REF-006,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Montagem / Explosão,Alternar entre cérebro montado e explodido,alternância de estado,,
+TPL-013-REF-007,TPL-013,D12,Engenheiro Frontend,,referencia,8. EXPORTAÇÕES OBRIGATÓRIAS,,Responsividade,Layout e interação adaptáveis à tela,responsivo,,

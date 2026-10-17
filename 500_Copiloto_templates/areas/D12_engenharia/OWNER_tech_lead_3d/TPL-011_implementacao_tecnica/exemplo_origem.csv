@@ -1,0 +1,12 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,componente,stack_prioritaria,stack_alternativa,requisito,artefato_previsto,condicao_fallback
+TPL-011-REF-001,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Motor principal,Blender + Python,Three.js + React Three Fiber,"Cena tridimensional editável, animação reproduzível",,Somente quando Blender não estiver disponível
+TPL-011-REF-002,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Objetos,Blender + Python,,Separação independente das peças,,
+TPL-011-REF-003,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Materiais,Blender + Python,,Reutilizáveis,,
+TPL-011-REF-004,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Coleções,Blender + Python,,Organizadas,,
+TPL-011-REF-005,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Controladores,Blender + Python,,Controladores de animação,,
+TPL-011-REF-006,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Keyframes,Blender + Python,,Keyframes por estrutura,,
+TPL-011-REF-007,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Câmeras,Blender + Python,,Configuração de múltiplas câmeras,,
+TPL-011-REF-008,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Iluminação,Blender + Python,,Configuração de estúdio,,
+TPL-011-REF-009,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Renderização,Blender + Python,,Parâmetros de renderização,,
+TPL-011-REF-010,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Exportação,Blender + Python,,Script de reprodução e exportação,,
+TPL-011-REF-011,TPL-011,D12,Tech Lead 3D,,referencia,7. IMPLEMENTAÇÃO TÉCNICA,,Restrições de representação,3D real,,Não representar animação 2D como se fosse 3D real,,

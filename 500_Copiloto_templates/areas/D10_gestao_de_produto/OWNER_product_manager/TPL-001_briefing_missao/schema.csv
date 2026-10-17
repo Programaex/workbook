@@ -1,0 +1,17 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-001,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,1. MISSÃO
+TPL-001,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,1. MISSÃO
+TPL-001,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,1. MISSÃO
+TPL-001,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",1. MISSÃO
+TPL-001,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,1. MISSÃO
+TPL-001,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,1. MISSÃO
+TPL-001,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,1. MISSÃO
+TPL-001,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",1. MISSÃO
+TPL-001,nome_projeto,string,sim,,{{NOME_PROJETO}},,1. MISSÃO
+TPL-001,objetivo,string,sim,,{{OBJETIVO}},,1. MISSÃO
+TPL-001,sistema_visual,string,sim,,{{SISTEMA_VISUAL}},Técnica principal utilizada.,1. MISSÃO
+TPL-001,estilo,string,sim,,{{ESTILO}},,1. MISSÃO
+TPL-001,prioridade_entrega,string,sim,,{{PRIORIDADE_ENTREGA}},,1. MISSÃO
+TPL-001,tridimensional_real,boolean,sim,,{{TRIDIMENSIONAL_REAL}},,1. MISSÃO
+TPL-001,resultado_esperado,string,sim,,{{RESULTADO_ESPERADO}},,1. MISSÃO
+TPL-001,uso_previsto,string,nao,,{{USO_PREVISTO}},,1. MISSÃO

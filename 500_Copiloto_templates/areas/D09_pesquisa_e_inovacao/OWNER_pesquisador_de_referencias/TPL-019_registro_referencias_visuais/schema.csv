@@ -1,0 +1,16 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-019,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",INTRODUÇÃO / COMO EXECUTAR
+TPL-019,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",INTRODUÇÃO / COMO EXECUTAR
+TPL-019,referencia_titulo,string,sim,,{{REFERENCIA_TITULO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,tipo,string,sim,,{{TIPO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,uso_previsto,string,sim,,{{USO_PREVISTO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,caminho_ou_url,string,nao,,{{CAMINHO_OU_URL}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,licenca,string,nao,,{{LICENCA}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,disponibilidade,string,sim,nao_identificada_no_pacote | localizada | verificada,{{DISPONIBILIDADE}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,observacoes,string,nao,,{{OBSERVACOES}},,INTRODUÇÃO / COMO EXECUTAR

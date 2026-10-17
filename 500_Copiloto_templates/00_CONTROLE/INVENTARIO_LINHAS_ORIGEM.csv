@@ -1,0 +1,175 @@
+﻿arquivo_origem,linha,secao,tipo_bloco,texto_original,templates_associados
+Untitled 2.md,1,INTRODUÇÃO,texto,"Aqui está o comando mestre para o Astra produzir o projeto completo: cérebro 3D explodido, animação cinematográfica, montagem e desmontagem das estruturas, loop contínuo e exportação em GIF, MP4 e WebM.",TPL-001|TPL-019
+Untitled 2.md,3,INTRODUÇÃO,texto,"O objetivo é reproduzir a linguagem visual das referências da Lidl, mas com o cérebro como protagonista, utilizando uma animação 3D real, e não apenas movimento aplicado a uma imagem estática.",TPL-001|TPL-019
+Untitled 2.md,5,INTRODUÇÃO,cabecalho,ASTRA — MASTER COMMAND,TPL-001|TPL-019
+Untitled 2.md,7,INTRODUÇÃO,cabecalho,EXECUTAR · CÉREBRO 3D EXPLODED MOTION SYSTEM,TPL-001|TPL-019
+Untitled 2.md,9,INTRODUÇÃO,texto,MODO: Produção autônoma ponta a ponta,TPL-001|TPL-019
+Untitled 2.md,11,INTRODUÇÃO,texto,"PRIORIDADE: Entregar arquivos finais funcionais, não apenas conceitos, prompts ou storyboards.",TPL-001|TPL-019
+Untitled 2.md,13,1. MISSÃO,cabecalho_secao,1. MISSÃO,TPL-001
+Untitled 2.md,15,1. MISSÃO,texto,"Crie uma animação 3D premium de um cérebro humano estilizado, utilizando a técnica Exploded View Assembly Animation, inspirada nas referências visuais fornecidas.",TPL-001
+Untitled 2.md,17,1. MISSÃO,texto,"A animação deverá mostrar um cérebro composto por estruturas anatômicas tridimensionais separadas, flutuando no espaço, movimentando-se de forma coordenada e posteriormente se encaixando para formar um cérebro completo.",TPL-001
+Untitled 2.md,21,1. MISSÃO,texto,Use as referências para direção artística e movimento,TPL-001
+Untitled 2.md,23,2. DIREÇÃO DE ARTE,cabecalho_secao,2. DIREÇÃO DE ARTE,TPL-002|TPL-003|TPL-004
+Untitled 2.md,25,2. DIREÇÃO DE ARTE,texto,"Estética: Premium 3D Motion Design, Playful Scientific Editorial.",TPL-002|TPL-003|TPL-004
+Untitled 2.md,28,2. DIREÇÃO DE ARTE,texto,Materiais:,TPL-002|TPL-003|TPL-004
+Untitled 2.md,30,2. DIREÇÃO DE ARTE,item,- Polímero acetinado.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,31,2. DIREÇÃO DE ARTE,item,- Porcelana orgânica.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,32,2. DIREÇÃO DE ARTE,item,- Borracha premium.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,33,2. DIREÇÃO DE ARTE,item,- Metal escovado.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,34,2. DIREÇÃO DE ARTE,item,- Superfícies com microtextura.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,36,2. DIREÇÃO DE ARTE,texto,Ambiente:,TPL-002|TPL-003|TPL-004
+Untitled 2.md,38,2. DIREÇÃO DE ARTE,item,- Fundo azul com painel perfurado geométrico.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,39,2. DIREÇÃO DE ARTE,item,- Bancada de madeira clara na parte inferior.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,40,2. DIREÇÃO DE ARTE,item,- Iluminação de estúdio difusa.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,41,2. DIREÇÃO DE ARTE,item,- Sombras suaves e fisicamente coerentes.,TPL-002|TPL-003|TPL-004
+Untitled 2.md,42,2. DIREÇÃO DE ARTE,item,"- Objetos suspensos, sem suportes visíveis.",TPL-002|TPL-003|TPL-004
+Untitled 2.md,44,3. MODELAGEM ANATÔMICA,cabecalho_secao,3. MODELAGEM ANATÔMICA,TPL-005|TPL-006
+Untitled 2.md,46,3. MODELAGEM ANATÔMICA,texto,Criar modelos tridimensionais independentes de:,TPL-005|TPL-006
+Untitled 2.md,48,3. MODELAGEM ANATÔMICA,enumeracao,1. Hemisfério cerebral esquerdo.,TPL-005|TPL-006
+Untitled 2.md,49,3. MODELAGEM ANATÔMICA,enumeracao,2. Hemisfério cerebral direito.,TPL-005|TPL-006
+Untitled 2.md,50,3. MODELAGEM ANATÔMICA,enumeracao,"3. Lobos frontal, parietal, temporal e occipital.",TPL-005|TPL-006
+Untitled 2.md,51,3. MODELAGEM ANATÔMICA,enumeracao,4. Cerebelo.,TPL-005|TPL-006
+Untitled 2.md,52,3. MODELAGEM ANATÔMICA,enumeracao,5. Tronco encefálico.,TPL-005|TPL-006
+Untitled 2.md,53,3. MODELAGEM ANATÔMICA,enumeracao,6. Corpo caloso.,TPL-005|TPL-006
+Untitled 2.md,54,3. MODELAGEM ANATÔMICA,enumeracao,7. Tálamo.,TPL-005|TPL-006
+Untitled 2.md,55,3. MODELAGEM ANATÔMICA,enumeracao,8. Hipocampo.,TPL-005|TPL-006
+Untitled 2.md,57,3. MODELAGEM ANATÔMICA,texto,"Preservar proporções anatômicas plausíveis, permitindo estilização editorial.",TPL-005|TPL-006
+Untitled 2.md,59,3. MODELAGEM ANATÔMICA,texto,"Separar as estruturas em objetos individuais, com pivôs e hierarquia de animação próprios.",TPL-005|TPL-006
+Untitled 2.md,61,3. MODELAGEM ANATÔMICA,texto,"Adicionar componentes gráficos secundários como esferas, conectores, anéis e pequenas peças mecânicas, claramente distinguíveis das estruturas anatômicas.",TPL-005|TPL-006
+Untitled 2.md,63,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho_secao,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,TPL-007
+Untitled 2.md,65,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho,00:00–00:02 — FLOATING,TPL-007
+Untitled 2.md,67,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Cérebro desmontado no centro da composição.,TPL-007
+Untitled 2.md,69,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Todas as estruturas flutuam suavemente em posições diferentes.,TPL-007
+Untitled 2.md,71,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,"Cada peça possui movimento independente, com pequenas oscilações verticais e rotações.",TPL-007
+Untitled 2.md,73,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho,00:02–00:04 — ASSEMBLY,TPL-007
+Untitled 2.md,75,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,As estruturas aproximam-se do centro em trajetórias curvas.,TPL-007
+Untitled 2.md,77,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Os hemisférios se alinham.,TPL-007
+Untitled 2.md,79,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,As estruturas internas se encaixam progressivamente.,TPL-007
+Untitled 2.md,81,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Utilizar easing cinematográfico e movimento orgânico.,TPL-007
+Untitled 2.md,83,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho,00:04–00:05 — COMPLETE BRAIN,TPL-007
+Untitled 2.md,85,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Cérebro completamente montado.,TPL-007
+Untitled 2.md,87,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Realizar uma pequena rotação de apresentação.,TPL-007
+Untitled 2.md,89,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,"Adicionar iluminação de destaque suave, sem flashes excessivos.",TPL-007
+Untitled 2.md,91,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho,00:05–00:07 — EXPLODED VIEW,TPL-007
+Untitled 2.md,93,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,As estruturas começam a se separar novamente.,TPL-007
+Untitled 2.md,95,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Cada peça retorna à sua posição inicial utilizando trajetórias coordenadas.,TPL-007
+Untitled 2.md,97,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Evitar colisões e interseções geométricas.,TPL-007
+Untitled 2.md,99,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,cabecalho,00:07–00:08 — LOOP CLOSURE,TPL-007
+Untitled 2.md,101,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Todas as peças retornam exatamente às transformações iniciais.,TPL-007
+Untitled 2.md,103,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,"Garantir continuidade perfeita de posição, rotação, iluminação e movimento entre o último e o primeiro quadro.",TPL-007
+Untitled 2.md,105,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,texto,Não criar saltos perceptíveis.,TPL-007
+Untitled 2.md,107,5. CÂMERA E ILUMINAÇÃO,cabecalho_secao,5. CÂMERA E ILUMINAÇÃO,TPL-008|TPL-009
+Untitled 2.md,109,5. CÂMERA E ILUMINAÇÃO,texto,Câmera principal:,TPL-008|TPL-009
+Untitled 2.md,111,5. CÂMERA E ILUMINAÇÃO,item,- Projeção ortográfica.,TPL-008|TPL-009
+Untitled 2.md,112,5. CÂMERA E ILUMINAÇÃO,item,- Ângulo frontal de três quartos.,TPL-008|TPL-009
+Untitled 2.md,113,5. CÂMERA E ILUMINAÇÃO,item,- Elevação de aproximadamente 20°.,TPL-008|TPL-009
+Untitled 2.md,114,5. CÂMERA E ILUMINAÇÃO,item,- Lente virtual equivalente a 70 mm para versões em perspectiva.,TPL-008|TPL-009
+Untitled 2.md,115,5. CÂMERA E ILUMINAÇÃO,item,- Composição centralizada.,TPL-008|TPL-009
+Untitled 2.md,117,5. CÂMERA E ILUMINAÇÃO,texto,Câmera secundária:,TPL-008|TPL-009
+Untitled 2.md,119,5. CÂMERA E ILUMINAÇÃO,item,- Perspectiva isométrica.,TPL-008|TPL-009
+Untitled 2.md,120,5. CÂMERA E ILUMINAÇÃO,item,- Elevação de 35°.,TPL-008|TPL-009
+Untitled 2.md,121,5. CÂMERA E ILUMINAÇÃO,item,- Azimute de 45°.,TPL-008|TPL-009
+Untitled 2.md,123,5. CÂMERA E ILUMINAÇÃO,texto,Câmera terciária:,TPL-008|TPL-009
+Untitled 2.md,125,5. CÂMERA E ILUMINAÇÃO,item,- Vista lateral anatômica.,TPL-008|TPL-009
+Untitled 2.md,127,5. CÂMERA E ILUMINAÇÃO,texto,Iluminação:,TPL-008|TPL-009
+Untitled 2.md,129,5. CÂMERA E ILUMINAÇÃO,item,- Key light grande e difusa.,TPL-008|TPL-009
+Untitled 2.md,130,5. CÂMERA E ILUMINAÇÃO,item,- Fill light suave.,TPL-008|TPL-009
+Untitled 2.md,131,5. CÂMERA E ILUMINAÇÃO,item,- Rim light discreta.,TPL-008|TPL-009
+Untitled 2.md,132,5. CÂMERA E ILUMINAÇÃO,item,- Ambient occlusion.,TPL-008|TPL-009
+Untitled 2.md,133,5. CÂMERA E ILUMINAÇÃO,item,- Reflexos controlados.,TPL-008|TPL-009
+Untitled 2.md,134,5. CÂMERA E ILUMINAÇÃO,item,- Sombras de contato coerentes.,TPL-008|TPL-009
+Untitled 2.md,136,6. ESPECIFICAÇÕES DE ANIMAÇÃO,cabecalho_secao,6. ESPECIFICAÇÕES DE ANIMAÇÃO,TPL-010
+Untitled 2.md,138,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Duração: 8 segundos.,TPL-010
+Untitled 2.md,139,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Frame rate: 30 fps.,TPL-010
+Untitled 2.md,140,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Total: 240 quadros.,TPL-010
+Untitled 2.md,141,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Loop matematicamente contínuo.,TPL-010
+Untitled 2.md,142,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Curvas de interpolação suaves.,TPL-010
+Untitled 2.md,143,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Movimento independente por objeto.,TPL-010
+Untitled 2.md,144,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Profundidade tridimensional real.,TPL-010
+Untitled 2.md,145,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Sem deformações anatômicas involuntárias.,TPL-010
+Untitled 2.md,146,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Sem flicker.,TPL-010
+Untitled 2.md,147,6. ESPECIFICAÇÕES DE ANIMAÇÃO,item,- Sem cortes de câmera no loop principal.,TPL-010
+Untitled 2.md,149,7. IMPLEMENTAÇÃO TÉCNICA,cabecalho_secao,7. IMPLEMENTAÇÃO TÉCNICA,TPL-011
+Untitled 2.md,151,7. IMPLEMENTAÇÃO TÉCNICA,texto,Priorizar Blender com Python para gerar uma cena 3D editável.,TPL-011
+Untitled 2.md,153,7. IMPLEMENTAÇÃO TÉCNICA,texto,Criar:,TPL-011
+Untitled 2.md,155,7. IMPLEMENTAÇÃO TÉCNICA,item,- Objetos separados.,TPL-011
+Untitled 2.md,156,7. IMPLEMENTAÇÃO TÉCNICA,item,- Materiais reutilizáveis.,TPL-011
+Untitled 2.md,157,7. IMPLEMENTAÇÃO TÉCNICA,item,- Coleções organizadas.,TPL-011
+Untitled 2.md,158,7. IMPLEMENTAÇÃO TÉCNICA,item,- Controladores de animação.,TPL-011
+Untitled 2.md,159,7. IMPLEMENTAÇÃO TÉCNICA,item,- Keyframes.,TPL-011
+Untitled 2.md,160,7. IMPLEMENTAÇÃO TÉCNICA,item,- Câmeras.,TPL-011
+Untitled 2.md,161,7. IMPLEMENTAÇÃO TÉCNICA,item,- Iluminação.,TPL-011
+Untitled 2.md,162,7. IMPLEMENTAÇÃO TÉCNICA,item,- Configurações de renderização.,TPL-011
+Untitled 2.md,163,7. IMPLEMENTAÇÃO TÉCNICA,item,- Script de reprodução e exportação.,TPL-011
+Untitled 2.md,165,7. IMPLEMENTAÇÃO TÉCNICA,texto,"Se o ambiente não disponibilizar Blender, utilizar Three.js com React Three Fiber e animação baseada em timeline.",TPL-011
+Untitled 2.md,167,7. IMPLEMENTAÇÃO TÉCNICA,texto,Não representar uma animação 2D como se fosse 3D real.,TPL-011
+Untitled 2.md,169,8. EXPORTAÇÕES OBRIGATÓRIAS,cabecalho_secao,8. EXPORTAÇÕES OBRIGATÓRIAS,TPL-012|TPL-013
+Untitled 2.md,171,8. EXPORTAÇÕES OBRIGATÓRIAS,texto,Gerar:,TPL-012|TPL-013
+Untitled 2.md,173,8. EXPORTAÇÕES OBRIGATÓRIAS,texto,Vídeos,TPL-012|TPL-013
+Untitled 2.md,175,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_loop_16x9.mp4 — 1920×1080,TPL-012|TPL-013
+Untitled 2.md,176,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_loop_9x16.mp4 — 1080×1920,TPL-012|TPL-013
+Untitled 2.md,177,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_loop_1x1.mp4 — 1080×1080,TPL-012|TPL-013
+Untitled 2.md,178,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_loop.webm — versão otimizada para web,TPL-012|TPL-013
+Untitled 2.md,180,8. EXPORTAÇÕES OBRIGATÓRIAS,cabecalho,GIF,TPL-012|TPL-013
+Untitled 2.md,182,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_loop.gif — loop infinito otimizado,TPL-012|TPL-013
+Untitled 2.md,184,8. EXPORTAÇÕES OBRIGATÓRIAS,texto,Imagens,TPL-012|TPL-013
+Untitled 2.md,186,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_hero.png,TPL-012|TPL-013
+Untitled 2.md,187,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_exploded.png,TPL-012|TPL-013
+Untitled 2.md,188,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_assembled.png,TPL-012|TPL-013
+Untitled 2.md,189,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_thumbnail.png,TPL-012|TPL-013
+Untitled 2.md,191,8. EXPORTAÇÕES OBRIGATÓRIAS,texto,Arquivos editáveis,TPL-012|TPL-013
+Untitled 2.md,193,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_motion.blend,TPL-012|TPL-013
+Untitled 2.md,194,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- brain_animation.py,TPL-012|TPL-013
+Untitled 2.md,195,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- README.md,TPL-012|TPL-013
+Untitled 2.md,197,8. EXPORTAÇÕES OBRIGATÓRIAS,texto,Web,TPL-012|TPL-013
+Untitled 2.md,199,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- index.html,TPL-012|TPL-013
+Untitled 2.md,200,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Visualizador interativo com Three.js.,TPL-012|TPL-013
+Untitled 2.md,201,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Reprodução automática.,TPL-012|TPL-013
+Untitled 2.md,202,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Botão de pausa.,TPL-012|TPL-013
+Untitled 2.md,203,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Controle de velocidade.,TPL-012|TPL-013
+Untitled 2.md,204,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Controle de progresso.,TPL-012|TPL-013
+Untitled 2.md,205,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Alternância entre cérebro montado e explodido.,TPL-012|TPL-013
+Untitled 2.md,206,8. EXPORTAÇÕES OBRIGATÓRIAS,item,- Interface responsiva.,TPL-012|TPL-013
+Untitled 2.md,208,9. CRITÉRIOS DE QUALIDADE,cabecalho_secao,9. CRITÉRIOS DE QUALIDADE,TPL-014
+Untitled 2.md,210,9. CRITÉRIOS DE QUALIDADE,texto,Verificar obrigatoriamente:,TPL-014
+Untitled 2.md,212,9. CRITÉRIOS DE QUALIDADE,item,- Coerência anatômica.,TPL-014
+Untitled 2.md,213,9. CRITÉRIOS DE QUALIDADE,item,- Qualidade dos materiais.,TPL-014
+Untitled 2.md,214,9. CRITÉRIOS DE QUALIDADE,item,- Iluminação de estúdio.,TPL-014
+Untitled 2.md,215,9. CRITÉRIOS DE QUALIDADE,item,- Continuidade do loop.,TPL-014
+Untitled 2.md,216,9. CRITÉRIOS DE QUALIDADE,item,- Ausência de peças desaparecendo.,TPL-014
+Untitled 2.md,217,9. CRITÉRIOS DE QUALIDADE,item,- Ausência de colisões visuais.,TPL-014
+Untitled 2.md,218,9. CRITÉRIOS DE QUALIDADE,item,- Consistência entre proporções.,TPL-014
+Untitled 2.md,219,9. CRITÉRIOS DE QUALIDADE,item,- Exportações reproduzíveis.,TPL-014
+Untitled 2.md,220,9. CRITÉRIOS DE QUALIDADE,item,- Compatibilidade com navegadores modernos.,TPL-014
+Untitled 2.md,221,9. CRITÉRIOS DE QUALIDADE,item,- Arquivos efetivamente gerados e verificados.,TPL-014
+Untitled 2.md,223,10. ENTREGA,cabecalho_secao,10. ENTREGA,TPL-015
+Untitled 2.md,225,10. ENTREGA,texto,Organize todos os arquivos em:,TPL-015
+Untitled 2.md,227,10. ENTREGA,texto,EXECUTAR_BRAIN_MOTION_PACKAGE.zip,TPL-015
+Untitled 2.md,229,10. ENTREGA,texto,Estrutura:,TPL-015
+Untitled 2.md,231,10. ENTREGA,cabecalho,EXECUTAR_BRAIN_MOTION/,TPL-015
+Untitled 2.md,233,10. ENTREGA,texto,├── source/,TPL-015
+Untitled 2.md,235,10. ENTREGA,texto,│   ├── brain_motion.blend,TPL-015
+Untitled 2.md,237,10. ENTREGA,texto,│   └── brain_animation.py,TPL-015
+Untitled 2.md,239,10. ENTREGA,texto,├── video/,TPL-015
+Untitled 2.md,241,10. ENTREGA,texto,│   ├── brain_loop_16x9.mp4,TPL-015
+Untitled 2.md,243,10. ENTREGA,texto,│   ├── brain_loop_9x16.mp4,TPL-015
+Untitled 2.md,245,10. ENTREGA,texto,│   ├── brain_loop_1x1.mp4,TPL-015
+Untitled 2.md,247,10. ENTREGA,texto,│   └── brain_loop.webm,TPL-015
+Untitled 2.md,249,10. ENTREGA,texto,├── gif/,TPL-015
+Untitled 2.md,251,10. ENTREGA,texto,│   └── brain_loop.gif,TPL-015
+Untitled 2.md,253,10. ENTREGA,texto,├── images/,TPL-015
+Untitled 2.md,255,10. ENTREGA,texto,│   ├── brain_hero.png,TPL-015
+Untitled 2.md,257,10. ENTREGA,texto,│   ├── brain_exploded.png,TPL-015
+Untitled 2.md,259,10. ENTREGA,texto,│   ├── brain_assembled.png,TPL-015
+Untitled 2.md,261,10. ENTREGA,texto,│   └── brain_thumbnail.png,TPL-015
+Untitled 2.md,263,10. ENTREGA,texto,├── web/,TPL-015
+Untitled 2.md,265,10. ENTREGA,texto,│   └── index.html,TPL-015
+Untitled 2.md,267,10. ENTREGA,texto,└── README.md,TPL-015
+Untitled 2.md,269,11. INSTRUÇÃO FINAL AO ASTRA,cabecalho_secao,11. INSTRUÇÃO FINAL AO ASTRA,TPL-016
+Untitled 2.md,271,11. INSTRUÇÃO FINAL AO ASTRA,texto,Execute o trabalho de ponta a ponta.,TPL-016
+Untitled 2.md,273,11. INSTRUÇÃO FINAL AO ASTRA,texto,"Não encerre após produzir apenas uma imagem, uma proposta ou um storyboard.",TPL-016
+Untitled 2.md,275,11. INSTRUÇÃO FINAL AO ASTRA,texto,"Implemente a cena, anime os objetos, renderize, exporte, teste os arquivos e entregue o pacote final.",TPL-016
+Untitled 2.md,277,11. INSTRUÇÃO FINAL AO ASTRA,texto,Utilize as imagens fornecidas como referências visuais obrigatórias.,TPL-016
+Untitled 2.md,279,11. INSTRUÇÃO FINAL AO ASTRA,texto,"Quando alguma ferramenta ou capacidade não estiver disponível, informe a limitação real e entregue os arquivos intermediários utilizáveis, sem declarar como concluídos os resultados que não foram gerados.",TPL-016
+Untitled 2.md,281,11. INSTRUÇÃO FINAL AO ASTRA,texto,"RESULTADO ESPERADO: Um cérebro 3D modular que se desmonta, flutua, gira, se reconstrói e retorna ao estado inicial em um loop cinematográfico contínuo, pronto para campanhas, landing pages, apresentações e interfaces do ecossistema EXECUTAR.",TPL-016
+Untitled 2.md,283,11. INSTRUÇÃO FINAL AO ASTRA,texto,"Como executar: envie esse comando ao Astra junto com as duas referências visuais e a imagem do cérebro gerada anteriormente. O comando já inclui os critérios de produção, exportação e validação para que ele entregue um projeto editável, além do GIF final.",TPL-016

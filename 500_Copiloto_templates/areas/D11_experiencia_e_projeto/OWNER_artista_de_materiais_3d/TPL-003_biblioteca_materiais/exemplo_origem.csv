@@ -1,0 +1,6 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,material,classe_material,acabamento,alvo_aplicacao,configuracao_shader
+TPL-003-REF-001,TPL-003,D11,Artista de Materiais 3D,,referencia,2. DIREÇÃO DE ARTE,,Polímero acetinado,material de cena,acetinado,,
+TPL-003-REF-002,TPL-003,D11,Artista de Materiais 3D,,referencia,2. DIREÇÃO DE ARTE,,Porcelana orgânica,material de cena,cerâmico orgânico,,
+TPL-003-REF-003,TPL-003,D11,Artista de Materiais 3D,,referencia,2. DIREÇÃO DE ARTE,,Borracha premium,material de cena,elastomérico,,
+TPL-003-REF-004,TPL-003,D11,Artista de Materiais 3D,,referencia,2. DIREÇÃO DE ARTE,,Metal escovado,material de cena,escovado,,
+TPL-003-REF-005,TPL-003,D11,Artista de Materiais 3D,,referencia,2. DIREÇÃO DE ARTE,,Superfícies com microtextura,material de cena,microtexturizado,,

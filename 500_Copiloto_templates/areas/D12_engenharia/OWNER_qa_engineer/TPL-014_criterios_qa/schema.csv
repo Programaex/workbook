@@ -1,0 +1,15 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-014,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",9. CRITÉRIOS DE QUALIDADE
+TPL-014,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,9. CRITÉRIOS DE QUALIDADE
+TPL-014,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",9. CRITÉRIOS DE QUALIDADE
+TPL-014,criterio,string,sim,,{{CRITERIO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,escopo,string,sim,,{{ESCOPO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,metodo_teste_sugerido,string,nao,,{{METODO_TESTE_SUGERIDO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,resultado,string,sim,pendente | aprovado | reprovado | nao_aplicavel,{{RESULTADO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,evidencia_arquivo,string,nao,,{{EVIDENCIA_ARQUIVO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,observacoes,string,nao,,{{OBSERVACOES}},,9. CRITÉRIOS DE QUALIDADE

@@ -14,3 +14,8 @@ updated: 2026-10-17
 
 ## Resumo do capítulo
 _Aguardando conteúdo._
+
+<!-- TEMPLATES:INICIO -->
+## Templates da área
+- `TPL-017` pagina_workbook_editorial — papel: Gestor de Conhecimento · `500_Copiloto_templates/areas/D05_dados/OWNER_gestor_de_conhecimento/TPL-017_pagina_workbook_editorial`
+<!-- TEMPLATES:FIM -->

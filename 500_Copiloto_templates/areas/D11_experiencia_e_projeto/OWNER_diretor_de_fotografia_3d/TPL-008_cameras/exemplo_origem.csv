@@ -1,0 +1,5 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,camera_nome,projecao,enquadramento,elevacao_graus,azimute_graus,lente_eq_mm,composicao,notas
+TPL-008-REF-001,TPL-008,D11,Diretor de Fotografia 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Principal,Ortográfica,Frontal de três quartos,20,,,Centralizada,"Equivalente 70 mm refere-se às versões em perspectiva, não à projeção ortográfica"
+TPL-008-REF-002,TPL-008,D11,Diretor de Fotografia 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Secundária,Perspectiva isométrica (descrição do briefing),Isométrico,35,45,,,
+TPL-008-REF-003,TPL-008,D11,Diretor de Fotografia 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Terciária,Não especificada,Vista lateral anatômica,,,,,
+TPL-008-REF-004,TPL-008,D11,Diretor de Fotografia 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Variação perspectivada,Perspectiva,Versão da câmera principal,,,70,,Parâmetro especificado somente para versões em perspectiva

@@ -1,0 +1,15 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-011,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,componente,string,sim,,{{COMPONENTE}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,stack_prioritaria,string,sim,,{{STACK_PRIORITARIA}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,stack_alternativa,string,nao,,{{STACK_ALTERNATIVA}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,requisito,string,sim,,{{REQUISITO}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,artefato_previsto,string,nao,,{{ARTEFATO_PREVISTO}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,condicao_fallback,string,nao,,{{CONDICAO_FALLBACK}},,7. IMPLEMENTAÇÃO TÉCNICA
