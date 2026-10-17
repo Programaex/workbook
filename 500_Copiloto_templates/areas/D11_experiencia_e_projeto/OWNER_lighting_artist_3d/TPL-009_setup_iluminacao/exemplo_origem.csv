@@ -1,0 +1,7 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,luz_ou_efeito,caracteristica,intensidade,implementacao,criterio_aceite
+TPL-009-REF-001,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Key light,Grande e difusa,,,
+TPL-009-REF-002,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Fill light,Suave,,,
+TPL-009-REF-003,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Rim light,Discreta,,,
+TPL-009-REF-004,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Ambient occlusion,Habilitada,,,
+TPL-009-REF-005,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Reflexos,Controlados,,,
+TPL-009-REF-006,TPL-009,D11,Lighting Artist 3D,,referencia,5. CÂMERA E ILUMINAÇÃO,,Sombras de contato,Coerentes,,,

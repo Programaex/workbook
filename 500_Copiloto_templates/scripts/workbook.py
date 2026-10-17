@@ -3,7 +3,7 @@
 
 Uso: python3 500_Copiloto_templates/scripts/workbook.py <comando> [--incluir-vazios]
 """
-import csv, re, sys, pathlib, datetime
+import csv, re, sys, pathlib, datetime, hashlib
 
 ROOT = pathlib.Path(__file__).resolve().parents[2]
 WB = ROOT / "00_Workbook"
@@ -129,6 +129,15 @@ def cmd_check():
             continue
         if not any((area_dir(a) / "tarefas" / p.name).exists() for a in areas()):
             errs.append(f"{p}: clone 3 sem clone 2 na pasta do owner")
+    tpl = ROOT / "500_Copiloto_templates"
+    ck = tpl / "00_CONTROLE" / "CHECKSUMS.csv"
+    if ck.exists():
+        with open(ck, encoding="utf-8-sig") as f:
+            for r in csv.DictReader(f):
+                rel = "00_CONTROLE/README_PACOTE.md" if r["caminho"] == "README.md" else r["caminho"]
+                p = tpl / rel
+                if not p.exists() or hashlib.sha256(p.read_bytes()).hexdigest() != r["sha256"]:
+                    errs.append(f"{p}: checksum do pacote divergente ou arquivo ausente")
     print("\n".join(errs) if errs else "check ok")
     sys.exit(1 if errs else 0)
 

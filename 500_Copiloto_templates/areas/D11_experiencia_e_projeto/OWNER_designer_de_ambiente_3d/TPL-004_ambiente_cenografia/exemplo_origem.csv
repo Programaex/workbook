@@ -1,0 +1,6 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,elemento,especificacao,requisito_visibilidade,asset_ref,restricao
+TPL-004-REF-001,TPL-004,D11,Designer de Ambiente 3D,,referencia,2. DIREÇÃO DE ARTE,,Fundo,Azul com painel perfurado geométrico,visível,,
+TPL-004-REF-002,TPL-004,D11,Designer de Ambiente 3D,,referencia,2. DIREÇÃO DE ARTE,,Bancada,Madeira clara na parte inferior,visível,,
+TPL-004-REF-003,TPL-004,D11,Designer de Ambiente 3D,,referencia,2. DIREÇÃO DE ARTE,,Iluminação,Estúdio difuso,aplicada,,
+TPL-004-REF-004,TPL-004,D11,Designer de Ambiente 3D,,referencia,2. DIREÇÃO DE ARTE,,Sombras,Suaves e fisicamente coerentes,aplicada,,
+TPL-004-REF-005,TPL-004,D11,Designer de Ambiente 3D,,referencia,2. DIREÇÃO DE ARTE,,Suporte,Objetos suspensos sem suportes visíveis,invisível,,

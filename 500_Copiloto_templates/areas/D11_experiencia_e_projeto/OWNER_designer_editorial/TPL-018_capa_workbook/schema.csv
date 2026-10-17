@@ -1,0 +1,18 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-018,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,CAPA
+TPL-018,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,CAPA
+TPL-018,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,CAPA
+TPL-018,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",CAPA
+TPL-018,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,CAPA
+TPL-018,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,CAPA
+TPL-018,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,CAPA
+TPL-018,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",CAPA
+TPL-018,capa_id,string,sim,,{{CAPA_ID}},,CAPA
+TPL-018,titulo,string,sim,,{{TITULO}},,CAPA
+TPL-018,subtitulo,string,nao,,{{SUBTITULO}},,CAPA
+TPL-018,linha_apoio,string,nao,,{{LINHA_APOIO}},,CAPA
+TPL-018,autor,string,nao,,{{AUTOR}},,CAPA
+TPL-018,versao_documento,string,nao,,{{VERSAO_DOCUMENTO}},,CAPA
+TPL-018,data_emissao,string,nao,,{{DATA_EMISSAO}},,CAPA
+TPL-018,identidade_visual_ref,string,nao,,{{IDENTIDADE_VISUAL_REF}},,CAPA
+TPL-018,dimensao_pagina,string,nao,,{{DIMENSAO_PAGINA}},,CAPA

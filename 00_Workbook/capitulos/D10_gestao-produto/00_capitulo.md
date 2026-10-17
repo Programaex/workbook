@@ -15,4 +15,8 @@ updated: 2026-10-17
 ## Resumo do capítulo
 _Aguardando conteúdo._
 
-**Templates (co-owner):** `TPL-001` · F01 Product Brief e índice do portfólio. Owner primário: `TD.ENG` (D12).
+<!-- TEMPLATES:INICIO -->
+## Templates da área
+- `TPL-001` briefing_missao — papel: Product Manager · `500_Copiloto_templates/areas/D10_gestao_de_produto/OWNER_product_manager/TPL-001_briefing_missao`
+- `TPL-020` fichas_schema_ecossistema_executar — co-owner (F01 Product Brief, índice do portfólio); owner primário `TD.ENG`
+<!-- TEMPLATES:FIM -->

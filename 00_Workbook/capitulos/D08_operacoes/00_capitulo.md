@@ -14,3 +14,9 @@ updated: 2026-10-17
 
 ## Resumo do capítulo
 _Aguardando conteúdo._
+
+<!-- TEMPLATES:INICIO -->
+## Templates da área
+- `TPL-012` artefatos_exportacao — papel: Produtor Multimidia · `500_Copiloto_templates/areas/D08_operacoes/OWNER_produtor_multimidia/TPL-012_artefatos_exportacao`
+- `TPL-015` estrutura_pacote_entrega — papel: Gestor de Entregas · `500_Copiloto_templates/areas/D08_operacoes/OWNER_gestor_de_entregas/TPL-015_estrutura_pacote_entrega`
+<!-- TEMPLATES:FIM -->

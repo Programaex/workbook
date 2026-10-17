@@ -1,0 +1,17 @@
+﻿area_id,area_nome,area_slug,catalogo_origem,owner_real_identificado
+D01,Gestão empresarial,gestao_empresarial,MASTER_INDEX(1).csv,nao
+D02,"Jurídico, riscos e conformidade",juridico_riscos_e_conformidade,MASTER_INDEX(1).csv,nao
+D03,Finanças,financas,MASTER_INDEX(1).csv,nao
+D04,Pessoas e recursos humanos,pessoas_e_recursos_humanos,MASTER_INDEX(1).csv,nao
+D05,Dados,dados,MASTER_INDEX(1).csv,nao
+D06,Conhecimento e busca corporativa,conhecimento_e_busca_corporativa,MASTER_INDEX(1).csv,nao
+D07,Produtividade e execução,produtividade_e_execucao,MASTER_INDEX(1).csv,nao
+D08,Operações,operacoes,MASTER_INDEX(1).csv,nao
+D09,Pesquisa e inovação,pesquisa_e_inovacao,MASTER_INDEX(1).csv,nao
+D10,Gestão de produto,gestao_de_produto,MASTER_INDEX(1).csv,nao
+D11,Experiência e projeto,experiencia_e_projeto,MASTER_INDEX(1).csv,nao
+D12,Engenharia,engenharia,MASTER_INDEX(1).csv,nao
+D13,Mercado e geração de demanda,mercado_e_geracao_de_demanda,MASTER_INDEX(1).csv,nao
+D14,Vendas,vendas,MASTER_INDEX(1).csv,nao
+D15,Atendimento e sucesso do cliente,atendimento_e_sucesso_do_cliente,MASTER_INDEX(1).csv,nao
+D16,Mídias sociais e distribuição digital,midias_sociais_e_distribuicao_digital,MASTER_INDEX(1).csv,nao

@@ -1,0 +1,8 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,instrucao,detalhamento,criterio_de_conclusao,dependencias,se_impossivel
+TPL-016-REF-001,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Modo,Produção autônoma ponta a ponta,,,
+TPL-016-REF-002,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Prioridade,"Entregar arquivos finais funcionais; não apenas conceitos, prompts ou storyboard",,,
+TPL-016-REF-003,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Construção,"Implementar cena, animar objetos, renderizar e exportar",,,
+TPL-016-REF-004,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Teste,Verificar efetivamente os arquivos produzidos e seus formatos,,,
+TPL-016-REF-005,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Referências,Utilizar imagens visuais fornecidas como referências obrigatórias,,Duas referências visuais e imagem de cérebro citadas no documento; não identificadas entre os uploads desta tarefa,
+TPL-016-REF-006,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Limitações,Relatar indisponibilidades de ferramentas e capacidades,,,Entregar arquivos intermediários utilizáveis; nunca declarar outputs não gerados como concluídos
+TPL-016-REF-007,TPL-016,D07,Orquestrador de Agentes IA,,referencia,11. INSTRUÇÃO FINAL AO ASTRA,,Handoff,"Organizar pacote editável, GIF e exportações com README",Arquivos finais presentes e verificados,,

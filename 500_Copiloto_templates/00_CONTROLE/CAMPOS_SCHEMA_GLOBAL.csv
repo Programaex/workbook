@@ -1,0 +1,281 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-001,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,1. MISSÃO
+TPL-001,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,1. MISSÃO
+TPL-001,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,1. MISSÃO
+TPL-001,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",1. MISSÃO
+TPL-001,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,1. MISSÃO
+TPL-001,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,1. MISSÃO
+TPL-001,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,1. MISSÃO
+TPL-001,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",1. MISSÃO
+TPL-001,nome_projeto,string,sim,,{{NOME_PROJETO}},,1. MISSÃO
+TPL-001,objetivo,string,sim,,{{OBJETIVO}},,1. MISSÃO
+TPL-001,sistema_visual,string,sim,,{{SISTEMA_VISUAL}},Técnica principal utilizada.,1. MISSÃO
+TPL-001,estilo,string,sim,,{{ESTILO}},,1. MISSÃO
+TPL-001,prioridade_entrega,string,sim,,{{PRIORIDADE_ENTREGA}},,1. MISSÃO
+TPL-001,tridimensional_real,boolean,sim,,{{TRIDIMENSIONAL_REAL}},,1. MISSÃO
+TPL-001,resultado_esperado,string,sim,,{{RESULTADO_ESPERADO}},,1. MISSÃO
+TPL-001,uso_previsto,string,nao,,{{USO_PREVISTO}},,1. MISSÃO
+TPL-002,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,2. DIREÇÃO DE ARTE
+TPL-002,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,2. DIREÇÃO DE ARTE
+TPL-002,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,2. DIREÇÃO DE ARTE
+TPL-002,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",2. DIREÇÃO DE ARTE
+TPL-002,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,2. DIREÇÃO DE ARTE
+TPL-002,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,2. DIREÇÃO DE ARTE
+TPL-002,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,2. DIREÇÃO DE ARTE
+TPL-002,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",2. DIREÇÃO DE ARTE
+TPL-002,identidade_estetica,string,sim,,{{IDENTIDADE_ESTETICA}},,2. DIREÇÃO DE ARTE
+TPL-002,inspiracao_visual,string,sim,,{{INSPIRACAO_VISUAL}},,2. DIREÇÃO DE ARTE
+TPL-002,elemento_protagonista,string,sim,,{{ELEMENTO_PROTAGONISTA}},,2. DIREÇÃO DE ARTE
+TPL-002,materialidade,string,sim,,{{MATERIALIDADE}},,2. DIREÇÃO DE ARTE
+TPL-002,tratamento_luz,string,sim,,{{TRATAMENTO_LUZ}},,2. DIREÇÃO DE ARTE
+TPL-002,restricao_visual,string,nao,,{{RESTRICAO_VISUAL}},,2. DIREÇÃO DE ARTE
+TPL-003,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,2. DIREÇÃO DE ARTE
+TPL-003,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,2. DIREÇÃO DE ARTE
+TPL-003,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,2. DIREÇÃO DE ARTE
+TPL-003,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",2. DIREÇÃO DE ARTE
+TPL-003,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,2. DIREÇÃO DE ARTE
+TPL-003,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,2. DIREÇÃO DE ARTE
+TPL-003,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,2. DIREÇÃO DE ARTE
+TPL-003,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",2. DIREÇÃO DE ARTE
+TPL-003,material,string,sim,,{{MATERIAL}},,2. DIREÇÃO DE ARTE
+TPL-003,classe_material,string,sim,,{{CLASSE_MATERIAL}},,2. DIREÇÃO DE ARTE
+TPL-003,acabamento,string,sim,,{{ACABAMENTO}},,2. DIREÇÃO DE ARTE
+TPL-003,alvo_aplicacao,string,nao,,{{ALVO_APLICACAO}},,2. DIREÇÃO DE ARTE
+TPL-003,configuracao_shader,string,nao,,{{CONFIGURACAO_SHADER}},,2. DIREÇÃO DE ARTE
+TPL-004,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,2. DIREÇÃO DE ARTE
+TPL-004,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,2. DIREÇÃO DE ARTE
+TPL-004,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,2. DIREÇÃO DE ARTE
+TPL-004,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",2. DIREÇÃO DE ARTE
+TPL-004,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,2. DIREÇÃO DE ARTE
+TPL-004,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,2. DIREÇÃO DE ARTE
+TPL-004,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,2. DIREÇÃO DE ARTE
+TPL-004,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",2. DIREÇÃO DE ARTE
+TPL-004,elemento,string,sim,,{{ELEMENTO}},,2. DIREÇÃO DE ARTE
+TPL-004,especificacao,string,sim,,{{ESPECIFICACAO}},,2. DIREÇÃO DE ARTE
+TPL-004,requisito_visibilidade,string,sim,,{{REQUISITO_VISIBILIDADE}},,2. DIREÇÃO DE ARTE
+TPL-004,asset_ref,string,nao,,{{ASSET_REF}},,2. DIREÇÃO DE ARTE
+TPL-004,restricao,string,nao,,{{RESTRICAO}},,2. DIREÇÃO DE ARTE
+TPL-005,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,3. MODELAGEM ANATÔMICA
+TPL-005,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,3. MODELAGEM ANATÔMICA
+TPL-005,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,3. MODELAGEM ANATÔMICA
+TPL-005,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",3. MODELAGEM ANATÔMICA
+TPL-005,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,3. MODELAGEM ANATÔMICA
+TPL-005,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,3. MODELAGEM ANATÔMICA
+TPL-005,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,3. MODELAGEM ANATÔMICA
+TPL-005,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",3. MODELAGEM ANATÔMICA
+TPL-005,estrutura,string,sim,,{{ESTRUTURA}},,3. MODELAGEM ANATÔMICA
+TPL-005,grupo_anatomico,string,sim,,{{GRUPO_ANATOMICO}},,3. MODELAGEM ANATÔMICA
+TPL-005,independente,boolean,sim,,{{INDEPENDENTE}},,3. MODELAGEM ANATÔMICA
+TPL-005,pivo_proprio,boolean,sim,,{{PIVO_PROPRIO}},,3. MODELAGEM ANATÔMICA
+TPL-005,hierarquia_animacao_propria,boolean,sim,,{{HIERARQUIA_ANIMACAO_PROPRIA}},,3. MODELAGEM ANATÔMICA
+TPL-005,criterio_proporcao,string,sim,,{{CRITERIO_PROPORCAO}},,3. MODELAGEM ANATÔMICA
+TPL-005,asset_path,string,nao,,{{ASSET_PATH}},,3. MODELAGEM ANATÔMICA
+TPL-005,verificacao_anatomica,string,nao,,{{VERIFICACAO_ANATOMICA}},,3. MODELAGEM ANATÔMICA
+TPL-006,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,3. MODELAGEM ANATÔMICA
+TPL-006,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,3. MODELAGEM ANATÔMICA
+TPL-006,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,3. MODELAGEM ANATÔMICA
+TPL-006,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",3. MODELAGEM ANATÔMICA
+TPL-006,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,3. MODELAGEM ANATÔMICA
+TPL-006,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,3. MODELAGEM ANATÔMICA
+TPL-006,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,3. MODELAGEM ANATÔMICA
+TPL-006,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",3. MODELAGEM ANATÔMICA
+TPL-006,componente,string,sim,,{{COMPONENTE}},,3. MODELAGEM ANATÔMICA
+TPL-006,funcao_visual,string,nao,,{{FUNCAO_VISUAL}},,3. MODELAGEM ANATÔMICA
+TPL-006,diferenciacao_anatomica,string,sim,,{{DIFERENCIACAO_ANATOMICA}},,3. MODELAGEM ANATÔMICA
+TPL-006,asset_path,string,nao,,{{ASSET_PATH}},,3. MODELAGEM ANATÔMICA
+TPL-007,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,fase,string,sim,,{{FASE}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,inicio_s,number,sim,,{{INICIO_S}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,fim_s,number,sim,,{{FIM_S}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,estado_inicial,string,sim,,{{ESTADO_INICIAL}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,acao,string,sim,,{{ACAO}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,regras_movimento,string,sim,,{{REGRAS_MOVIMENTO}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,criterio_aceite,string,sim,,{{CRITERIO_ACEITE}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,camera_ref,string,nao,,{{CAMERA_REF}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-007,curve_ref,string,nao,,{{CURVE_REF}},,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS
+TPL-008,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-008,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-008,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,5. CÂMERA E ILUMINAÇÃO
+TPL-008,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",5. CÂMERA E ILUMINAÇÃO
+TPL-008,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,5. CÂMERA E ILUMINAÇÃO
+TPL-008,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,5. CÂMERA E ILUMINAÇÃO
+TPL-008,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,5. CÂMERA E ILUMINAÇÃO
+TPL-008,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",5. CÂMERA E ILUMINAÇÃO
+TPL-008,camera_nome,string,sim,,{{CAMERA_NOME}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,projecao,string,sim,,{{PROJECAO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,enquadramento,string,sim,,{{ENQUADRAMENTO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,elevacao_graus,number,nao,,{{ELEVACAO_GRAUS}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,azimute_graus,number,nao,,{{AZIMUTE_GRAUS}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,lente_eq_mm,number,nao,,{{LENTE_EQ_MM}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,composicao,string,nao,,{{COMPOSICAO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-008,notas,string,nao,,{{NOTAS}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",5. CÂMERA E ILUMINAÇÃO
+TPL-009,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,5. CÂMERA E ILUMINAÇÃO
+TPL-009,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",5. CÂMERA E ILUMINAÇÃO
+TPL-009,luz_ou_efeito,string,sim,,{{LUZ_OU_EFEITO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,caracteristica,string,sim,,{{CARACTERISTICA}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,intensidade,string,nao,,{{INTENSIDADE}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,implementacao,string,nao,,{{IMPLEMENTACAO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,criterio_aceite,string,nao,,{{CRITERIO_ACEITE}},,5. CÂMERA E ILUMINAÇÃO
+TPL-010,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,parametro,string,sim,,{{PARAMETRO}},,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,valor_referencia,string,sim,,{{VALOR_REFERENCIA}},,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,unidade,string,nao,,{{UNIDADE}},,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,regra_verificacao,string,nao,,{{REGRA_VERIFICACAO}},,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-010,criticidade,string,sim,obrigatorio | preferencial,{{CRITICIDADE}},,6. ESPECIFICAÇÕES DE ANIMAÇÃO
+TPL-011,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,componente,string,sim,,{{COMPONENTE}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,stack_prioritaria,string,sim,,{{STACK_PRIORITARIA}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,stack_alternativa,string,nao,,{{STACK_ALTERNATIVA}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,requisito,string,sim,,{{REQUISITO}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,artefato_previsto,string,nao,,{{ARTEFATO_PREVISTO}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-011,condicao_fallback,string,nao,,{{CONDICAO_FALLBACK}},,7. IMPLEMENTAÇÃO TÉCNICA
+TPL-012,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,categoria,string,sim,,{{CATEGORIA}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,nome_arquivo,string,sim,,{{NOME_ARQUIVO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,largura_px,integer,nao,,{{LARGURA_PX}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,altura_px,integer,nao,,{{ALTURA_PX}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,fps,integer,nao,,{{FPS}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,formato,string,sim,,{{FORMATO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,finalidade,string,nao,,{{FINALIDADE}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,criterio_validacao,string,nao,,{{CRITERIO_VALIDACAO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,output_path,string,nao,,{{OUTPUT_PATH}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,feature,string,sim,,{{FEATURE}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,comportamento_esperado,string,sim,,{{COMPORTAMENTO_ESPERADO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,tipo_controle,string,sim,,{{TIPO_CONTROLE}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,criterio_aceite,string,nao,,{{CRITERIO_ACEITE}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-013,dependencia,string,nao,,{{DEPENDENCIA}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-014,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",9. CRITÉRIOS DE QUALIDADE
+TPL-014,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,9. CRITÉRIOS DE QUALIDADE
+TPL-014,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,9. CRITÉRIOS DE QUALIDADE
+TPL-014,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",9. CRITÉRIOS DE QUALIDADE
+TPL-014,criterio,string,sim,,{{CRITERIO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,escopo,string,sim,,{{ESCOPO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,metodo_teste_sugerido,string,nao,,{{METODO_TESTE_SUGERIDO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,resultado,string,sim,pendente | aprovado | reprovado | nao_aplicavel,{{RESULTADO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,evidencia_arquivo,string,nao,,{{EVIDENCIA_ARQUIVO}},,9. CRITÉRIOS DE QUALIDADE
+TPL-014,observacoes,string,nao,,{{OBSERVACOES}},,9. CRITÉRIOS DE QUALIDADE
+TPL-015,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,10. ENTREGA
+TPL-015,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,10. ENTREGA
+TPL-015,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,10. ENTREGA
+TPL-015,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",10. ENTREGA
+TPL-015,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,10. ENTREGA
+TPL-015,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,10. ENTREGA
+TPL-015,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,10. ENTREGA
+TPL-015,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",10. ENTREGA
+TPL-015,pasta_raiz,string,sim,,{{PASTA_RAIZ}},,10. ENTREGA
+TPL-015,caminho_relativo,string,sim,,{{CAMINHO_RELATIVO}},,10. ENTREGA
+TPL-015,tipo_artefato,string,sim,,{{TIPO_ARTEFATO}},,10. ENTREGA
+TPL-015,obrigatorio,boolean,sim,,{{OBRIGATORIO}},,10. ENTREGA
+TPL-015,estado_arquivo,string,sim,nao_gerado | gerado | verificado,{{ESTADO_ARQUIVO}},,10. ENTREGA
+TPL-015,checksum_sha256,string,nao,,{{CHECKSUM_SHA256}},,10. ENTREGA
+TPL-016,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,instrucao,string,sim,,{{INSTRUCAO}},,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,detalhamento,string,sim,,{{DETALHAMENTO}},,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,criterio_de_conclusao,string,nao,,{{CRITERIO_DE_CONCLUSAO}},,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,dependencias,string,nao,,{{DEPENDENCIAS}},,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-016,se_impossivel,string,nao,,{{SE_IMPOSSIVEL}},,11. INSTRUÇÃO FINAL AO ASTRA
+TPL-017,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,TEMPLATE DE PÁGINA
+TPL-017,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,TEMPLATE DE PÁGINA
+TPL-017,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,TEMPLATE DE PÁGINA
+TPL-017,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",TEMPLATE DE PÁGINA
+TPL-017,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,TEMPLATE DE PÁGINA
+TPL-017,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,TEMPLATE DE PÁGINA
+TPL-017,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,TEMPLATE DE PÁGINA
+TPL-017,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",TEMPLATE DE PÁGINA
+TPL-017,pagina_id,string,sim,,{{PAGINA_ID}},,TEMPLATE DE PÁGINA
+TPL-017,ordem,integer,nao,,{{ORDEM}},,TEMPLATE DE PÁGINA
+TPL-017,titulo,string,sim,,{{TITULO}},,TEMPLATE DE PÁGINA
+TPL-017,resumo_executivo,string,nao,,{{RESUMO_EXECUTIVO}},,TEMPLATE DE PÁGINA
+TPL-017,conclusao,string,nao,,{{CONCLUSAO}},,TEMPLATE DE PÁGINA
+TPL-017,dados,string,nao,,{{DADOS}},,TEMPLATE DE PÁGINA
+TPL-017,introducao,string,nao,,{{INTRODUCAO}},,TEMPLATE DE PÁGINA
+TPL-017,desenvolvimento,string,nao,,{{DESENVOLVIMENTO}},,TEMPLATE DE PÁGINA
+TPL-017,conexao,string,nao,,{{CONEXAO}},,TEMPLATE DE PÁGINA
+TPL-017,pdpca,string,nao,,{{PDPCA}},,TEMPLATE DE PÁGINA
+TPL-017,pagina_seguinte,string,nao,,{{PAGINA_SEGUINTE}},,TEMPLATE DE PÁGINA
+TPL-017,observacoes_diagramacao,string,nao,,{{OBSERVACOES_DIAGRAMACAO}},,TEMPLATE DE PÁGINA
+TPL-018,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,CAPA
+TPL-018,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,CAPA
+TPL-018,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,CAPA
+TPL-018,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",CAPA
+TPL-018,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,CAPA
+TPL-018,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,CAPA
+TPL-018,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,CAPA
+TPL-018,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",CAPA
+TPL-018,capa_id,string,sim,,{{CAPA_ID}},,CAPA
+TPL-018,titulo,string,sim,,{{TITULO}},,CAPA
+TPL-018,subtitulo,string,nao,,{{SUBTITULO}},,CAPA
+TPL-018,linha_apoio,string,nao,,{{LINHA_APOIO}},,CAPA
+TPL-018,autor,string,nao,,{{AUTOR}},,CAPA
+TPL-018,versao_documento,string,nao,,{{VERSAO_DOCUMENTO}},,CAPA
+TPL-018,data_emissao,string,nao,,{{DATA_EMISSAO}},,CAPA
+TPL-018,identidade_visual_ref,string,nao,,{{IDENTIDADE_VISUAL_REF}},,CAPA
+TPL-018,dimensao_pagina,string,nao,,{{DIMENSAO_PAGINA}},,CAPA
+TPL-019,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",INTRODUÇÃO / COMO EXECUTAR
+TPL-019,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",INTRODUÇÃO / COMO EXECUTAR
+TPL-019,referencia_titulo,string,sim,,{{REFERENCIA_TITULO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,tipo,string,sim,,{{TIPO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,uso_previsto,string,sim,,{{USO_PREVISTO}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,caminho_ou_url,string,nao,,{{CAMINHO_OU_URL}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,licenca,string,nao,,{{LICENCA}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,disponibilidade,string,sim,nao_identificada_no_pacote | localizada | verificada,{{DISPONIBILIDADE}},,INTRODUÇÃO / COMO EXECUTAR
+TPL-019,observacoes,string,nao,,{{OBSERVACOES}},,INTRODUÇÃO / COMO EXECUTAR

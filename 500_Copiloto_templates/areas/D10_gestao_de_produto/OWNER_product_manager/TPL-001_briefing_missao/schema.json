@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:executar:copiloto:template:TPL-001:v1",
+  "title": "TPL-001_briefing_missao",
+  "description": "Objetivo e critérios macro de definição do projeto.",
+  "type": "object",
+  "properties": {
+    "registro_id": {
+      "type": "string",
+      "description": "Identificador único da linha dentro do template."
+    },
+    "template_id": {
+      "type": "string",
+      "description": "ID canônico do template."
+    },
+    "area_id": {
+      "type": "string",
+      "description": "ID da área do catálogo do ecossistema.",
+      "enum": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D09",
+        "D10",
+        "D11",
+        "D12",
+        "D13",
+        "D14",
+        "D15",
+        "D16"
+      ]
+    },
+    "owner_papel": {
+      "type": "string",
+      "description": "Papel funcional sugerido, não identifica pessoa."
+    },
+    "owner_pessoa": {
+      "type": "string",
+      "description": "Nome da pessoa responsável (não definido na fonte)."
+    },
+    "status": {
+      "type": "string",
+      "description": "Estado do registro. Referencia não significa trabalho concluído.",
+      "enum": [
+        "rascunho",
+        "em_revisao",
+        "aprovado",
+        "referencia",
+        "arquivado"
+      ]
+    },
+    "secao_origem": {
+      "type": "string",
+      "description": "Seção documental que deu origem ao registro."
+    },
+    "evidencia_ref": {
+      "type": "string",
+      "description": "URI ou ID de evidência validada, se houver."
+    },
+    "nome_projeto": {
+      "type": "string",
+      "description": ""
+    },
+    "objetivo": {
+      "type": "string",
+      "description": ""
+    },
+    "sistema_visual": {
+      "type": "string",
+      "description": "Técnica principal utilizada."
+    },
+    "estilo": {
+      "type": "string",
+      "description": ""
+    },
+    "prioridade_entrega": {
+      "type": "string",
+      "description": ""
+    },
+    "tridimensional_real": {
+      "type": "boolean",
+      "description": ""
+    },
+    "resultado_esperado": {
+      "type": "string",
+      "description": ""
+    },
+    "uso_previsto": {
+      "type": "string",
+      "description": ""
+    }
+  },
+  "required": [
+    "registro_id",
+    "template_id",
+    "area_id",
+    "owner_papel",
+    "status",
+    "nome_projeto",
+    "objetivo",
+    "sistema_visual",
+    "estilo",
+    "prioridade_entrega",
+    "tridimensional_real",
+    "resultado_esperado"
+  ],
+  "additionalProperties": false
+}

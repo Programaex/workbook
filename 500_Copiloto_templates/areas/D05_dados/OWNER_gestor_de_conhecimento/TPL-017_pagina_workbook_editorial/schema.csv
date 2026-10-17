@@ -1,0 +1,21 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-017,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,TEMPLATE DE PÁGINA
+TPL-017,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,TEMPLATE DE PÁGINA
+TPL-017,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,TEMPLATE DE PÁGINA
+TPL-017,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",TEMPLATE DE PÁGINA
+TPL-017,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,TEMPLATE DE PÁGINA
+TPL-017,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,TEMPLATE DE PÁGINA
+TPL-017,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,TEMPLATE DE PÁGINA
+TPL-017,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",TEMPLATE DE PÁGINA
+TPL-017,pagina_id,string,sim,,{{PAGINA_ID}},,TEMPLATE DE PÁGINA
+TPL-017,ordem,integer,nao,,{{ORDEM}},,TEMPLATE DE PÁGINA
+TPL-017,titulo,string,sim,,{{TITULO}},,TEMPLATE DE PÁGINA
+TPL-017,resumo_executivo,string,nao,,{{RESUMO_EXECUTIVO}},,TEMPLATE DE PÁGINA
+TPL-017,conclusao,string,nao,,{{CONCLUSAO}},,TEMPLATE DE PÁGINA
+TPL-017,dados,string,nao,,{{DADOS}},,TEMPLATE DE PÁGINA
+TPL-017,introducao,string,nao,,{{INTRODUCAO}},,TEMPLATE DE PÁGINA
+TPL-017,desenvolvimento,string,nao,,{{DESENVOLVIMENTO}},,TEMPLATE DE PÁGINA
+TPL-017,conexao,string,nao,,{{CONEXAO}},,TEMPLATE DE PÁGINA
+TPL-017,pdpca,string,nao,,{{PDPCA}},,TEMPLATE DE PÁGINA
+TPL-017,pagina_seguinte,string,nao,,{{PAGINA_SEGUINTE}},,TEMPLATE DE PÁGINA
+TPL-017,observacoes_diagramacao,string,nao,,{{OBSERVACOES_DIAGRAMACAO}},,TEMPLATE DE PÁGINA

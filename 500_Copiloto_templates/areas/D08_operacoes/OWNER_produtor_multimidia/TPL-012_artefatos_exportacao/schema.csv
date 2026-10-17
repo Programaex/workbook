@@ -1,0 +1,18 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-012,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,categoria,string,sim,,{{CATEGORIA}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,nome_arquivo,string,sim,,{{NOME_ARQUIVO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,largura_px,integer,nao,,{{LARGURA_PX}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,altura_px,integer,nao,,{{ALTURA_PX}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,fps,integer,nao,,{{FPS}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,formato,string,sim,,{{FORMATO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,finalidade,string,nao,,{{FINALIDADE}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,criterio_validacao,string,nao,,{{CRITERIO_VALIDACAO}},,8. EXPORTAÇÕES OBRIGATÓRIAS
+TPL-012,output_path,string,nao,,{{OUTPUT_PATH}},,8. EXPORTAÇÕES OBRIGATÓRIAS

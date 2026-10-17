@@ -19,6 +19,9 @@ Este repositório é um **dataset**. A estrutura macro D01–D16 é regra; não 
 - `00_Workbook/` é o relatório vivo (capa, índice, sumário, escopo, capítulos D01–D16 com seções S01–S06, anexos). Escreva conteúdo nas seções do capítulo da área; mantenha o front matter (`id`, `owner`, `status`, `updated`).
 - `500_Copiloto_templates/` guarda templates, schemas, regras e `scripts/workbook.py`. Novos arquivos nascem de um template; mude o template, não a cópia.
 - Esquemas de IDs: tabela no `README.md`.
+- **Templates (`TPL-###`)**: registro único em `500_Copiloto_templates/00_CONTROLE/CROSSWALK_REPO.csv`. Próximo ID = maior existente + 1; nunca reutilize. Todo template novo entra no crosswalk e no bloco `TEMPLATES` do `00_capitulo.md` da área.
+- **Papel vs. owner**: `owner_papel` (ex.: Product Manager) é a função dentro da área; o `owner` continua sendo o código `GRUPO.ÁREA` da área. Um papel nunca vira owner novo sem pedido do usuário.
+- **Pacotes importados** (`00_CONTROLE/`, `areas/`, `90_REFERENCIAS/` da 500) são verbatim e verificados por `CHECKSUMS.csv` no `workbook.py check`. Não edite à mão; conflito de ID com o que já existe → renumere o lado do repositório e registre no crosswalk.
 - IDs de engenharia (`ECO-`, `PROD-`, `F00`–`F02`, `ADR-`, `ENG-`) vêm da fonte e são **provisórios** até conciliar com o índice mestre. Um `ENG-NNN` (cartão de ação) que virar tarefa segue a tripla clonagem e ganha ID `<TIPO>-<OWNER>-<nº GitHub>`, guardando o `ENG-NNN` em `aliases`.
 
 ## Regra de operações (tarefas)

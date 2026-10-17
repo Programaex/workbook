@@ -1,0 +1,5 @@
+﻿registro_id,template_id,area_id,owner_papel,owner_pessoa,status,secao_origem,evidencia_ref,componente,funcao_visual,diferenciacao_anatomica,asset_path
+TPL-006-REF-001,TPL-006,D11,Motion Designer 3D,,referencia,3. MODELAGEM ANATÔMICA,,Esferas,,Claramente distinto das estruturas anatômicas,
+TPL-006-REF-002,TPL-006,D11,Motion Designer 3D,,referencia,3. MODELAGEM ANATÔMICA,,Conectores,,Claramente distinto das estruturas anatômicas,
+TPL-006-REF-003,TPL-006,D11,Motion Designer 3D,,referencia,3. MODELAGEM ANATÔMICA,,Anéis,,Claramente distinto das estruturas anatômicas,
+TPL-006-REF-004,TPL-006,D11,Motion Designer 3D,,referencia,3. MODELAGEM ANATÔMICA,,Pequenas peças mecânicas,,Claramente distinto das estruturas anatômicas,

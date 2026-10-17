@@ -14,3 +14,8 @@ updated: 2026-10-17
 
 ## Resumo do capítulo
 _Aguardando conteúdo._
+
+<!-- TEMPLATES:INICIO -->
+## Templates da área
+- `TPL-016` contrato_execucao_agente — papel: Orquestrador de Agentes IA · `500_Copiloto_templates/areas/D07_produtividade_e_execucao/OWNER_orquestrador_de_agentes_ia/TPL-016_contrato_execucao_agente`
+<!-- TEMPLATES:FIM -->

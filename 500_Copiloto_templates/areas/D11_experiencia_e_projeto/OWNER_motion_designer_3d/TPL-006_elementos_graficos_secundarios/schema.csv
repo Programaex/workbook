@@ -1,0 +1,13 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-006,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,3. MODELAGEM ANATÔMICA
+TPL-006,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,3. MODELAGEM ANATÔMICA
+TPL-006,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,3. MODELAGEM ANATÔMICA
+TPL-006,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",3. MODELAGEM ANATÔMICA
+TPL-006,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,3. MODELAGEM ANATÔMICA
+TPL-006,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,3. MODELAGEM ANATÔMICA
+TPL-006,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,3. MODELAGEM ANATÔMICA
+TPL-006,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",3. MODELAGEM ANATÔMICA
+TPL-006,componente,string,sim,,{{COMPONENTE}},,3. MODELAGEM ANATÔMICA
+TPL-006,funcao_visual,string,nao,,{{FUNCAO_VISUAL}},,3. MODELAGEM ANATÔMICA
+TPL-006,diferenciacao_anatomica,string,sim,,{{DIFERENCIACAO_ANATOMICA}},,3. MODELAGEM ANATÔMICA
+TPL-006,asset_path,string,nao,,{{ASSET_PATH}},,3. MODELAGEM ANATÔMICA

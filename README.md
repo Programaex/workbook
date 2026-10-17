@@ -65,7 +65,7 @@ O código identifica o **papel/função** dona da área. A pessoa responsável f
 | Documento de abertura | `WB-CAPA`, `WB-IDX`, `WB-SUM`, `WB-ESC` | `WB-SUM` | — |
 | Anexo | `WB-ANX-<letra>` | `WB-ANX-C` | — |
 | Epic / Project / Issue / Sub-issue | `EP|PJ|IS|SI-<OWNER>-<NNNN>` (NNNN = nº no GitHub) | `IS-MR.MKT-0042` | `#/tarefa` |
-| Template | `TPL-###` | `TPL-001` | — |
+| Template | `TPL-###` (registro: `500_Copiloto_templates/00_CONTROLE/CROSSWALK_REPO.csv`) | `TPL-001` | — |
 | IDs de engenharia (provisórios) | `ECO-`, `PROD-`, `F0x`, `ADR-<ÁREA>-`, `ENG-` | `ECO-001` | — |
 | Fonte externa | `SRC-FOLDER-###` | `SRC-FOLDER-001` | — |
 

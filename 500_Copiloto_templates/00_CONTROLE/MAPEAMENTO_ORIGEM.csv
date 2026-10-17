@@ -1,0 +1,20 @@
+﻿template_id,documento_origem,secao_origem,recurso_gerado,criterio_map
+TPL-001,Untitled 2.md,1. MISSÃO,TPL-001_briefing_missao,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-002,Untitled 2.md,2. DIREÇÃO DE ARTE,TPL-002_direcao_de_arte,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-003,Untitled 2.md,2. DIREÇÃO DE ARTE,TPL-003_biblioteca_materiais,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-004,Untitled 2.md,2. DIREÇÃO DE ARTE,TPL-004_ambiente_cenografia,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-005,Untitled 2.md,3. MODELAGEM ANATÔMICA,TPL-005_componentes_anatomicos,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-006,Untitled 2.md,3. MODELAGEM ANATÔMICA,TPL-006_elementos_graficos_secundarios,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-007,Untitled 2.md,4. COREOGRAFIA — LOOP DE 8 SEGUNDOS,TPL-007_timeline_coreografia,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-008,Untitled 2.md,5. CÂMERA E ILUMINAÇÃO,TPL-008_cameras,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-009,Untitled 2.md,5. CÂMERA E ILUMINAÇÃO,TPL-009_setup_iluminacao,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-010,Untitled 2.md,6. ESPECIFICAÇÕES DE ANIMAÇÃO,TPL-010_parametros_animacao,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-011,Untitled 2.md,7. IMPLEMENTAÇÃO TÉCNICA,TPL-011_implementacao_tecnica,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-012,Untitled 2.md,8. EXPORTAÇÕES OBRIGATÓRIAS,TPL-012_artefatos_exportacao,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-013,Untitled 2.md,8. EXPORTAÇÕES OBRIGATÓRIAS,TPL-013_interatividade_web,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-014,Untitled 2.md,9. CRITÉRIOS DE QUALIDADE,TPL-014_criterios_qa,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-015,Untitled 2.md,10. ENTREGA,TPL-015_estrutura_pacote_entrega,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-016,Untitled 2.md,11. INSTRUÇÃO FINAL AO ASTRA,TPL-016_contrato_execucao_agente,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-017,ID_AREA_TUTULO_OWNER.md + Untitled 2.md,TEMPLATE DE PÁGINA,TPL-017_pagina_workbook_editorial,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-018,CAPA.md + Untitled 2.md,CAPA,TPL-018_capa_workbook,extraído / normalizado / requisitos preservados em catálogo de linhas
+TPL-019,Untitled 2.md,INTRODUÇÃO / COMO EXECUTAR,TPL-019_registro_referencias_visuais,extraído / normalizado / requisitos preservados em catálogo de linhas

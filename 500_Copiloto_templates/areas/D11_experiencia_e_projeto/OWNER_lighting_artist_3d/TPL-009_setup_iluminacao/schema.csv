@@ -1,0 +1,14 @@
+﻿template_id,campo,tipo,obrigatorio,enum,placeholder,descricao,secao_origem
+TPL-009,registro_id,string,sim,,{{REGISTRO_ID}},Identificador único da linha dentro do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,template_id,string,sim,,{{TEMPLATE_ID}},ID canônico do template.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,area_id,string,sim,D01 | D02 | D03 | D04 | D05 | D06 | D07 | D08 | D09 | D10 | D11 | D12 | D13 | D14 | D15 | D16,{{AREA_ID}},ID da área do catálogo do ecossistema.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,owner_papel,string,sim,,{{OWNER_PAPEL}},"Papel funcional sugerido, não identifica pessoa.",5. CÂMERA E ILUMINAÇÃO
+TPL-009,owner_pessoa,string,nao,,{{OWNER_PESSOA}},Nome da pessoa responsável (não definido na fonte).,5. CÂMERA E ILUMINAÇÃO
+TPL-009,status,string,sim,rascunho | em_revisao | aprovado | referencia | arquivado,{{STATUS}},Estado do registro. Referencia não significa trabalho concluído.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,secao_origem,string,nao,,{{SECAO_ORIGEM}},Seção documental que deu origem ao registro.,5. CÂMERA E ILUMINAÇÃO
+TPL-009,evidencia_ref,string,nao,,{{EVIDENCIA_REF}},"URI ou ID de evidência validada, se houver.",5. CÂMERA E ILUMINAÇÃO
+TPL-009,luz_ou_efeito,string,sim,,{{LUZ_OU_EFEITO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,caracteristica,string,sim,,{{CARACTERISTICA}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,intensidade,string,nao,,{{INTENSIDADE}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,implementacao,string,nao,,{{IMPLEMENTACAO}},,5. CÂMERA E ILUMINAÇÃO
+TPL-009,criterio_aceite,string,nao,,{{CRITERIO_ACEITE}},,5. CÂMERA E ILUMINAÇÃO
