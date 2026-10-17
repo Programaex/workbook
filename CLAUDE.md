@@ -34,5 +34,11 @@ Ao editar o workbook ou tarefas rode `workbook.py check`, `status` e `index`, e 
 - `SRC-FOLDER-001` permanece sem owner até o vínculo ser demonstrado.
 - Formatos: CSV UTF-8 com cabeçalho, JSON indentado com 2 espaços, Markdown em pt-BR.
 
-## Git
-Desenvolva na branch designada pela sessão; não abra PR sem pedido explícito.
+## Git — sempre merge na main
+Regra permanente do dono do repositório (vale como autorização para criar PR e fazer merge):
+1. Trabalhe na branch designada pela sessão e faça commits claros.
+2. Ao concluir cada entrega, **faça merge na `main`**. Nunca deixe a entrega só na branch.
+3. **Nunca use draft.** PR sempre criado pronto (não-draft) e mergeado em seguida.
+4. Se a `main` ainda não existir, publique a branch como `main` (`git push origin <branch>:main`).
+5. Antes do merge rode `workbook.py check`; só faça merge com `check ok`. Conflito: traga a `main` para a branch, resolva e então faça merge.
+6. Depois do merge, a branch da sessão continua sendo a base de trabalho (ressincronize com a `main`).
